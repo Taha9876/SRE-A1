@@ -2,10 +2,14 @@
 import json
 from pathlib import Path
 
-from docx_helpers import MUTED, add_footer, code, hyperlink, new_document, page_break, para, table
+import sys
+
+from docx_helpers import MUTED, add_footer, code, figure, hyperlink, new_document, page_break, para, table
+from scan_pages import pages_for
 
 HERE = Path(__file__).parent
-OUT = HERE.parent / "Manual_Calculation_Worksheets.docx"
+# optional argument: a different output name (used when the usual file is open in Word)
+OUT = HERE.parent / (sys.argv[1] if len(sys.argv) > 1 else "Manual_Calculation_Worksheets.docx")
 M = json.loads((HERE / "manual_calc.json").read_text(encoding="utf-8"))
 CPX = json.loads((HERE / "complexipy.json").read_text(encoding="utf-8"))
 CC = json.loads((HERE / "radon_cc.json").read_text(encoding="utf-8"))
@@ -162,6 +166,13 @@ Highest function = {d["cc_max"]}      Average = {d["cc_total"]} / {len(d["functi
     table(doc, ["Comment density", "Cyclomatic (file / max)", "Cognitive (file / max)"],
           [[f'{d["comment_density"]:.1f} %', f'{d["cc_total"]} / {d["cc_max"]}', f'{d["cog_total"]} / {d["cog_max"]}']],
           [5.6, 5.7, 5.7], size=10, align="ccc")
+
+    if idx % 2 == 1:                       # after a member's second file: their handwritten sheets
+        pages = pages_for(f"Member {idx // 2 + 1}")
+        for k, (path, cap) in enumerate(pages, 1):
+            h = doc.add_heading(f"Handwritten sheets: {OWNERS[idx]}, sheet {k} of {len(pages)}", level=2)
+            h.paragraph_format.page_break_before = True
+            figure(doc, path, 14.5, cap)
 
 doc.save(OUT)
 print("saved", OUT)

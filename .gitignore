@@ -8,3 +8,6 @@ __pycache__/
 .complexipy_cache/
 analysis/preview/
 ~$*
+
+# Temporary copy written while the real file is open in Word
+*_new.docx
