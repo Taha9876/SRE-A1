@@ -45,7 +45,7 @@ para(doc, "Group Report", size=13, align="center", after=40)
 table(doc, ["#", "Group member", "Roll number", "Individual files (Appendix A)"],
       [["1", "Taha Yasir", "i222429", "`extensions/def_list.py`, `extensions/meta.py`"],
        ["2", "Khizar", "i222595", "`extensions/admonition.py`, `extensions/wikilinks.py`"],
-       ["3", "[Member 3 name]", "i228780", "`postprocessors.py`, `extensions/legacy_attrs.py`"]],
+       ["3", "Hadeed Abbas", "i228780", "`postprocessors.py`, `extensions/legacy_attrs.py`"]],
       [1.0, 5.0, 3.5, 7.5], size=10, align="clll")
 para(doc, "Section: [Section]          Instructor: [Instructor]          Submitted: [Date]", size=10.5,
      align="center", before=20, color=MUTED)
@@ -656,7 +656,7 @@ bullets(doc, [
 ])
 members = [("Member 1", "Taha Yasir", "i222429", [0, 1]),
            ("Member 2", "Khizar", "i222595", [2, 3]),
-           ("Member 3", "[Member 3 name]", "i228780", [4, 5])]
+           ("Member 3", "Hadeed Abbas", "i228780", [4, 5])]
 radon_cc = {r["file"]: r["cc_sum"] for r in files}
 cpx_file = {}
 for r in CPX:

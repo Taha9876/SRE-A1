@@ -8,7 +8,7 @@ Group report and supporting analysis for a technical debt inventory of
 |---|---|
 | Taha Yasir | i222429 |
 | Khizar | i222595 |
-| Member 3 | i228780 |
+| Hadeed Abbas | i228780 |
 
 ## Contents
 

@@ -54,7 +54,7 @@ CHECKS = [
     ("B  Appendix per student (3 members)", r"A\.3 Member 3"),
     ("Cover: Taha Yasir i222429", r"Taha Yasir.*i222429"),
     ("Cover: Khizar i222595", r"Khizar.*i222595"),
-    ("Cover: i228780", r"i228780"),
+    ("Cover: Hadeed Abbas i228780", r"Hadeed Abbas.*i228780"),
     ("B  Interpretation file 1", r"Interpretation: extensions/def_list\.py"),
     ("B  Interpretation file 2", r"Interpretation: extensions/meta\.py"),
     ("B  Interpretation file 3", r"Interpretation: extensions/admonition\.py"),

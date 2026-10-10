@@ -29,7 +29,7 @@ for f, items in CC.items():
             put(it["name"], it)
 
 OWNERS = ["Taha Yasir (i222429)", "Taha Yasir (i222429)", "Khizar (i222595)", "Khizar (i222595)",
-          "Member 3 (i228780)", "Member 3 (i228780)"]
+          "Hadeed Abbas (i228780)", "Hadeed Abbas (i228780)"]
 NOTES = {
     "markdown/extensions/def_list.py":
         "Tool difference: complexipy reports 19 for `DefListProcessor.run`. It also counts the list comprehension on "
@@ -55,7 +55,7 @@ para(doc, "These are the worked solutions for the individual component (Section 
 table(doc, ["Member", "File 1", "File 2"],
       [["Taha Yasir (i222429)", "`markdown/extensions/def_list.py`", "`markdown/extensions/meta.py`"],
        ["Khizar (i222595)", "`markdown/extensions/admonition.py`", "`markdown/extensions/wikilinks.py`"],
-       ["Member 3 (i228780)", "`markdown/postprocessors.py`", "`markdown/extensions/legacy_attrs.py`"]],
+       ["Hadeed Abbas (i228780)", "`markdown/postprocessors.py`", "`markdown/extensions/legacy_attrs.py`"]],
       [4.0, 6.5, 6.5], size=9.5, bold_first_col=True)
 
 doc.add_heading("Rules to write at the top of your sheet", level=2)
