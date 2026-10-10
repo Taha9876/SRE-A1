@@ -61,6 +61,9 @@ CHECKS = [
     ("B  Interpretation file 4", r"Interpretation: extensions/wikilinks\.py"),
     ("B  Interpretation file 5", r"Interpretation: postprocessors\.py"),
     ("B  Interpretation file 6", r"Interpretation: extensions/legacy_attrs\.py"),
+    ("B  Scans: Taha Yasir (3 sheets)", r"Handwritten calculations: Taha Yasir, sheet 3 of 3"),
+    ("B  Scans: Khizar (3 sheets)", r"Handwritten calculations: Khizar, sheet 3 of 3"),
+    ("B  Scans: Hadeed Abbas (3 sheets)", r"Handwritten calculations: Hadeed Abbas, sheet 3 of 3"),
 ]
 
 missing = 0

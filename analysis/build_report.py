@@ -482,6 +482,21 @@ bullets(doc, [
     "**Comment density** (SonarQube): comment lines / (comment lines + code lines) x 100; docstrings count as "
     "comments, blank lines are excluded.",
 ])
+SCANS = HERE.parent / "scans"
+SCAN_PAGES = {            # scanned handwritten sheets, in reading order
+    "Member 1": [("taha_1_def_list.jpg", "def_list.py: comment density, cyclomatic and cognitive complexity"),
+                 ("taha_2_meta.jpg", "def_list.py summary; meta.py: comment density and cyclomatic complexity"),
+                 ("taha_3_meta_cognitive.jpg", "meta.py: cognitive complexity and summary")],
+    "Member 2": [("khizar_1_admonition.jpg", "admonition.py: comment density, cyclomatic and cognitive complexity"),
+                 ("khizar_2_wikilinks.jpg", "admonition.py summary; wikilinks.py: comment density and cyclomatic "
+                                            "complexity"),
+                 ("khizar_3_wikilinks_cognitive.jpg", "wikilinks.py: cognitive complexity and summary")],
+    "Member 3": [("hadeed_1_postprocessors.jpg", "postprocessors.py: comment density and cyclomatic complexity"),
+                 ("hadeed_2_legacy_attrs.jpg", "postprocessors.py cognitive complexity and summary; legacy_attrs.py: "
+                                               "comment density"),
+                 ("hadeed_3_legacy_attrs_cognitive.jpg", "legacy_attrs.py: cyclomatic and cognitive complexity, "
+                                                         "summary")],
+}
 members = [("Member 1", "Taha Yasir", "i222429", [0, 1]),
            ("Member 2", "Khizar", "i222595", [2, 3]),
            ("Member 3", "Hadeed Abbas", "i228780", [4, 5])]
@@ -573,8 +588,14 @@ for label, name, roll, idx in members:
         doc.add_heading(f"Interpretation: {short(d['file'])}", level=3)
         for txt in INTERP[d["file"]]:
             para(doc, txt, align="justify")
-    para(doc, f"[ Insert {name}'s scanned handwritten calculation sheets after this page ]", align="center",
-         color=MUTED, before=10)
+    pages = [(f, c) for f, c in SCAN_PAGES[label] if (SCANS / f).exists()]
+    if not pages:
+        para(doc, f"[ Insert {name}'s scanned handwritten calculation sheets after this page ]", align="center",
+             color=MUTED, before=10)
+    for k, (fname, cap) in enumerate(pages, 1):
+        h = doc.add_heading(f"Handwritten calculations: {name}, sheet {k} of {len(pages)}", level=3)
+        h.paragraph_format.page_break_before = True
+        figure(doc, SCANS / fname, 14.5, cap)
 
 # =================================================================== Appendix B
 doc.add_heading("Appendix B. Reproducing the Measurements", level=1).paragraph_format.page_break_before = True

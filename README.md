@@ -14,7 +14,8 @@ Group report and supporting analysis for a technical debt inventory of
 
 | Path | What it is |
 |---|---|
-| `i222429_i222595_i228780_A1.pdf` / `.docx` | The group report (scanned handwritten appendices still to be inserted) |
+| `i222429_i222595_i228780_A1.pdf` / `.docx` | The group report, with each member's scanned handwritten calculations in Appendix A |
+| `scans/` | The nine handwritten sheets (three per member) that the report embeds |
 | `Manual_Calculation_Worksheets.pdf` / `.docx` | Worked steps for the individual manual calculations |
 | `analysis/` | Raw tool outputs (JSON, CSV, text), figures, and the scripts that build the report |
 
