@@ -71,7 +71,8 @@ for label, pattern in CHECKS:
 print(f"\n{len(CHECKS) - missing} of {len(CHECKS)} report items found")
 
 print("\nPlaceholders still in the report:")
-for ph in ("[Member 3 name]", "[Roll No.", "[Section]", "[Instructor]", "[Date]", "scanned handwritten calculation sheets after"):
+for ph in ("[Member", "[Roll No.", "[Section]", "[Instructor]", "[Date]", "scanned handwritten calculation sheets after",
+           "github.com/Taha9876/SRE-A1"):
     print(f"   {ph:48} on page(s)", [i + 1 for i, t in enumerate(flat) if ph in t and i != 1])
 
 import json

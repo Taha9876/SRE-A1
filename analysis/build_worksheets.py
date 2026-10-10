@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 
-from docx_helpers import MUTED, add_footer, bullets, code, new_document, page_break, para, table
+from docx_helpers import MUTED, add_footer, code, hyperlink, new_document, page_break, para, table
 
 HERE = Path(__file__).parent
 OUT = HERE.parent / "Manual_Calculation_Worksheets.docx"
@@ -32,26 +32,22 @@ OWNERS = ["Taha Yasir (i222429)", "Taha Yasir (i222429)", "Khizar (i222595)", "K
           "Hadeed Abbas (i228780)", "Hadeed Abbas (i228780)"]
 NOTES = {
     "markdown/extensions/def_list.py":
-        "Tool difference: complexipy reports 19 for `DefListProcessor.run`. It also counts the list comprehension on "
-        "lines 43-44 (+1 for its `for`, +1 for its `if`). The SonarSource specification does not list comprehensions "
-        "as incrementing structures, so the hand result is 17. State both numbers and this reason on your sheet.",
+        "complexipy reports 19 for `DefListProcessor.run` because it also counts the list comprehension on lines "
+        "43-44 (+2). The SonarSource rules do not, so the hand result is 17. Write both numbers on your sheet.",
     "markdown/postprocessors.py":
-        "The nested function `substitute_match` (lines 75-86) is a separate unit for cyclomatic complexity (it has its "
-        "own +1), but for cognitive complexity it is charged to `run`, with everything inside it one nesting level "
-        "deeper. That is why line 76 scores 2, not 1.",
+        "The nested function `substitute_match` (lines 75-86) has its own +1 for cyclomatic complexity, but its "
+        "cognitive complexity is charged to `run` one nesting level deeper, so line 76 scores 2.",
     "markdown/extensions/legacy_attrs.py":
-        "The nested function `attributeCallback` (line 59) has no decision point: cyclomatic 1, and it adds nothing "
-        "to the cognitive complexity of `handleAttributes`.",
+        "The nested function `attributeCallback` (line 59) has no decision point: cyclomatic 1, cognitive 0.",
 }
 
 doc = new_document(body_pt=10.5)
-add_footer(doc, "Worked solutions for the manual calculations - copy by hand, do not submit this file")
+add_footer(doc, "Manual calculation worksheets - copy by hand    |    github.com/Taha9876/SRE-A1")
 
 doc.add_heading("Manual Calculation Worksheets", level=1)
-para(doc, "These are the worked solutions for the individual component (Section B of the assignment). The assignment "
-          "requires the calculations to be handwritten and scanned, so each member copies their two files out by "
-          "hand, following the steps with the source file open, and attaches the scans to Appendix A of the group "
-          "report. Line numbers refer to the files in `SRE-A1/markdown/` at commit `0bf535bc`.", align="justify")
+para(doc, "Worked steps for the individual component. Copy your two files by hand, scan the sheets and attach them "
+          "to Appendix A. Line numbers refer to Python-Markdown at commit `0bf535bc`.")
+hyperlink(para(doc, "Repository:  "), "https://github.com/Taha9876/SRE-A1")
 table(doc, ["Member", "File 1", "File 2"],
       [["Taha Yasir (i222429)", "`markdown/extensions/def_list.py`", "`markdown/extensions/meta.py`"],
        ["Khizar (i222595)", "`markdown/extensions/admonition.py`", "`markdown/extensions/wikilinks.py`"],
@@ -81,9 +77,6 @@ Nesting increment     +N : added to if, for, while, except, conditional expressi
                            or nested-function blocks.
                            elif, else and boolean sequences get NO nesting increment.
 Increment written in the tables below = 1 + N.''', size=9)
-para(doc, "The same rule set was run over all 397 functions of the package as a check: the cyclomatic rules "
-          "reproduce radon's result for every function. The cognitive rules differ from the complexipy tool only "
-          "where that tool adds points for comprehensions.", size=9.5, color=MUTED)
 
 for idx, d in enumerate(M):
     page_break(doc)

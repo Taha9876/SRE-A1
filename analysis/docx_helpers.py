@@ -102,6 +102,41 @@ def page_break(doc):
     doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
 
 
+def hyperlink(paragraph, url, text=None, size=None):
+    """Append a clickable link (kept clickable in the PDF export) to a paragraph."""
+    rid = paragraph.part.relate_to(url, "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
+                                   is_external=True)
+    link = OxmlElement("w:hyperlink")
+    link.set(qn("r:id"), rid)
+    run = OxmlElement("w:r")
+    rpr = OxmlElement("w:rPr")
+    color = OxmlElement("w:color")
+    color.set(qn("w:val"), "1C4E80")
+    under = OxmlElement("w:u")
+    under.set(qn("w:val"), "single")
+    rpr.append(color)
+    rpr.append(under)
+    if size:
+        sz = OxmlElement("w:sz")
+        sz.set(qn("w:val"), str(int(size * 2)))
+        rpr.append(sz)
+    run.append(rpr)
+    t = OxmlElement("w:t")
+    t.text = text or url
+    run.append(t)
+    link.append(run)
+    paragraph._p.append(link)
+    return paragraph
+
+
+def link_cell(table_obj, row, col, url, size=9.5):
+    """Replace the text of one table cell with a clickable link."""
+    p = table_obj.rows[row].cells[col].paragraphs[0]
+    for r in list(p.runs):
+        r._r.getparent().remove(r._r)
+    return hyperlink(p, url, size=size)
+
+
 def rich(p, text, size=None, color=None, mono_size=None):
     """Add text to a paragraph; **bold** and `code` markers are honoured."""
     import re
