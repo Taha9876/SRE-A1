@@ -1,0 +1,10 @@
+# The analysed project is a third-party repository; clone it separately (see README)
+/markdown/
+
+# Local build leftovers
+.venv/
+__pycache__/
+*.pyc
+.complexipy_cache/
+analysis/preview/
+~$*

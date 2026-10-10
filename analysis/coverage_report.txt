@@ -1,0 +1,37 @@
+﻿Name                                  Stmts   Miss Branch BrPart  Cover
+-----------------------------------------------------------------------
+markdown\__init__.py                      5      0      0      0   100%
+markdown\__main__.py                     42      0      6      0   100%
+markdown\__meta__.py                     14      0      4      0   100%
+markdown\blockparser.py                  30      0     10      1    98%
+markdown\blockprocessors.py             310      7    108      6    97%
+markdown\core.py                        151      0     38      2    99%
+markdown\extensions\__init__.py          29      0     10      1    97%
+markdown\extensions\abbr.py             104      7     34      3    93%
+markdown\extensions\admonition.py        86      0     30      0   100%
+markdown\extensions\attr_list.py         97      0     62      4    97%
+markdown\extensions\codehilite.py       115      1     42      3    97%
+markdown\extensions\def_list.py          58      2     16      0    97%
+markdown\extensions\extra.py              9      0      0      0   100%
+markdown\extensions\fenced_code.py       98      1     42      2    98%
+markdown\extensions\footnotes.py        262      7     92     12    94%
+markdown\extensions\legacy_attrs.py      23      0      8      0   100%
+markdown\extensions\legacy_em.py         12      0      0      0   100%
+markdown\extensions\md_in_html.py       253      5    112      7    96%
+markdown\extensions\meta.py              43      0     10      1    98%
+markdown\extensions\nl2br.py              8      0      0      0   100%
+markdown\extensions\sane_lists.py        23      0      0      0   100%
+markdown\extensions\smarty.py            88      0     14      3    97%
+markdown\extensions\tables.py           145      0     70      1    99%
+markdown\extensions\toc.py              256     14    108      3    94%
+markdown\extensions\wikilinks.py         48      0     12      0   100%
+markdown\htmlparser.py                  193      2     70      7    97%
+markdown\inlinepatterns.py              436      2    138      7    98%
+markdown\postprocessors.py               50      2     12      0    97%
+markdown\preprocessors.py                27      0      0      0   100%
+markdown\serializers.py                 108      1     66      2    98%
+markdown\test_tools.py                   82      7     18      1    92%
+markdown\treeprocessors.py              229      5    126      8    96%
+markdown\util.py                        149      6     38      1    96%
+-----------------------------------------------------------------------
+TOTAL                                  3583     69   1296     75    97%

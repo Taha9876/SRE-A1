@@ -1,0 +1,81 @@
+﻿************* Module markdown.extensions.__init__
+markdown\extensions\__init__.py:1:0: R0801: Similar lines in 2 files
+==markdown.blockprocessors:[594:606]
+==markdown.extensions.abbr:[167:179]
+                if block[m.end():].strip():
+                    # Add any content after match back to blocks as separate block
+                    blocks.insert(0, block[m.end():].lstrip('\n'))
+                if block[:m.start()].strip():
+                    # Add any content before match back to blocks as separate block
+                    blocks.insert(0, block[:m.start()].rstrip('\n'))
+                return True
+        # No match. Restore block.
+        blocks.insert(0, block)
+        return False
+
+ (duplicate-code)
+markdown\extensions\__init__.py:1:0: R0801: Similar lines in 2 files
+==markdown.extensions.toc:[120:132]
+==markdown.serializers:[70:78]
+    if "&" in text:
+        # Only replace & when not part of an entity
+        text = RE_AMP.sub('&amp;', text)
+    if "<" in text:
+        text = text.replace("<", "&lt;")
+    if ">" in text:
+        text = text.replace(">", "&gt;")
+    return text
+
+
+def run_postprocessors(text: str, md: Markdown) -> str:
+    """ Run postprocessors from Markdown instance on text. """ (duplicate-code)
+markdown\extensions\__init__.py:1:0: R0801: Similar lines in 2 files
+==markdown.extensions.md_in_html:[292:302]
+==markdown.htmlparser:[372:380]
+            if self.rawdata[i:i+3] == '<![' and not self.rawdata[i:i+9] == '<![CDATA[':
+                # We have encountered the bug in #1534 (Python bug `gh-77057`).
+                # Provide an override until we drop support for Python < 3.13.
+                result = self.parse_bogus_comment(i)
+                if result == -1:
+                    self.handle_data(self.rawdata[i:i + 1])
+                    return i + 1
+                return result (duplicate-code)
+markdown\extensions\__init__.py:1:0: R0801: Similar lines in 2 files
+==markdown.extensions.toc:[120:127]
+==markdown.serializers:[85:92]
+    if "&" in text:
+        # Only replace & when not part of an entity
+        text = RE_AMP.sub('&amp;', text)
+    if "<" in text:
+        text = text.replace("<", "&lt;")
+    if ">" in text:
+        text = text.replace(">", "&gt;") (duplicate-code)
+markdown\extensions\__init__.py:1:0: R0801: Similar lines in 2 files
+==markdown.blockprocessors:[597:606]
+==markdown.extensions.footnotes:[286:300]
+            if block[:m.start()].strip():
+                # Add any content before match back to blocks as separate block
+                blocks.insert(0, block[:m.start()].rstrip('\n'))
+            return True
+        # No match. Restore block.
+        blocks.insert(0, block)
+        return False
+
+    def detectTabbed(self, blocks: list[str]) -> list[str]:
+        """ Find indented text and remove indent before further processing.
+
+        Returns:
+            A list of blocks with indentation removed.
+        """ (duplicate-code)
+markdown\extensions\__init__.py:1:0: R0801: Similar lines in 2 files
+==markdown.serializers:[73:78]
+==markdown.util:[158:168]
+        if "<" in text:
+            text = text.replace("<", "&lt;")
+        if ">" in text:
+            text = text.replace(">", "&gt;")
+        return text (duplicate-code)
+
+------------------------------------------------------------------
+Your code has been rated at 9.98/10 (previous run: 8.03/10, +1.95)
+

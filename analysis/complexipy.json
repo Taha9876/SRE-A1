@@ -1,0 +1,2676 @@
+[
+  {
+    "complexity": 2,
+    "file_name": "__main__.py",
+    "function_name": "run",
+    "path": "markdown\\__main__.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "__main__.py",
+    "function_name": "parse_options",
+    "path": "markdown\\__main__.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "__meta__.py",
+    "function_name": "_get_version",
+    "path": "markdown\\__meta__.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockparser.py",
+    "function_name": "BlockParser::__init__",
+    "path": "markdown\\blockparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockparser.py",
+    "function_name": "BlockParser::parseChunk",
+    "path": "markdown\\blockparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockparser.py",
+    "function_name": "BlockParser::parseDocument",
+    "path": "markdown\\blockparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockparser.py",
+    "function_name": "State::reset",
+    "path": "markdown\\blockparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockparser.py",
+    "function_name": "State::set",
+    "path": "markdown\\blockparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "blockparser.py",
+    "function_name": "State::isstate",
+    "path": "markdown\\blockparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 10,
+    "file_name": "blockparser.py",
+    "function_name": "BlockParser::parseBlocks",
+    "path": "markdown\\blockparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockprocessors.py",
+    "function_name": "BlockProcessor::__init__",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockprocessors.py",
+    "function_name": "BlockProcessor::run",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockprocessors.py",
+    "function_name": "BlockProcessor::test",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockprocessors.py",
+    "function_name": "CodeBlockProcessor::test",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockprocessors.py",
+    "function_name": "HashHeaderProcessor::test",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockprocessors.py",
+    "function_name": "ListIndentProcessor::__init__",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockprocessors.py",
+    "function_name": "ListIndentProcessor::create_item",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockprocessors.py",
+    "function_name": "OListProcessor::__init__",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockprocessors.py",
+    "function_name": "OListProcessor::test",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockprocessors.py",
+    "function_name": "ParagraphProcessor::test",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockprocessors.py",
+    "function_name": "ReferenceProcessor::test",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockprocessors.py",
+    "function_name": "SetextHeaderProcessor::test",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockprocessors.py",
+    "function_name": "UListProcessor::__init__",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "blockprocessors.py",
+    "function_name": "build_block_parser",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "blockprocessors.py",
+    "function_name": "BlockQuoteProcessor::test",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "blockprocessors.py",
+    "function_name": "EmptyBlockProcessor::test",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "blockprocessors.py",
+    "function_name": "HRProcessor::test",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "blockprocessors.py",
+    "function_name": "BlockProcessor::lastChild",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "blockprocessors.py",
+    "function_name": "HRProcessor::run",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "blockprocessors.py",
+    "function_name": "BlockProcessor::looseDetab",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "blockprocessors.py",
+    "function_name": "BlockQuoteProcessor::clean",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "blockprocessors.py",
+    "function_name": "SetextHeaderProcessor::run",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 4,
+    "file_name": "blockprocessors.py",
+    "function_name": "CodeBlockProcessor::run",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 5,
+    "file_name": "blockprocessors.py",
+    "function_name": "EmptyBlockProcessor::run",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 5,
+    "file_name": "blockprocessors.py",
+    "function_name": "ListIndentProcessor::test",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "blockprocessors.py",
+    "function_name": "BlockProcessor::detab",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "blockprocessors.py",
+    "function_name": "BlockQuoteProcessor::run",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "blockprocessors.py",
+    "function_name": "ReferenceProcessor::run",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 9,
+    "file_name": "blockprocessors.py",
+    "function_name": "HashHeaderProcessor::run",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 11,
+    "file_name": "blockprocessors.py",
+    "function_name": "ListIndentProcessor::run",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 13,
+    "file_name": "blockprocessors.py",
+    "function_name": "ListIndentProcessor::get_level",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 13,
+    "file_name": "blockprocessors.py",
+    "function_name": "OListProcessor::get_items",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 16,
+    "file_name": "blockprocessors.py",
+    "function_name": "OListProcessor::run",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 18,
+    "file_name": "blockprocessors.py",
+    "function_name": "ParagraphProcessor::run",
+    "path": "markdown\\blockprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "core.py",
+    "function_name": "Markdown::__init__",
+    "path": "markdown\\core.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "core.py",
+    "function_name": "Markdown::build_parser",
+    "path": "markdown\\core.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "core.py",
+    "function_name": "Markdown::registerExtension",
+    "path": "markdown\\core.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "core.py",
+    "function_name": "markdown",
+    "path": "markdown\\core.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "core.py",
+    "function_name": "markdownFromFile",
+    "path": "markdown\\core.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "core.py",
+    "function_name": "Markdown::is_block_level",
+    "path": "markdown\\core.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "core.py",
+    "function_name": "Markdown::set_output_format",
+    "path": "markdown\\core.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "core.py",
+    "function_name": "Markdown::reset",
+    "path": "markdown\\core.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "core.py",
+    "function_name": "Markdown::registerExtensions",
+    "path": "markdown\\core.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 9,
+    "file_name": "core.py",
+    "function_name": "Markdown::build_extension",
+    "path": "markdown\\core.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 11,
+    "file_name": "core.py",
+    "function_name": "Markdown::convertFile",
+    "path": "markdown\\core.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 14,
+    "file_name": "core.py",
+    "function_name": "Markdown::convert",
+    "path": "markdown\\core.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "__init__.py",
+    "function_name": "Extension::__init__",
+    "path": "markdown\\extensions\\__init__.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "__init__.py",
+    "function_name": "Extension::extendMarkdown",
+    "path": "markdown\\extensions\\__init__.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "__init__.py",
+    "function_name": "Extension::getConfigInfo",
+    "path": "markdown\\extensions\\__init__.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "__init__.py",
+    "function_name": "Extension::getConfigs",
+    "path": "markdown\\extensions\\__init__.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "__init__.py",
+    "function_name": "Extension::getConfig",
+    "path": "markdown\\extensions\\__init__.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "__init__.py",
+    "function_name": "Extension::setConfig",
+    "path": "markdown\\extensions\\__init__.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "__init__.py",
+    "function_name": "Extension::setConfigs",
+    "path": "markdown\\extensions\\__init__.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "abbr.py",
+    "function_name": "AbbrBlockprocessor::__init__",
+    "path": "markdown\\extensions\\abbr.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "abbr.py",
+    "function_name": "AbbrBlockprocessor::test",
+    "path": "markdown\\extensions\\abbr.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "abbr.py",
+    "function_name": "AbbrExtension::__init__",
+    "path": "markdown\\extensions\\abbr.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "abbr.py",
+    "function_name": "AbbrExtension::reset_glossary",
+    "path": "markdown\\extensions\\abbr.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "abbr.py",
+    "function_name": "AbbrInlineProcessor::__init__",
+    "path": "markdown\\extensions\\abbr.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "abbr.py",
+    "function_name": "AbbrInlineProcessor::handleMatch",
+    "path": "markdown\\extensions\\abbr.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "abbr.py",
+    "function_name": "AbbrTreeprocessor::create_element",
+    "path": "markdown\\extensions\\abbr.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "abbr.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\abbr.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "abbr.py",
+    "function_name": "AbbrExtension::extendMarkdown",
+    "path": "markdown\\extensions\\abbr.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "abbr.py",
+    "function_name": "AbbrExtension::load_glossary",
+    "path": "markdown\\extensions\\abbr.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "abbr.py",
+    "function_name": "AbbrExtension::reset",
+    "path": "markdown\\extensions\\abbr.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "abbr.py",
+    "function_name": "AbbrTreeprocessor::__init__",
+    "path": "markdown\\extensions\\abbr.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "abbr.py",
+    "function_name": "AbbrTreeprocessor::run",
+    "path": "markdown\\extensions\\abbr.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 15,
+    "file_name": "abbr.py",
+    "function_name": "AbbrBlockprocessor::run",
+    "path": "markdown\\extensions\\abbr.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 18,
+    "file_name": "abbr.py",
+    "function_name": "AbbrTreeprocessor::iter_element",
+    "path": "markdown\\extensions\\abbr.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "admonition.py",
+    "function_name": "AdmonitionExtension::extendMarkdown",
+    "path": "markdown\\extensions\\admonition.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "admonition.py",
+    "function_name": "AdmonitionProcessor::__init__",
+    "path": "markdown\\extensions\\admonition.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "admonition.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\admonition.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "admonition.py",
+    "function_name": "AdmonitionProcessor::get_class_and_title",
+    "path": "markdown\\extensions\\admonition.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "admonition.py",
+    "function_name": "AdmonitionProcessor::test",
+    "path": "markdown\\extensions\\admonition.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 12,
+    "file_name": "admonition.py",
+    "function_name": "AdmonitionProcessor::run",
+    "path": "markdown\\extensions\\admonition.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 19,
+    "file_name": "admonition.py",
+    "function_name": "AdmonitionProcessor::parse_content",
+    "path": "markdown\\extensions\\admonition.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "attr_list.py",
+    "function_name": "AttrListExtension::extendMarkdown",
+    "path": "markdown\\extensions\\attr_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "attr_list.py",
+    "function_name": "AttrListTreeprocessor::sanitize_name",
+    "path": "markdown\\extensions\\attr_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "attr_list.py",
+    "function_name": "_handle_double_quote",
+    "path": "markdown\\extensions\\attr_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "attr_list.py",
+    "function_name": "_handle_key_value",
+    "path": "markdown\\extensions\\attr_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "attr_list.py",
+    "function_name": "_handle_single_quote",
+    "path": "markdown\\extensions\\attr_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "attr_list.py",
+    "function_name": "get_attrs",
+    "path": "markdown\\extensions\\attr_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "attr_list.py",
+    "function_name": "isheader",
+    "path": "markdown\\extensions\\attr_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "attr_list.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\attr_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "attr_list.py",
+    "function_name": "get_attrs_and_remainder",
+    "path": "markdown\\extensions\\attr_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "attr_list.py",
+    "function_name": "_handle_word",
+    "path": "markdown\\extensions\\attr_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 10,
+    "file_name": "attr_list.py",
+    "function_name": "AttrListTreeprocessor::assign_attrs",
+    "path": "markdown\\extensions\\attr_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 102,
+    "file_name": "attr_list.py",
+    "function_name": "AttrListTreeprocessor::run",
+    "path": "markdown\\extensions\\attr_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "codehilite.py",
+    "function_name": "CodeHiliteExtension::extendMarkdown",
+    "path": "markdown\\extensions\\codehilite.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "codehilite.py",
+    "function_name": "HiliteTreeprocessor::code_unescape",
+    "path": "markdown\\extensions\\codehilite.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "codehilite.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\codehilite.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "codehilite.py",
+    "function_name": "parse_hl_lines",
+    "path": "markdown\\extensions\\codehilite.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "codehilite.py",
+    "function_name": "CodeHilite::__init__",
+    "path": "markdown\\extensions\\codehilite.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 7,
+    "file_name": "codehilite.py",
+    "function_name": "HiliteTreeprocessor::run",
+    "path": "markdown\\extensions\\codehilite.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 9,
+    "file_name": "codehilite.py",
+    "function_name": "CodeHilite::_parseHeader",
+    "path": "markdown\\extensions\\codehilite.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 11,
+    "file_name": "codehilite.py",
+    "function_name": "CodeHiliteExtension::__init__",
+    "path": "markdown\\extensions\\codehilite.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 28,
+    "file_name": "codehilite.py",
+    "function_name": "CodeHilite::hilite",
+    "path": "markdown\\extensions\\codehilite.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "def_list.py",
+    "function_name": "DefListExtension::extendMarkdown",
+    "path": "markdown\\extensions\\def_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "def_list.py",
+    "function_name": "DefListIndentProcessor::create_item",
+    "path": "markdown\\extensions\\def_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "def_list.py",
+    "function_name": "DefListProcessor::test",
+    "path": "markdown\\extensions\\def_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "def_list.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\def_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 19,
+    "file_name": "def_list.py",
+    "function_name": "DefListProcessor::run",
+    "path": "markdown\\extensions\\def_list.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "extra.py",
+    "function_name": "ExtraExtension::__init__",
+    "path": "markdown\\extensions\\extra.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "extra.py",
+    "function_name": "ExtraExtension::extendMarkdown",
+    "path": "markdown\\extensions\\extra.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "extra.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\extra.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "fenced_code.py",
+    "function_name": "FencedBlockPreprocessor::__init__",
+    "path": "markdown\\extensions\\fenced_code.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "fenced_code.py",
+    "function_name": "FencedBlockPreprocessor::_escape",
+    "path": "markdown\\extensions\\fenced_code.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "fenced_code.py",
+    "function_name": "FencedCodeExtension::__init__",
+    "path": "markdown\\extensions\\fenced_code.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "fenced_code.py",
+    "function_name": "FencedCodeExtension::extendMarkdown",
+    "path": "markdown\\extensions\\fenced_code.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "fenced_code.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\fenced_code.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 7,
+    "file_name": "fenced_code.py",
+    "function_name": "FencedBlockPreprocessor::handle_attrs",
+    "path": "markdown\\extensions\\fenced_code.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 65,
+    "file_name": "fenced_code.py",
+    "function_name": "FencedBlockPreprocessor::run",
+    "path": "markdown\\extensions\\fenced_code.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteBlockProcessor::__init__",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteBlockProcessor::test",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteExtension::__init__",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteExtension::get_separator",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteExtension::reset",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteExtension::setFootnote",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteInlineProcessor::__init__",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "footnotes.py",
+    "function_name": "FootnotePostTreeprocessor::__init__",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "footnotes.py",
+    "function_name": "FootnotePostTreeprocessor::get_num_duplicates",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "footnotes.py",
+    "function_name": "FootnotePostprocessor::__init__",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "footnotes.py",
+    "function_name": "FootnotePostprocessor::run",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteReorderingProcessor::__init__",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteTreeprocessor::__init__",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "footnotes.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteExtension::addFootnoteRef",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteExtension::extendMarkdown",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteExtension::makeFootnoteId",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteExtension::makeFootnoteRefId",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteBlockProcessor::detab",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "footnotes.py",
+    "function_name": "FootnotePostTreeprocessor::handle_duplicates",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteReorderingProcessor::reorder_footnotes",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 5,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteInlineProcessor::handleMatch",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteBlockProcessor::run",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "footnotes.py",
+    "function_name": "FootnotePostTreeprocessor::run",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 7,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteExtension::unique_ref",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 7,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteReorderingProcessor::run",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 8,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteBlockProcessor::detectTabbed",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 8,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteTreeprocessor::run",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 9,
+    "file_name": "footnotes.py",
+    "function_name": "FootnotePostTreeprocessor::add_duplicates",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 10,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteExtension::makeFootnotesDiv",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 19,
+    "file_name": "footnotes.py",
+    "function_name": "FootnoteExtension::findFootnotesPlaceholder",
+    "path": "markdown\\extensions\\footnotes.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "legacy_attrs.py",
+    "function_name": "LegacyAttrExtension::extendMarkdown",
+    "path": "markdown\\extensions\\legacy_attrs.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "legacy_attrs.py",
+    "function_name": "LegacyAttrs::handleAttributes",
+    "path": "markdown\\extensions\\legacy_attrs.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "legacy_attrs.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\legacy_attrs.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 9,
+    "file_name": "legacy_attrs.py",
+    "function_name": "LegacyAttrs::run",
+    "path": "markdown\\extensions\\legacy_attrs.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "legacy_em.py",
+    "function_name": "LegacyEmExtension::extendMarkdown",
+    "path": "markdown\\extensions\\legacy_em.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "legacy_em.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\legacy_em.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "md_in_html.py",
+    "function_name": "HTMLExtractorExtra::__init__",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "md_in_html.py",
+    "function_name": "HTMLExtractorExtra::block_level_tags",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "md_in_html.py",
+    "function_name": "HTMLExtractorExtra::block_tags",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "md_in_html.py",
+    "function_name": "HTMLExtractorExtra::get_element",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "md_in_html.py",
+    "function_name": "HTMLExtractorExtra::reset",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "md_in_html.py",
+    "function_name": "HTMLExtractorExtra::span_and_blocks_tags",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "md_in_html.py",
+    "function_name": "HtmlBlockPreprocessor::run",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "md_in_html.py",
+    "function_name": "MarkdownInHtmlExtension::extendMarkdown",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "md_in_html.py",
+    "function_name": "MarkdownInHtmlProcessor::test",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "md_in_html.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "md_in_html.py",
+    "function_name": "HTMLExtractorExtra::close",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "md_in_html.py",
+    "function_name": "HTMLExtractorExtra::parse_pi",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "md_in_html.py",
+    "function_name": "MarkdownInHTMLPostprocessor::stash_to_string",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 5,
+    "file_name": "md_in_html.py",
+    "function_name": "HTMLExtractorExtra::handle_data",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "md_in_html.py",
+    "function_name": "MarkdownInHtmlProcessor::run",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 8,
+    "file_name": "md_in_html.py",
+    "function_name": "HTMLExtractorExtra::parse_html_declaration",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 9,
+    "file_name": "md_in_html.py",
+    "function_name": "HTMLExtractorExtra::handle_empty_tag",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 10,
+    "file_name": "md_in_html.py",
+    "function_name": "HTMLExtractorExtra::handle_startendtag",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 15,
+    "file_name": "md_in_html.py",
+    "function_name": "HTMLExtractorExtra::get_state",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 37,
+    "file_name": "md_in_html.py",
+    "function_name": "MarkdownInHtmlProcessor::parse_element_content",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 41,
+    "file_name": "md_in_html.py",
+    "function_name": "HTMLExtractorExtra::handle_starttag",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 94,
+    "file_name": "md_in_html.py",
+    "function_name": "HTMLExtractorExtra::handle_endtag",
+    "path": "markdown\\extensions\\md_in_html.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "meta.py",
+    "function_name": "MetaExtension::extendMarkdown",
+    "path": "markdown\\extensions\\meta.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "meta.py",
+    "function_name": "MetaExtension::reset",
+    "path": "markdown\\extensions\\meta.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "meta.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\meta.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 17,
+    "file_name": "meta.py",
+    "function_name": "MetaPreprocessor::run",
+    "path": "markdown\\extensions\\meta.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "nl2br.py",
+    "function_name": "Nl2BrExtension::extendMarkdown",
+    "path": "markdown\\extensions\\nl2br.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "nl2br.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\nl2br.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "sane_lists.py",
+    "function_name": "SaneListExtension::extendMarkdown",
+    "path": "markdown\\extensions\\sane_lists.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "sane_lists.py",
+    "function_name": "SaneOListProcessor::__init__",
+    "path": "markdown\\extensions\\sane_lists.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "sane_lists.py",
+    "function_name": "SaneUListProcessor::__init__",
+    "path": "markdown\\extensions\\sane_lists.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "sane_lists.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\sane_lists.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "smarty.py",
+    "function_name": "SmartyExtension::__init__",
+    "path": "markdown\\extensions\\smarty.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "smarty.py",
+    "function_name": "SmartyExtension::educateAngledQuotes",
+    "path": "markdown\\extensions\\smarty.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "smarty.py",
+    "function_name": "SmartyExtension::educateDashes",
+    "path": "markdown\\extensions\\smarty.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "smarty.py",
+    "function_name": "SmartyExtension::educateEllipses",
+    "path": "markdown\\extensions\\smarty.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "smarty.py",
+    "function_name": "SmartyExtension::educateQuotes",
+    "path": "markdown\\extensions\\smarty.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "smarty.py",
+    "function_name": "SubstituteTextPattern::__init__",
+    "path": "markdown\\extensions\\smarty.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "smarty.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\smarty.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "smarty.py",
+    "function_name": "SmartyExtension::_addPatterns",
+    "path": "markdown\\extensions\\smarty.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 4,
+    "file_name": "smarty.py",
+    "function_name": "SmartyExtension::extendMarkdown",
+    "path": "markdown\\extensions\\smarty.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 4,
+    "file_name": "smarty.py",
+    "function_name": "SubstituteTextPattern::handleMatch",
+    "path": "markdown\\extensions\\smarty.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "tables.py",
+    "function_name": "TableExtension::__init__",
+    "path": "markdown\\extensions\\tables.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "tables.py",
+    "function_name": "TableProcessor::__init__",
+    "path": "markdown\\extensions\\tables.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "tables.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\tables.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "tables.py",
+    "function_name": "TableExtension::extendMarkdown",
+    "path": "markdown\\extensions\\tables.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "tables.py",
+    "function_name": "TableProcessor::_build_empty_row",
+    "path": "markdown\\extensions\\tables.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "tables.py",
+    "function_name": "TableProcessor::_split_row",
+    "path": "markdown\\extensions\\tables.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 10,
+    "file_name": "tables.py",
+    "function_name": "TableProcessor::_build_row",
+    "path": "markdown\\extensions\\tables.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 12,
+    "file_name": "tables.py",
+    "function_name": "TableProcessor::run",
+    "path": "markdown\\extensions\\tables.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 20,
+    "file_name": "tables.py",
+    "function_name": "TableProcessor::_split",
+    "path": "markdown\\extensions\\tables.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 26,
+    "file_name": "tables.py",
+    "function_name": "TableProcessor::test",
+    "path": "markdown\\extensions\\tables.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "toc.py",
+    "function_name": "TocExtension::__init__",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "toc.py",
+    "function_name": "TocExtension::extendMarkdown",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "toc.py",
+    "function_name": "TocExtension::reset",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "toc.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "toc.py",
+    "function_name": "render_inner_html",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "toc.py",
+    "function_name": "slugify_unicode",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "toc.py",
+    "function_name": "unescape",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "toc.py",
+    "function_name": "TocTreeprocessor::set_level",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "toc.py",
+    "function_name": "run_postprocessors",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "toc.py",
+    "function_name": "slugify",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "toc.py",
+    "function_name": "TocTreeprocessor::add_anchor",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "toc.py",
+    "function_name": "escape_cdata",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 4,
+    "file_name": "toc.py",
+    "function_name": "TocTreeprocessor::add_permalink",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 4,
+    "file_name": "toc.py",
+    "function_name": "TocTreeprocessor::iterparent",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 4,
+    "file_name": "toc.py",
+    "function_name": "get_name",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 4,
+    "file_name": "toc.py",
+    "function_name": "stashedHTML2text",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 4,
+    "file_name": "toc.py",
+    "function_name": "strip_tags",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 5,
+    "file_name": "toc.py",
+    "function_name": "unique",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "toc.py",
+    "function_name": "TocTreeprocessor::__init__",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 9,
+    "file_name": "toc.py",
+    "function_name": "TocTreeprocessor::build_toc_div",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 11,
+    "file_name": "toc.py",
+    "function_name": "remove_fnrefs",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 13,
+    "file_name": "toc.py",
+    "function_name": "TocTreeprocessor::replace_marker",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 24,
+    "file_name": "toc.py",
+    "function_name": "nest_toc_tokens",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 25,
+    "file_name": "toc.py",
+    "function_name": "TocTreeprocessor::run",
+    "path": "markdown\\extensions\\toc.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "wikilinks.py",
+    "function_name": "WikiLinkExtension::__init__",
+    "path": "markdown\\extensions\\wikilinks.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "wikilinks.py",
+    "function_name": "WikiLinkExtension::extendMarkdown",
+    "path": "markdown\\extensions\\wikilinks.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "wikilinks.py",
+    "function_name": "WikiLinksInlineProcessor::__init__",
+    "path": "markdown\\extensions\\wikilinks.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "wikilinks.py",
+    "function_name": "build_url",
+    "path": "markdown\\extensions\\wikilinks.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "wikilinks.py",
+    "function_name": "makeExtension",
+    "path": "markdown\\extensions\\wikilinks.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 4,
+    "file_name": "wikilinks.py",
+    "function_name": "WikiLinksInlineProcessor::handleMatch",
+    "path": "markdown\\extensions\\wikilinks.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 7,
+    "file_name": "wikilinks.py",
+    "function_name": "WikiLinksInlineProcessor::_getMeta",
+    "path": "markdown\\extensions\\wikilinks.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::get_starttag_text",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::handle_charref",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::handle_decl",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::handle_entityref",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::handle_pi",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::handle_startendtag",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::reset",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::__init__",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::handle_comment",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::parse_bogus_comment",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::unknown_decl",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "htmlparser.py",
+    "function_name": "_HTMLParser::parse_starttag",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::at_line_start",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::get_endtag_text",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::inline_close_follows",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::open_inline_tag",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::parse_comment",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::parse_pi",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::line_offset",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 4,
+    "file_name": "htmlparser.py",
+    "function_name": "_HTMLParser::parse_endtag",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::close",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::close_inline_tag",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::handle_data",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 8,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::parse_html_declaration",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 9,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::handle_starttag",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 13,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::handle_empty_tag",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 17,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::handle_endtag",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 19,
+    "file_name": "htmlparser.py",
+    "function_name": "HTMLExtractor::parse_starttag",
+    "path": "markdown\\htmlparser.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "AsteriskProcessor::build_double2",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "AsteriskProcessor::build_single",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "AutolinkInlineProcessor::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "BacktickInlineProcessor::__init__",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "HtmlInlineProcessor::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "InlineProcessor::__init__",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "InlineProcessor::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "Pattern::__init__",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "Pattern::getCompiledRegExp",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "Pattern::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "Pattern::type",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "ShortImageReferenceInlineProcessor::evalId",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "ShortReferenceInlineProcessor::evalId",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "SimpleTagInlineProcessor::__init__",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "SimpleTagInlineProcessor::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "SimpleTagPattern::__init__",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "SimpleTagPattern::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "SimpleTextInlineProcessor::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "SimpleTextPattern::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "SubstituteTagInlineProcessor::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "SubstituteTagPattern::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "inlinepatterns.py",
+    "function_name": "build_inlinepatterns",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "inlinepatterns.py",
+    "function_name": "AsteriskProcessor::build_double",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "inlinepatterns.py",
+    "function_name": "DoubleTagInlineProcessor::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "inlinepatterns.py",
+    "function_name": "DoubleTagPattern::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "inlinepatterns.py",
+    "function_name": "HtmlInlineProcessor::backslash_unescape",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "inlinepatterns.py",
+    "function_name": "ImageReferenceInlineProcessor::makeTag",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "inlinepatterns.py",
+    "function_name": "ReferenceInlineProcessor::makeTag",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "inlinepatterns.py",
+    "function_name": "BacktickInlineProcessor::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "inlinepatterns.py",
+    "function_name": "EscapeInlineProcessor::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "inlinepatterns.py",
+    "function_name": "AsteriskProcessor::build_element",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "inlinepatterns.py",
+    "function_name": "AsteriskProcessor::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "inlinepatterns.py",
+    "function_name": "ImageInlineProcessor::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "inlinepatterns.py",
+    "function_name": "LinkInlineProcessor::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "inlinepatterns.py",
+    "function_name": "ReferenceInlineProcessor::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 4,
+    "file_name": "inlinepatterns.py",
+    "function_name": "ReferenceInlineProcessor::evalId",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 5,
+    "file_name": "inlinepatterns.py",
+    "function_name": "dequote",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "inlinepatterns.py",
+    "function_name": "AutomailInlineProcessor::handleMatch",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "inlinepatterns.py",
+    "function_name": "LinkInlineProcessor::getText",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 7,
+    "file_name": "inlinepatterns.py",
+    "function_name": "HtmlInlineProcessor::unescape",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 7,
+    "file_name": "inlinepatterns.py",
+    "function_name": "Pattern::unescape",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 14,
+    "file_name": "inlinepatterns.py",
+    "function_name": "BacktickInlineProcessor::find_code_spans",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 34,
+    "file_name": "inlinepatterns.py",
+    "function_name": "AsteriskProcessor::parse_sub_patterns",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 58,
+    "file_name": "inlinepatterns.py",
+    "function_name": "LinkInlineProcessor::getLink",
+    "path": "markdown\\inlinepatterns.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "postprocessors.py",
+    "function_name": "AndSubstitutePostprocessor::run",
+    "path": "markdown\\postprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "postprocessors.py",
+    "function_name": "Postprocessor::run",
+    "path": "markdown\\postprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "postprocessors.py",
+    "function_name": "RawHtmlPostprocessor::stash_to_string",
+    "path": "markdown\\postprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "postprocessors.py",
+    "function_name": "UnescapePostprocessor::run",
+    "path": "markdown\\postprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "postprocessors.py",
+    "function_name": "UnescapePostprocessor::unescape",
+    "path": "markdown\\postprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "postprocessors.py",
+    "function_name": "build_postprocessors",
+    "path": "markdown\\postprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "postprocessors.py",
+    "function_name": "RawHtmlPostprocessor::isblocklevel",
+    "path": "markdown\\postprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 10,
+    "file_name": "postprocessors.py",
+    "function_name": "RawHtmlPostprocessor::run",
+    "path": "markdown\\postprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "preprocessors.py",
+    "function_name": "HtmlBlockPreprocessor::run",
+    "path": "markdown\\preprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "preprocessors.py",
+    "function_name": "NormalizeWhitespace::run",
+    "path": "markdown\\preprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "preprocessors.py",
+    "function_name": "Preprocessor::run",
+    "path": "markdown\\preprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "preprocessors.py",
+    "function_name": "build_preprocessors",
+    "path": "markdown\\preprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "serializers.py",
+    "function_name": "_raise_serialization_error",
+    "path": "markdown\\serializers.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "serializers.py",
+    "function_name": "_write_html",
+    "path": "markdown\\serializers.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "serializers.py",
+    "function_name": "to_html_string",
+    "path": "markdown\\serializers.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "serializers.py",
+    "function_name": "to_xhtml_string",
+    "path": "markdown\\serializers.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 4,
+    "file_name": "serializers.py",
+    "function_name": "_escape_cdata",
+    "path": "markdown\\serializers.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 5,
+    "file_name": "serializers.py",
+    "function_name": "_escape_attrib_html",
+    "path": "markdown\\serializers.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "serializers.py",
+    "function_name": "_escape_attrib",
+    "path": "markdown\\serializers.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 75,
+    "file_name": "serializers.py",
+    "function_name": "_serialize_html",
+    "path": "markdown\\serializers.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "test_tools.py",
+    "function_name": "TestCase::dedent",
+    "path": "markdown\\test_tools.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "test_tools.py",
+    "function_name": "_normalize_whitespace",
+    "path": "markdown\\test_tools.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "test_tools.py",
+    "function_name": "recursionlimit::__enter__",
+    "path": "markdown\\test_tools.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "test_tools.py",
+    "function_name": "recursionlimit::__exit__",
+    "path": "markdown\\test_tools.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "test_tools.py",
+    "function_name": "recursionlimit::__init__",
+    "path": "markdown\\test_tools.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "test_tools.py",
+    "function_name": "TestCase::assertMarkdownRenders",
+    "path": "markdown\\test_tools.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 28,
+    "file_name": "test_tools.py",
+    "function_name": "LegacyTestMeta::__new__",
+    "path": "markdown\\test_tools.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "treeprocessors.py",
+    "function_name": "InlineProcessor::__init__",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "treeprocessors.py",
+    "function_name": "InlineProcessor::__makePlaceholder",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "treeprocessors.py",
+    "function_name": "InlineProcessor::__stashNode",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "treeprocessors.py",
+    "function_name": "Treeprocessor::run",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "treeprocessors.py",
+    "function_name": "UnescapeTreeprocessor::_unescape",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "treeprocessors.py",
+    "function_name": "UnescapeTreeprocessor::unescape",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "treeprocessors.py",
+    "function_name": "build_treeprocessors",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "treeprocessors.py",
+    "function_name": "isString",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 2,
+    "file_name": "treeprocessors.py",
+    "function_name": "InlineProcessor::__findPlaceholder",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "treeprocessors.py",
+    "function_name": "InlineProcessor::__build_ancestors",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "treeprocessors.py",
+    "function_name": "InlineProcessor::__handleInline",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 6,
+    "file_name": "treeprocessors.py",
+    "function_name": "InlineProcessor::__processElementText",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 8,
+    "file_name": "treeprocessors.py",
+    "function_name": "UnescapeTreeprocessor::run",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 13,
+    "file_name": "treeprocessors.py",
+    "function_name": "PrettifyTreeprocessor::_prettifyETree",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 13,
+    "file_name": "treeprocessors.py",
+    "function_name": "PrettifyTreeprocessor::run",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 35,
+    "file_name": "treeprocessors.py",
+    "function_name": "InlineProcessor::run",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 36,
+    "file_name": "treeprocessors.py",
+    "function_name": "InlineProcessor::__applyPattern",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 73,
+    "file_name": "treeprocessors.py",
+    "function_name": "InlineProcessor::__processPlaceholders",
+    "path": "markdown\\treeprocessors.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "util.py",
+    "function_name": "HtmlStash::__init__",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "util.py",
+    "function_name": "HtmlStash::get_placeholder",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "util.py",
+    "function_name": "HtmlStash::reset",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "util.py",
+    "function_name": "HtmlStash::store",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "util.py",
+    "function_name": "HtmlStash::store_tag",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "util.py",
+    "function_name": "Processor::__init__",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "util.py",
+    "function_name": "Registry::__getitem__",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "util.py",
+    "function_name": "Registry::__getitem__",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "util.py",
+    "function_name": "Registry::__init__",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "util.py",
+    "function_name": "Registry::__len__",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "util.py",
+    "function_name": "Registry::__repr__",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "util.py",
+    "function_name": "deprecated",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "util.py",
+    "function_name": "get_installed_extensions",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 0,
+    "file_name": "util.py",
+    "function_name": "nearing_recursion_limit",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "util.py",
+    "function_name": "Registry::__contains__",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "util.py",
+    "function_name": "Registry::__iter__",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "util.py",
+    "function_name": "Registry::_sort",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "util.py",
+    "function_name": "Registry::get_index_for_name",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 1,
+    "file_name": "util.py",
+    "function_name": "Registry::register",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "util.py",
+    "function_name": "Registry::deregister",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "util.py",
+    "function_name": "_get_stack_depth",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 3,
+    "file_name": "util.py",
+    "function_name": "code_escape",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 4,
+    "file_name": "util.py",
+    "function_name": "Registry::__getitem__",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  },
+  {
+    "complexity": 9,
+    "file_name": "util.py",
+    "function_name": "parseBoolValue",
+    "path": "markdown\\util.py",
+    "refactor_plans": []
+  }
+]

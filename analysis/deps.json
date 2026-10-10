@@ -1,0 +1,688 @@
+{
+ "modules": 33,
+ "edges_runtime": 79,
+ "edges_lazy": 0,
+ "edges_type_only": 20,
+ "cycles": [],
+ "stdlib": [
+  "__future__",
+  "codecs",
+  "collections",
+  "copy",
+  "functools",
+  "html",
+  "importlib",
+  "itertools",
+  "json",
+  "logging",
+  "optparse",
+  "os",
+  "re",
+  "sys",
+  "textwrap",
+  "typing",
+  "unicodedata",
+  "unittest",
+  "warnings",
+  "xml"
+ ],
+ "third_party": [
+  "pygments",
+  "tidylib",
+  "yaml"
+ ],
+ "third_party_users": {
+  "pygments": [
+   "markdown.extensions.codehilite"
+  ],
+  "tidylib": [
+   "markdown.test_tools"
+  ],
+  "yaml": [
+   "markdown.__main__"
+  ]
+ },
+ "table": [
+  {
+   "module": "markdown",
+   "fan_in": 2,
+   "fan_out": 3,
+   "instability": 0.6,
+   "imports": [
+    "markdown.__meta__",
+    "markdown.core",
+    "markdown.extensions"
+   ],
+   "lazy": [],
+   "type_only": [],
+   "external": [
+    "__future__"
+   ]
+  },
+  {
+   "module": "markdown.__main__",
+   "fan_in": 0,
+   "fan_out": 1,
+   "instability": 1.0,
+   "imports": [
+    "markdown"
+   ],
+   "lazy": [],
+   "type_only": [],
+   "external": [
+    "__future__",
+    "json",
+    "logging",
+    "optparse",
+    "sys",
+    "warnings",
+    "yaml"
+   ]
+  },
+  {
+   "module": "markdown.__meta__",
+   "fan_in": 1,
+   "fan_out": 0,
+   "instability": 0.0,
+   "imports": [],
+   "lazy": [],
+   "type_only": [],
+   "external": [
+    "__future__"
+   ]
+  },
+  {
+   "module": "markdown.blockparser",
+   "fan_in": 1,
+   "fan_out": 1,
+   "instability": 0.5,
+   "imports": [
+    "markdown.util"
+   ],
+   "lazy": [],
+   "type_only": [
+    "markdown",
+    "markdown.blockprocessors"
+   ],
+   "external": [
+    "__future__",
+    "typing",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.blockprocessors",
+   "fan_in": 8,
+   "fan_out": 2,
+   "instability": 0.2,
+   "imports": [
+    "markdown.blockparser",
+    "markdown.util"
+   ],
+   "lazy": [],
+   "type_only": [
+    "markdown"
+   ],
+   "external": [
+    "__future__",
+    "logging",
+    "re",
+    "typing",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.core",
+   "fan_in": 1,
+   "fan_out": 8,
+   "instability": 0.89,
+   "imports": [
+    "markdown.blockprocessors",
+    "markdown.extensions",
+    "markdown.inlinepatterns",
+    "markdown.postprocessors",
+    "markdown.preprocessors",
+    "markdown.serializers",
+    "markdown.treeprocessors",
+    "markdown.util"
+   ],
+   "lazy": [],
+   "type_only": [],
+   "external": [
+    "__future__",
+    "codecs",
+    "importlib",
+    "logging",
+    "sys",
+    "typing",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.extensions",
+   "fan_in": 20,
+   "fan_out": 1,
+   "instability": 0.05,
+   "imports": [
+    "markdown.util"
+   ],
+   "lazy": [],
+   "type_only": [
+    "markdown"
+   ],
+   "external": [
+    "__future__",
+    "typing"
+   ]
+  },
+  {
+   "module": "markdown.extensions.abbr",
+   "fan_in": 0,
+   "fan_out": 5,
+   "instability": 1.0,
+   "imports": [
+    "markdown.blockprocessors",
+    "markdown.extensions",
+    "markdown.inlinepatterns",
+    "markdown.treeprocessors",
+    "markdown.util"
+   ],
+   "lazy": [],
+   "type_only": [
+    "markdown",
+    "markdown.blockparser"
+   ],
+   "external": [
+    "__future__",
+    "re",
+    "typing",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.extensions.admonition",
+   "fan_in": 0,
+   "fan_out": 2,
+   "instability": 1.0,
+   "imports": [
+    "markdown.blockprocessors",
+    "markdown.extensions"
+   ],
+   "lazy": [],
+   "type_only": [
+    "markdown.blockparser"
+   ],
+   "external": [
+    "__future__",
+    "re",
+    "typing",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.extensions.attr_list",
+   "fan_in": 1,
+   "fan_out": 2,
+   "instability": 0.67,
+   "imports": [
+    "markdown.extensions",
+    "markdown.treeprocessors"
+   ],
+   "lazy": [],
+   "type_only": [],
+   "external": [
+    "__future__",
+    "re",
+    "typing",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.extensions.codehilite",
+   "fan_in": 1,
+   "fan_out": 3,
+   "instability": 0.75,
+   "imports": [
+    "markdown.extensions",
+    "markdown.treeprocessors",
+    "markdown.util"
+   ],
+   "lazy": [],
+   "type_only": [],
+   "external": [
+    "__future__",
+    "pygments",
+    "re",
+    "typing",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.extensions.def_list",
+   "fan_in": 0,
+   "fan_out": 2,
+   "instability": 1.0,
+   "imports": [
+    "markdown.blockprocessors",
+    "markdown.extensions"
+   ],
+   "lazy": [],
+   "type_only": [],
+   "external": [
+    "__future__",
+    "re",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.extensions.extra",
+   "fan_in": 0,
+   "fan_out": 1,
+   "instability": 1.0,
+   "imports": [
+    "markdown.extensions"
+   ],
+   "lazy": [],
+   "type_only": [],
+   "external": [
+    "__future__"
+   ]
+  },
+  {
+   "module": "markdown.extensions.fenced_code",
+   "fan_in": 0,
+   "fan_out": 6,
+   "instability": 1.0,
+   "imports": [
+    "markdown.extensions",
+    "markdown.extensions.attr_list",
+    "markdown.extensions.codehilite",
+    "markdown.preprocessors",
+    "markdown.serializers",
+    "markdown.util"
+   ],
+   "lazy": [],
+   "type_only": [
+    "markdown"
+   ],
+   "external": [
+    "__future__",
+    "re",
+    "textwrap",
+    "typing"
+   ]
+  },
+  {
+   "module": "markdown.extensions.footnotes",
+   "fan_in": 0,
+   "fan_out": 6,
+   "instability": 1.0,
+   "imports": [
+    "markdown.blockprocessors",
+    "markdown.extensions",
+    "markdown.inlinepatterns",
+    "markdown.postprocessors",
+    "markdown.treeprocessors",
+    "markdown.util"
+   ],
+   "lazy": [],
+   "type_only": [],
+   "external": [
+    "__future__",
+    "collections",
+    "copy",
+    "re",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.extensions.legacy_attrs",
+   "fan_in": 0,
+   "fan_out": 2,
+   "instability": 1.0,
+   "imports": [
+    "markdown.extensions",
+    "markdown.treeprocessors"
+   ],
+   "lazy": [],
+   "type_only": [],
+   "external": [
+    "__future__",
+    "re",
+    "typing",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.extensions.legacy_em",
+   "fan_in": 0,
+   "fan_out": 2,
+   "instability": 1.0,
+   "imports": [
+    "markdown.extensions",
+    "markdown.inlinepatterns"
+   ],
+   "lazy": [],
+   "type_only": [],
+   "external": [
+    "__future__",
+    "re"
+   ]
+  },
+  {
+   "module": "markdown.extensions.md_in_html",
+   "fan_in": 0,
+   "fan_out": 6,
+   "instability": 1.0,
+   "imports": [
+    "markdown.blockprocessors",
+    "markdown.extensions",
+    "markdown.htmlparser",
+    "markdown.postprocessors",
+    "markdown.preprocessors",
+    "markdown.util"
+   ],
+   "lazy": [],
+   "type_only": [
+    "markdown"
+   ],
+   "external": [
+    "__future__",
+    "typing",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.extensions.meta",
+   "fan_in": 0,
+   "fan_out": 2,
+   "instability": 1.0,
+   "imports": [
+    "markdown.extensions",
+    "markdown.preprocessors"
+   ],
+   "lazy": [],
+   "type_only": [],
+   "external": [
+    "__future__",
+    "logging",
+    "re",
+    "typing"
+   ]
+  },
+  {
+   "module": "markdown.extensions.nl2br",
+   "fan_in": 0,
+   "fan_out": 2,
+   "instability": 1.0,
+   "imports": [
+    "markdown.extensions",
+    "markdown.inlinepatterns"
+   ],
+   "lazy": [],
+   "type_only": [],
+   "external": [
+    "__future__"
+   ]
+  },
+  {
+   "module": "markdown.extensions.sane_lists",
+   "fan_in": 0,
+   "fan_out": 2,
+   "instability": 1.0,
+   "imports": [
+    "markdown.blockprocessors",
+    "markdown.extensions"
+   ],
+   "lazy": [],
+   "type_only": [
+    "markdown.blockparser"
+   ],
+   "external": [
+    "__future__",
+    "re",
+    "typing"
+   ]
+  },
+  {
+   "module": "markdown.extensions.smarty",
+   "fan_in": 0,
+   "fan_out": 4,
+   "instability": 1.0,
+   "imports": [
+    "markdown.extensions",
+    "markdown.inlinepatterns",
+    "markdown.treeprocessors",
+    "markdown.util"
+   ],
+   "lazy": [],
+   "type_only": [
+    "markdown",
+    "markdown.inlinepatterns"
+   ],
+   "external": [
+    "__future__",
+    "re",
+    "typing",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.extensions.tables",
+   "fan_in": 0,
+   "fan_out": 2,
+   "instability": 1.0,
+   "imports": [
+    "markdown.blockprocessors",
+    "markdown.extensions"
+   ],
+   "lazy": [],
+   "type_only": [
+    "markdown.blockparser"
+   ],
+   "external": [
+    "__future__",
+    "re",
+    "typing",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.extensions.toc",
+   "fan_in": 0,
+   "fan_out": 4,
+   "instability": 1.0,
+   "imports": [
+    "markdown.extensions",
+    "markdown.serializers",
+    "markdown.treeprocessors",
+    "markdown.util"
+   ],
+   "lazy": [],
+   "type_only": [
+    "markdown"
+   ],
+   "external": [
+    "__future__",
+    "copy",
+    "html",
+    "re",
+    "typing",
+    "unicodedata",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.extensions.wikilinks",
+   "fan_in": 0,
+   "fan_out": 2,
+   "instability": 1.0,
+   "imports": [
+    "markdown.extensions",
+    "markdown.inlinepatterns"
+   ],
+   "lazy": [],
+   "type_only": [],
+   "external": [
+    "__future__",
+    "re",
+    "typing",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.htmlparser",
+   "fan_in": 2,
+   "fan_out": 0,
+   "instability": 0.0,
+   "imports": [],
+   "lazy": [],
+   "type_only": [
+    "markdown"
+   ],
+   "external": [
+    "__future__",
+    "importlib",
+    "re",
+    "sys",
+    "typing"
+   ]
+  },
+  {
+   "module": "markdown.inlinepatterns",
+   "fan_in": 8,
+   "fan_out": 1,
+   "instability": 0.11,
+   "imports": [
+    "markdown.util"
+   ],
+   "lazy": [],
+   "type_only": [
+    "markdown"
+   ],
+   "external": [
+    "__future__",
+    "html",
+    "re",
+    "typing",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.postprocessors",
+   "fan_in": 3,
+   "fan_out": 1,
+   "instability": 0.25,
+   "imports": [
+    "markdown.util"
+   ],
+   "lazy": [],
+   "type_only": [
+    "markdown"
+   ],
+   "external": [
+    "__future__",
+    "re",
+    "typing"
+   ]
+  },
+  {
+   "module": "markdown.preprocessors",
+   "fan_in": 4,
+   "fan_out": 2,
+   "instability": 0.33,
+   "imports": [
+    "markdown.htmlparser",
+    "markdown.util"
+   ],
+   "lazy": [],
+   "type_only": [
+    "markdown"
+   ],
+   "external": [
+    "__future__",
+    "re",
+    "typing"
+   ]
+  },
+  {
+   "module": "markdown.serializers",
+   "fan_in": 3,
+   "fan_out": 0,
+   "instability": 0.0,
+   "imports": [],
+   "lazy": [],
+   "type_only": [],
+   "external": [
+    "__future__",
+    "collections",
+    "re",
+    "typing",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.test_tools",
+   "fan_in": 0,
+   "fan_out": 2,
+   "instability": 1.0,
+   "imports": [
+    "markdown",
+    "markdown.util"
+   ],
+   "lazy": [],
+   "type_only": [],
+   "external": [
+    "__future__",
+    "os",
+    "sys",
+    "textwrap",
+    "tidylib",
+    "typing",
+    "unittest"
+   ]
+  },
+  {
+   "module": "markdown.treeprocessors",
+   "fan_in": 8,
+   "fan_out": 2,
+   "instability": 0.2,
+   "imports": [
+    "markdown.inlinepatterns",
+    "markdown.util"
+   ],
+   "lazy": [],
+   "type_only": [
+    "markdown"
+   ],
+   "external": [
+    "__future__",
+    "re",
+    "typing",
+    "xml"
+   ]
+  },
+  {
+   "module": "markdown.util",
+   "fan_in": 16,
+   "fan_out": 0,
+   "instability": 0.0,
+   "imports": [],
+   "lazy": [],
+   "type_only": [
+    "markdown"
+   ],
+   "external": [
+    "__future__",
+    "functools",
+    "importlib",
+    "itertools",
+    "re",
+    "sys",
+    "typing",
+    "warnings",
+    "xml"
+   ]
+  }
+ ]
+}

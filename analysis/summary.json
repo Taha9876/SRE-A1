@@ -1,0 +1,1929 @@
+{
+ "size": {
+  "loc": 8609,
+  "lloc": 4579,
+  "sloc": 4451,
+  "comments": 1160,
+  "multi": 1202,
+  "blank": 1662,
+  "single_comments": 1294
+ },
+ "files": 33,
+ "cc": {
+  "blocks": 397,
+  "classes": 111,
+  "total": 1309,
+  "mean": 3.3,
+  "median": 2,
+  "max": 33,
+  "rank_dist": {
+   "A": 336,
+   "B": 38,
+   "C": 17,
+   "D": 4,
+   "E": 2
+  },
+  "over_10": 23,
+  "over_15": 9,
+  "top": [
+   [
+    "markdown/inlinepatterns.py",
+    "LinkInlineProcessor.getLink",
+    33,
+    "E",
+    772,
+    886
+   ],
+   [
+    "markdown/extensions/attr_list.py",
+    "AttrListTreeprocessor.run",
+    32,
+    "E",
+    103,
+    161
+   ],
+   [
+    "markdown/extensions/md_in_html.py",
+    "HTMLExtractorExtra.handle_endtag",
+    25,
+    "D",
+    160,
+    246
+   ],
+   [
+    "markdown/serializers.py",
+    "_serialize_html",
+    24,
+    "D",
+    119,
+    192
+   ],
+   [
+    "markdown/extensions/fenced_code.py",
+    "FencedBlockPreprocessor.run",
+    24,
+    "D",
+    91,
+    171
+   ],
+   [
+    "markdown/extensions/md_in_html.py",
+    "HTMLExtractorExtra.handle_starttag",
+    23,
+    "D",
+    110,
+    158
+   ],
+   [
+    "markdown/treeprocessors.py",
+    "InlineProcessor.__applyPattern",
+    17,
+    "C",
+    253,
+    335
+   ],
+   [
+    "markdown/extensions/def_list.py",
+    "DefListProcessor.run",
+    17,
+    "C",
+    39,
+    90
+   ],
+   [
+    "markdown/treeprocessors.py",
+    "InlineProcessor.run",
+    16,
+    "C",
+    348,
+    419
+   ],
+   [
+    "markdown/extensions/md_in_html.py",
+    "HTMLExtractorExtra.get_state",
+    15,
+    "C",
+    89,
+    108
+   ],
+   [
+    "markdown/htmlparser.py",
+    "HTMLExtractor.parse_starttag",
+    14,
+    "C",
+    406,
+    460
+   ],
+   [
+    "markdown/extensions/codehilite.py",
+    "CodeHilite.hilite",
+    14,
+    "C",
+    135,
+    191
+   ],
+   [
+    "markdown/extensions/md_in_html.py",
+    "MarkdownInHtmlProcessor.parse_element_content",
+    14,
+    "C",
+    328,
+    399
+   ],
+   [
+    "markdown/extensions/tables.py",
+    "TableProcessor.test",
+    14,
+    "C",
+    51,
+    85
+   ],
+   [
+    "markdown/extensions/tables.py",
+    "TableProcessor._split",
+    14,
+    "C",
+    155,
+    225
+   ]
+  ]
+ },
+ "cognitive": {
+  "functions": 382,
+  "total": 1743,
+  "mean": 4.56,
+  "max": 102,
+  "over_15": 26,
+  "over_25": 14,
+  "top": [
+   [
+    "markdown/extensions/attr_list.py",
+    "AttrListTreeprocessor::run",
+    102
+   ],
+   [
+    "markdown/extensions/md_in_html.py",
+    "HTMLExtractorExtra::handle_endtag",
+    94
+   ],
+   [
+    "markdown/serializers.py",
+    "_serialize_html",
+    75
+   ],
+   [
+    "markdown/treeprocessors.py",
+    "InlineProcessor::__processPlaceholders",
+    73
+   ],
+   [
+    "markdown/extensions/fenced_code.py",
+    "FencedBlockPreprocessor::run",
+    65
+   ],
+   [
+    "markdown/inlinepatterns.py",
+    "LinkInlineProcessor::getLink",
+    58
+   ],
+   [
+    "markdown/extensions/md_in_html.py",
+    "HTMLExtractorExtra::handle_starttag",
+    41
+   ],
+   [
+    "markdown/extensions/md_in_html.py",
+    "MarkdownInHtmlProcessor::parse_element_content",
+    37
+   ],
+   [
+    "markdown/treeprocessors.py",
+    "InlineProcessor::__applyPattern",
+    36
+   ],
+   [
+    "markdown/treeprocessors.py",
+    "InlineProcessor::run",
+    35
+   ],
+   [
+    "markdown/inlinepatterns.py",
+    "AsteriskProcessor::parse_sub_patterns",
+    34
+   ],
+   [
+    "markdown/extensions/codehilite.py",
+    "CodeHilite::hilite",
+    28
+   ],
+   [
+    "markdown/test_tools.py",
+    "LegacyTestMeta::__new__",
+    28
+   ],
+   [
+    "markdown/extensions/tables.py",
+    "TableProcessor::test",
+    26
+   ],
+   [
+    "markdown/extensions/toc.py",
+    "TocTreeprocessor::run",
+    25
+   ]
+  ]
+ },
+ "mi": {
+  "mean": 63.02,
+  "min": 25.87,
+  "rank_dist": {
+   "A": 33
+  },
+  "lowest": [
+   [
+    "markdown/inlinepatterns.py",
+    25.87,
+    "A"
+   ],
+   [
+    "markdown/extensions/md_in_html.py",
+    32.87,
+    "A"
+   ],
+   [
+    "markdown/blockprocessors.py",
+    34.62,
+    "A"
+   ],
+   [
+    "markdown/htmlparser.py",
+    36.53,
+    "A"
+   ],
+   [
+    "markdown/extensions/toc.py",
+    36.97,
+    "A"
+   ],
+   [
+    "markdown/treeprocessors.py",
+    40.09,
+    "A"
+   ],
+   [
+    "markdown/extensions/footnotes.py",
+    40.32,
+    "A"
+   ],
+   [
+    "markdown/core.py",
+    48.86,
+    "A"
+   ]
+  ],
+  "sloc_weighted": 47.38
+ },
+ "coverage": {
+  "statements": 3583,
+  "missing": 69,
+  "statement_pct": 98.07,
+  "branches": 1296,
+  "covered_branches": 1211,
+  "partial_branches": 75,
+  "branch_pct": 93.44,
+  "combined_pct": 96.84
+ },
+ "duplication": {
+  "clones": 26,
+  "duplicated_lines": 205,
+  "pct_lines": 2.38,
+  "pct_tokens": 4.87,
+  "pairs": [
+   [
+    "blockprocessors.py",
+    290,
+    296,
+    "blockprocessors.py",
+    464,
+    470,
+    7
+   ],
+   [
+    "blockprocessors.py",
+    354,
+    359,
+    "blockprocessors.py",
+    497,
+    502,
+    6
+   ],
+   [
+    "blockprocessors.py",
+    461,
+    466,
+    "extensions/def_list.py",
+    34,
+    39,
+    6
+   ],
+   [
+    "blockprocessors.py",
+    595,
+    604,
+    "extensions/abbr.py",
+    168,
+    177,
+    10
+   ],
+   [
+    "blockprocessors.py",
+    597,
+    604,
+    "extensions/footnotes.py",
+    285,
+    293,
+    8
+   ],
+   [
+    "core.py",
+    92,
+    98,
+    "core.py",
+    167,
+    172,
+    7
+   ],
+   [
+    "core.py",
+    336,
+    344,
+    "core.py",
+    492,
+    500,
+    9
+   ],
+   [
+    "extensions/abbr.py",
+    71,
+    76,
+    "extensions/def_list.py",
+    112,
+    117,
+    6
+   ],
+   [
+    "extensions/admonition.py",
+    41,
+    49,
+    "extensions/attr_list.py",
+    197,
+    204,
+    9
+   ],
+   [
+    "extensions/admonition.py",
+    43,
+    49,
+    "extensions/codehilite.py",
+    337,
+    343,
+    7
+   ],
+   [
+    "extensions/admonition.py",
+    43,
+    49,
+    "extensions/fenced_code.py",
+    46,
+    52,
+    7
+   ],
+   [
+    "extensions/footnotes.py",
+    83,
+    90,
+    "extensions/smarty.py",
+    257,
+    264,
+    8
+   ],
+   [
+    "extensions/footnotes.py",
+    85,
+    90,
+    "extensions/md_in_html.py",
+    436,
+    441,
+    6
+   ],
+   [
+    "extensions/legacy_attrs.py",
+    65,
+    70,
+    "extensions/legacy_em.py",
+    45,
+    50,
+    6
+   ],
+   [
+    "extensions/legacy_attrs.py",
+    65,
+    70,
+    "extensions/tables.py",
+    239,
+    244,
+    6
+   ],
+   [
+    "extensions/legacy_em.py",
+    30,
+    36,
+    "inlinepatterns.py",
+    733,
+    739,
+    7
+   ],
+   [
+    "extensions/legacy_em.py",
+    36,
+    42,
+    "inlinepatterns.py",
+    605,
+    609,
+    7
+   ],
+   [
+    "extensions/legacy_em.py",
+    43,
+    49,
+    "extensions/meta.py",
+    40,
+    46,
+    7
+   ],
+   [
+    "extensions/legacy_em.py",
+    43,
+    49,
+    "extensions/nl2br.py",
+    33,
+    39,
+    7
+   ],
+   [
+    "extensions/md_in_html.py",
+    112,
+    119,
+    "extensions/md_in_html.py",
+    249,
+    256,
+    8
+   ],
+   [
+    "extensions/md_in_html.py",
+    292,
+    300,
+    "htmlparser.py",
+    372,
+    380,
+    9
+   ],
+   [
+    "extensions/md_in_html.py",
+    434,
+    440,
+    "extensions/sane_lists.py",
+    60,
+    66,
+    7
+   ],
+   [
+    "extensions/tables.py",
+    233,
+    243,
+    "extensions/toc.py",
+    469,
+    479,
+    11
+   ],
+   [
+    "extensions/tables.py",
+    233,
+    243,
+    "extensions/wikilinks.py",
+    45,
+    54,
+    11
+   ],
+   [
+    "inlinepatterns.py",
+    232,
+    242,
+    "inlinepatterns.py",
+    298,
+    307,
+    11
+   ],
+   [
+    "serializers.py",
+    83,
+    94,
+    "serializers.py",
+    102,
+    113,
+    12
+   ]
+  ]
+ },
+ "bandit": {
+  "by_severity": {
+   "LOW": 25
+  },
+  "by_confidence": {
+   "HIGH": 25
+  },
+  "by_test": {
+   "B101 assert_used": 5,
+   "B405 blacklist": 20
+  },
+  "items": [
+   [
+    "markdown/__meta__.py",
+    36,
+    "B101",
+    "LOW",
+    "HIGH",
+    "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code."
+   ],
+   [
+    "markdown/__meta__.py",
+    37,
+    "B101",
+    "LOW",
+    "HIGH",
+    "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code."
+   ],
+   [
+    "markdown/blockparser.py",
+    32,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/blockprocessors.py",
+    31,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/core.py",
+    38,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using Element to parse untrusted XML data is known to be vulnerable to XML attacks. Replace Element with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/extensions/abbr.py",
+    32,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/extensions/admonition.py",
+    32,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/extensions/attr_list.py",
+    35,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using Element to parse untrusted XML data is known to be vulnerable to XML attacks. Replace Element with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/extensions/codehilite.py",
+    30,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/extensions/def_list.py",
+    26,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/extensions/footnotes.py",
+    31,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/extensions/legacy_attrs.py",
+    39,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/extensions/md_in_html.py",
+    30,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/extensions/smarty.py",
+    98,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/extensions/tables.py",
+    26,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/extensions/toc.py",
+    31,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/extensions/wikilinks.py",
+    26,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/htmlparser.py",
+    361,
+    "B101",
+    "LOW",
+    "HIGH",
+    "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code."
+   ],
+   [
+    "markdown/htmlparser.py",
+    423,
+    "B101",
+    "LOW",
+    "HIGH",
+    "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code."
+   ],
+   [
+    "markdown/inlinepatterns.py",
+    46,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/serializers.py",
+    48,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using ProcessingInstruction to parse untrusted XML data is known to be vulnerable to XML attacks. Replace ProcessingInstruction with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/serializers.py",
+    49,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using Comment to parse untrusted XML data is known to be vulnerable to XML attacks. Replace Comment with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/serializers.py",
+    196,
+    "B101",
+    "LOW",
+    "HIGH",
+    "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code."
+   ],
+   [
+    "markdown/treeprocessors.py",
+    30,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ],
+   [
+    "markdown/util.py",
+    36,
+    "B405",
+    "LOW",
+    "HIGH",
+    "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called."
+   ]
+  ]
+ },
+ "pylint": {
+  "score": 8.029518384256862,
+  "by_type": {
+   "convention": 554,
+   "refactor": 93,
+   "warning": 114
+  },
+  "by_symbol": [
+   [
+    "line-too-long",
+    196
+   ],
+   [
+    "invalid-name",
+    152
+   ],
+   [
+    "consider-using-f-string",
+    82
+   ],
+   [
+    "missing-function-docstring",
+    50
+   ],
+   [
+    "wrong-import-order",
+    46
+   ],
+   [
+    "attribute-defined-outside-init",
+    36
+   ],
+   [
+    "redefined-builtin",
+    29
+   ],
+   [
+    "no-else-return",
+    24
+   ],
+   [
+    "too-few-public-methods",
+    14
+   ],
+   [
+    "unused-argument",
+    12
+   ],
+   [
+    "too-many-branches",
+    12
+   ],
+   [
+    "unnecessary-pass",
+    10
+   ],
+   [
+    "too-many-nested-blocks",
+    9
+   ],
+   [
+    "missing-class-docstring",
+    9
+   ],
+   [
+    "super-init-not-called",
+    8
+   ],
+   [
+    "too-many-instance-attributes",
+    6
+   ],
+   [
+    "too-many-locals",
+    6
+   ],
+   [
+    "duplicate-code",
+    6
+   ],
+   [
+    "inconsistent-return-statements",
+    5
+   ],
+   [
+    "use-implicit-booleaness-not-len",
+    4
+   ],
+   [
+    "arguments-renamed",
+    4
+   ],
+   [
+    "logging-not-lazy",
+    3
+   ],
+   [
+    "fixme",
+    3
+   ],
+   [
+    "missing-module-docstring",
+    3
+   ],
+   [
+    "too-many-statements",
+    3
+   ],
+   [
+    "consider-iterating-dictionary",
+    3
+   ],
+   [
+    "consider-using-enumerate",
+    2
+   ],
+   [
+    "deprecated-method",
+    2
+   ],
+   [
+    "consider-using-with",
+    2
+   ],
+   [
+    "arguments-differ",
+    2
+   ],
+   [
+    "import-outside-toplevel",
+    2
+   ],
+   [
+    "superfluous-parens",
+    2
+   ],
+   [
+    "no-else-break",
+    2
+   ],
+   [
+    "pointless-string-statement",
+    1
+   ],
+   [
+    "too-many-public-methods",
+    1
+   ],
+   [
+    "too-many-lines",
+    1
+   ],
+   [
+    "unused-variable",
+    1
+   ],
+   [
+    "bad-mcs-classmethod-argument",
+    1
+   ],
+   [
+    "unused-private-member",
+    1
+   ],
+   [
+    "protected-access",
+    1
+   ]
+  ]
+ },
+ "git": {
+  "commits_3y_touching_pkg": 71
+ },
+ "per_file": [
+  {
+   "file": "markdown/__init__.py",
+   "loc": 48,
+   "sloc": 5,
+   "lloc": 6,
+   "comments": 16,
+   "multi": 18,
+   "blank": 11,
+   "comment_density": 70.8,
+   "funcs": 0,
+   "cc_sum": 0,
+   "cc_max": 0,
+   "cc_avg": 0,
+   "cog_sum": 0,
+   "cog_max": 0,
+   "mi": 100.0,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 100.0,
+   "missing": 0,
+   "missing_branches": 0,
+   "dup_lines": 0,
+   "churn_3y": 0,
+   "fix_3y": 0,
+   "churn_all": 141,
+   "pylint": {
+    "convention": 2
+   }
+  },
+  {
+   "file": "markdown/__main__.py",
+   "loc": 154,
+   "sloc": 103,
+   "lloc": 67,
+   "comments": 26,
+   "multi": 3,
+   "blank": 24,
+   "comment_density": 18.8,
+   "funcs": 2,
+   "cc_sum": 8,
+   "cc_max": 5,
+   "cc_avg": 4,
+   "cog_sum": 8,
+   "cog_max": 6,
+   "mi": 70.6,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 100.0,
+   "missing": 0,
+   "missing_branches": 0,
+   "dup_lines": 0,
+   "churn_3y": 2,
+   "fix_3y": 1,
+   "churn_all": 24,
+   "pylint": {
+    "convention": 5
+   }
+  },
+  {
+   "file": "markdown/__meta__.py",
+   "loc": 51,
+   "sloc": 14,
+   "lloc": 17,
+   "comments": 20,
+   "multi": 0,
+   "blank": 16,
+   "comment_density": 39.2,
+   "funcs": 1,
+   "cc_sum": 6,
+   "cc_max": 6,
+   "cc_avg": 6,
+   "cog_sum": 3,
+   "cog_max": 3,
+   "mi": 75.9,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 100.0,
+   "missing": 0,
+   "missing_branches": 0,
+   "dup_lines": 0,
+   "churn_3y": 13,
+   "fix_3y": 0,
+   "churn_all": 42,
+   "pylint": {
+    "convention": 1
+   }
+  },
+  {
+   "file": "markdown/blockparser.py",
+   "loc": 160,
+   "sloc": 34,
+   "lloc": 45,
+   "comments": 16,
+   "multi": 66,
+   "blank": 42,
+   "comment_density": 51.2,
+   "funcs": 7,
+   "cc_sum": 12,
+   "cc_max": 5,
+   "cc_avg": 1.71,
+   "cog_sum": 12,
+   "cog_max": 10,
+   "mi": 50.2,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 90.0,
+   "missing": 0,
+   "missing_branches": 1,
+   "dup_lines": 0,
+   "churn_3y": 1,
+   "fix_3y": 1,
+   "churn_all": 20,
+   "pylint": {
+    "convention": 5,
+    "refactor": 1,
+    "warning": 1
+   }
+  },
+  {
+   "file": "markdown/blockprocessors.py",
+   "loc": 642,
+   "sloc": 346,
+   "lloc": 376,
+   "comments": 125,
+   "multi": 61,
+   "blank": 94,
+   "comment_density": 29.0,
+   "funcs": 34,
+   "cc_sum": 113,
+   "cc_max": 11,
+   "cc_avg": 3.32,
+   "cog_sum": 128,
+   "cog_max": 18,
+   "mi": 34.6,
+   "mi_rank": "A",
+   "cov_stmt": 97.7,
+   "cov_branch": 94.4,
+   "missing": 7,
+   "missing_branches": 6,
+   "dup_lines": 50,
+   "churn_3y": 5,
+   "fix_3y": 2,
+   "churn_all": 75,
+   "pylint": {
+    "convention": 26,
+    "warning": 8,
+    "refactor": 2
+   }
+  },
+  {
+   "file": "markdown/core.py",
+   "loc": 531,
+   "sloc": 197,
+   "lloc": 191,
+   "comments": 41,
+   "multi": 196,
+   "blank": 104,
+   "comment_density": 44.6,
+   "funcs": 12,
+   "cc_sum": 41,
+   "cc_max": 10,
+   "cc_avg": 3.42,
+   "cog_sum": 45,
+   "cog_max": 14,
+   "mi": 48.9,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 94.7,
+   "missing": 0,
+   "missing_branches": 2,
+   "dup_lines": 32,
+   "churn_3y": 5,
+   "fix_3y": 2,
+   "churn_all": 33,
+   "pylint": {
+    "convention": 49,
+    "warning": 8,
+    "refactor": 4
+   }
+  },
+  {
+   "file": "markdown/extensions/__init__.py",
+   "loc": 145,
+   "sloc": 34,
+   "lloc": 43,
+   "comments": 15,
+   "multi": 61,
+   "blank": 34,
+   "comment_density": 52.4,
+   "funcs": 7,
+   "cc_sum": 14,
+   "cc_max": 3,
+   "cc_avg": 2,
+   "cog_sum": 8,
+   "cog_max": 2,
+   "mi": 53.3,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 90.0,
+   "missing": 0,
+   "missing_branches": 1,
+   "dup_lines": 0,
+   "churn_3y": 2,
+   "fix_3y": 1,
+   "churn_all": 26,
+   "pylint": {
+    "convention": 13,
+    "refactor": 7
+   }
+  },
+  {
+   "file": "markdown/extensions/abbr.py",
+   "loc": 199,
+   "sloc": 115,
+   "lloc": 135,
+   "comments": 18,
+   "multi": 16,
+   "blank": 40,
+   "comment_density": 17.1,
+   "funcs": 15,
+   "cc_sum": 37,
+   "cc_max": 10,
+   "cc_avg": 2.47,
+   "cog_sum": 38,
+   "cog_max": 18,
+   "mi": 59.5,
+   "mi_rank": "A",
+   "cov_stmt": 93.3,
+   "cov_branch": 91.2,
+   "missing": 7,
+   "missing_branches": 3,
+   "dup_lines": 16,
+   "churn_3y": 11,
+   "fix_3y": 2,
+   "churn_all": 37,
+   "pylint": {
+    "convention": 18,
+    "refactor": 1
+   }
+  },
+  {
+   "file": "markdown/extensions/admonition.py",
+   "loc": 192,
+   "sloc": 98,
+   "lloc": 104,
+   "comments": 30,
+   "multi": 17,
+   "blank": 48,
+   "comment_density": 24.5,
+   "funcs": 7,
+   "cc_sum": 29,
+   "cc_max": 13,
+   "cc_avg": 4.14,
+   "cog_sum": 35,
+   "cog_max": 19,
+   "mi": 62.4,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 100.0,
+   "missing": 0,
+   "missing_branches": 0,
+   "dup_lines": 23,
+   "churn_3y": 4,
+   "fix_3y": 1,
+   "churn_all": 35,
+   "pylint": {
+    "convention": 15,
+    "refactor": 1
+   }
+  },
+  {
+   "file": "markdown/extensions/attr_list.py",
+   "loc": 213,
+   "sloc": 116,
+   "lloc": 122,
+   "comments": 30,
+   "multi": 26,
+   "blank": 42,
+   "comment_density": 26.3,
+   "funcs": 12,
+   "cc_sum": 51,
+   "cc_max": 32,
+   "cc_avg": 4.25,
+   "cog_sum": 115,
+   "cog_max": 102,
+   "mi": 58.5,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 93.5,
+   "missing": 0,
+   "missing_branches": 4,
+   "dup_lines": 9,
+   "churn_3y": 6,
+   "fix_3y": 1,
+   "churn_all": 49,
+   "pylint": {
+    "convention": 14,
+    "warning": 6,
+    "refactor": 6
+   }
+  },
+  {
+   "file": "markdown/extensions/codehilite.py",
+   "loc": 355,
+   "sloc": 178,
+   "lloc": 155,
+   "comments": 38,
+   "multi": 80,
+   "blank": 62,
+   "comment_density": 33.2,
+   "funcs": 9,
+   "cc_sum": 40,
+   "cc_max": 14,
+   "cc_avg": 4.44,
+   "cog_sum": 60,
+   "cog_max": 28,
+   "mi": 58.9,
+   "mi_rank": "A",
+   "cov_stmt": 99.1,
+   "cov_branch": 92.9,
+   "missing": 1,
+   "missing_branches": 3,
+   "dup_lines": 7,
+   "churn_3y": 4,
+   "fix_3y": 1,
+   "churn_all": 59,
+   "pylint": {
+    "convention": 16,
+    "refactor": 3,
+    "warning": 1
+   }
+  },
+  {
+   "file": "markdown/extensions/def_list.py",
+   "loc": 128,
+   "sloc": 63,
+   "lloc": 72,
+   "comments": 19,
+   "multi": 12,
+   "blank": 29,
+   "comment_density": 24.2,
+   "funcs": 5,
+   "cc_sum": 21,
+   "cc_max": 17,
+   "cc_avg": 4.2,
+   "cog_sum": 19,
+   "cog_max": 19,
+   "mi": 69.9,
+   "mi_rank": "A",
+   "cov_stmt": 96.6,
+   "cov_branch": 100.0,
+   "missing": 2,
+   "missing_branches": 0,
+   "dup_lines": 12,
+   "churn_3y": 3,
+   "fix_3y": 0,
+   "churn_all": 35,
+   "pylint": {
+    "convention": 12,
+    "refactor": 2
+   }
+  },
+  {
+   "file": "markdown/extensions/extra.py",
+   "loc": 66,
+   "sloc": 18,
+   "lloc": 15,
+   "comments": 9,
+   "multi": 19,
+   "blank": 17,
+   "comment_density": 42.4,
+   "funcs": 3,
+   "cc_sum": 3,
+   "cc_max": 1,
+   "cc_avg": 1,
+   "cog_sum": 0,
+   "cog_max": 0,
+   "mi": 100.0,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 100.0,
+   "missing": 0,
+   "missing_branches": 0,
+   "dup_lines": 0,
+   "churn_3y": 0,
+   "fix_3y": 0,
+   "churn_all": 30,
+   "pylint": {
+    "warning": 1,
+    "convention": 2
+   }
+  },
+  {
+   "file": "markdown/extensions/fenced_code.py",
+   "loc": 201,
+   "sloc": 133,
+   "lloc": 115,
+   "comments": 25,
+   "multi": 11,
+   "blank": 31,
+   "comment_density": 17.9,
+   "funcs": 7,
+   "cc_sum": 35,
+   "cc_max": 24,
+   "cc_avg": 5,
+   "cog_sum": 72,
+   "cog_max": 65,
+   "mi": 60.0,
+   "mi_rank": "A",
+   "cov_stmt": 99.0,
+   "cov_branch": 95.2,
+   "missing": 1,
+   "missing_branches": 2,
+   "dup_lines": 7,
+   "churn_3y": 4,
+   "fix_3y": 0,
+   "churn_all": 56,
+   "pylint": {
+    "convention": 20,
+    "refactor": 2,
+    "warning": 2
+   }
+  },
+  {
+   "file": "markdown/extensions/footnotes.py",
+   "loc": 494,
+   "sloc": 312,
+   "lloc": 315,
+   "comments": 53,
+   "multi": 22,
+   "blank": 85,
+   "comment_density": 15.2,
+   "funcs": 33,
+   "cc_sum": 80,
+   "cc_max": 7,
+   "cc_avg": 2.42,
+   "cog_sum": 100,
+   "cog_max": 19,
+   "mi": 40.3,
+   "mi_rank": "A",
+   "cov_stmt": 97.3,
+   "cov_branch": 84.8,
+   "missing": 7,
+   "missing_branches": 14,
+   "dup_lines": 22,
+   "churn_3y": 6,
+   "fix_3y": 1,
+   "churn_all": 55,
+   "pylint": {
+    "convention": 39,
+    "refactor": 7,
+    "warning": 17
+   }
+  },
+  {
+   "file": "markdown/extensions/legacy_attrs.py",
+   "loc": 78,
+   "sloc": 27,
+   "lloc": 31,
+   "comments": 17,
+   "multi": 14,
+   "blank": 21,
+   "comment_density": 39.7,
+   "funcs": 5,
+   "cc_sum": 11,
+   "cc_max": 7,
+   "cc_avg": 2.2,
+   "cog_sum": 9,
+   "cog_max": 9,
+   "mi": 79.3,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 100.0,
+   "missing": 0,
+   "missing_branches": 0,
+   "dup_lines": 12,
+   "churn_3y": 2,
+   "fix_3y": 0,
+   "churn_all": 11,
+   "pylint": {
+    "convention": 10,
+    "warning": 1
+   }
+  },
+  {
+   "file": "markdown/extensions/legacy_em.py",
+   "loc": 59,
+   "sloc": 20,
+   "lloc": 19,
+   "comments": 10,
+   "multi": 8,
+   "blank": 19,
+   "comment_density": 30.5,
+   "funcs": 2,
+   "cc_sum": 2,
+   "cc_max": 1,
+   "cc_avg": 1,
+   "cog_sum": 0,
+   "cog_max": 0,
+   "mi": 89.2,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 100.0,
+   "missing": 0,
+   "missing_branches": 0,
+   "dup_lines": 34,
+   "churn_3y": 1,
+   "fix_3y": 0,
+   "churn_all": 10,
+   "pylint": {
+    "convention": 5
+   }
+  },
+  {
+   "file": "markdown/extensions/md_in_html.py",
+   "loc": 458,
+   "sloc": 291,
+   "lloc": 307,
+   "comments": 80,
+   "multi": 23,
+   "blank": 60,
+   "comment_density": 22.5,
+   "funcs": 22,
+   "cc_sum": 123,
+   "cc_max": 25,
+   "cc_avg": 5.59,
+   "cog_sum": 230,
+   "cog_max": 94,
+   "mi": 32.9,
+   "mi_rank": "A",
+   "cov_stmt": 98.0,
+   "cov_branch": 92.0,
+   "missing": 5,
+   "missing_branches": 9,
+   "dup_lines": 38,
+   "churn_3y": 9,
+   "fix_3y": 2,
+   "churn_all": 26,
+   "pylint": {
+    "convention": 19,
+    "refactor": 8,
+    "warning": 9
+   }
+  },
+  {
+   "file": "markdown/extensions/meta.py",
+   "loc": 93,
+   "sloc": 47,
+   "lloc": 53,
+   "comments": 14,
+   "multi": 10,
+   "blank": 22,
+   "comment_density": 25.8,
+   "funcs": 4,
+   "cc_sum": 13,
+   "cc_max": 10,
+   "cc_avg": 3.25,
+   "cog_sum": 17,
+   "cog_max": 17,
+   "mi": 78.4,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 90.0,
+   "missing": 0,
+   "missing_branches": 1,
+   "dup_lines": 7,
+   "churn_3y": 4,
+   "fix_3y": 1,
+   "churn_all": 32,
+   "pylint": {
+    "convention": 9,
+    "warning": 1,
+    "refactor": 1
+   }
+  },
+  {
+   "file": "markdown/extensions/nl2br.py",
+   "loc": 49,
+   "sloc": 10,
+   "lloc": 13,
+   "comments": 11,
+   "multi": 11,
+   "blank": 17,
+   "comment_density": 44.9,
+   "funcs": 2,
+   "cc_sum": 2,
+   "cc_max": 1,
+   "cc_avg": 1,
+   "cog_sum": 0,
+   "cog_max": 0,
+   "mi": 100.0,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 100.0,
+   "missing": 0,
+   "missing_branches": 0,
+   "dup_lines": 7,
+   "churn_3y": 2,
+   "fix_3y": 0,
+   "churn_all": 23,
+   "pylint": {
+    "convention": 5
+   }
+  },
+  {
+   "file": "markdown/extensions/sane_lists.py",
+   "loc": 77,
+   "sloc": 26,
+   "lloc": 32,
+   "comments": 11,
+   "multi": 11,
+   "blank": 25,
+   "comment_density": 28.6,
+   "funcs": 4,
+   "cc_sum": 4,
+   "cc_max": 1,
+   "cc_avg": 1,
+   "cog_sum": 0,
+   "cog_max": 0,
+   "mi": 83.2,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 100.0,
+   "missing": 0,
+   "missing_branches": 0,
+   "dup_lines": 7,
+   "churn_3y": 3,
+   "fix_3y": 0,
+   "churn_all": 23,
+   "pylint": {
+    "convention": 8
+   }
+  },
+  {
+   "file": "markdown/extensions/smarty.py",
+   "loc": 295,
+   "sloc": 151,
+   "lloc": 104,
+   "comments": 80,
+   "multi": 15,
+   "blank": 54,
+   "comment_density": 32.2,
+   "funcs": 10,
+   "cc_sum": 17,
+   "cc_max": 5,
+   "cc_avg": 1.7,
+   "cog_sum": 9,
+   "cog_max": 4,
+   "mi": 65.8,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 78.6,
+   "missing": 0,
+   "missing_branches": 3,
+   "dup_lines": 8,
+   "churn_3y": 6,
+   "fix_3y": 1,
+   "churn_all": 41,
+   "pylint": {
+    "convention": 53,
+    "warning": 1
+   }
+  },
+  {
+   "file": "markdown/extensions/tables.py",
+   "loc": 255,
+   "sloc": 155,
+   "lloc": 173,
+   "comments": 40,
+   "multi": 14,
+   "blank": 41,
+   "comment_density": 21.2,
+   "funcs": 10,
+   "cc_sum": 53,
+   "cc_max": 14,
+   "cc_avg": 5.3,
+   "cog_sum": 73,
+   "cog_max": 26,
+   "mi": 51.6,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 98.6,
+   "missing": 0,
+   "missing_branches": 1,
+   "dup_lines": 28,
+   "churn_3y": 4,
+   "fix_3y": 0,
+   "churn_all": 41,
+   "pylint": {
+    "convention": 8,
+    "refactor": 3
+   }
+  },
+  {
+   "file": "markdown/extensions/toc.py",
+   "loc": 496,
+   "sloc": 323,
+   "lloc": 305,
+   "comments": 51,
+   "multi": 19,
+   "blank": 89,
+   "comment_density": 14.1,
+   "funcs": 26,
+   "cc_sum": 98,
+   "cc_max": 14,
+   "cc_avg": 3.77,
+   "cog_sum": 121,
+   "cog_max": 25,
+   "mi": 37.0,
+   "mi_rank": "A",
+   "cov_stmt": 94.5,
+   "cov_branch": 91.7,
+   "missing": 14,
+   "missing_branches": 9,
+   "dup_lines": 11,
+   "churn_3y": 5,
+   "fix_3y": 1,
+   "churn_all": 85,
+   "pylint": {
+    "convention": 28,
+    "warning": 3,
+    "refactor": 2
+   }
+  },
+  {
+   "file": "markdown/extensions/wikilinks.py",
+   "loc": 105,
+   "sloc": 55,
+   "lloc": 58,
+   "comments": 11,
+   "multi": 10,
+   "blank": 25,
+   "comment_density": 20.0,
+   "funcs": 7,
+   "cc_sum": 13,
+   "cc_max": 5,
+   "cc_avg": 1.86,
+   "cog_sum": 11,
+   "cog_max": 7,
+   "mi": 78.7,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 100.0,
+   "missing": 0,
+   "missing_branches": 0,
+   "dup_lines": 11,
+   "churn_3y": 3,
+   "fix_3y": 0,
+   "churn_all": 34,
+   "pylint": {
+    "convention": 12,
+    "warning": 1
+   }
+  },
+  {
+   "file": "markdown/htmlparser.py",
+   "loc": 460,
+   "sloc": 290,
+   "lloc": 292,
+   "comments": 85,
+   "multi": 19,
+   "blank": 67,
+   "comment_density": 22.6,
+   "funcs": 28,
+   "cc_sum": 101,
+   "cc_max": 14,
+   "cc_avg": 3.61,
+   "cog_sum": 108,
+   "cog_max": 19,
+   "mi": 36.5,
+   "mi_rank": "A",
+   "cov_stmt": 99.0,
+   "cov_branch": 90.0,
+   "missing": 2,
+   "missing_branches": 7,
+   "dup_lines": 9,
+   "churn_3y": 15,
+   "fix_3y": 11,
+   "churn_all": 24,
+   "pylint": {
+    "convention": 39,
+    "warning": 17,
+    "refactor": 4
+   }
+  },
+  {
+   "file": "markdown/inlinepatterns.py",
+   "loc": 1052,
+   "sloc": 524,
+   "lloc": 610,
+   "comments": 81,
+   "multi": 157,
+   "blank": 237,
+   "comment_density": 22.6,
+   "funcs": 48,
+   "cc_sum": 142,
+   "cc_max": 33,
+   "cc_avg": 2.96,
+   "cog_sum": 166,
+   "cog_max": 58,
+   "mi": 25.9,
+   "mi_rank": "A",
+   "cov_stmt": 99.5,
+   "cov_branch": 94.9,
+   "missing": 2,
+   "missing_branches": 7,
+   "dup_lines": 36,
+   "churn_3y": 11,
+   "fix_3y": 3,
+   "churn_all": 101,
+   "pylint": {
+    "convention": 53,
+    "warning": 9,
+    "refactor": 14
+   }
+  },
+  {
+   "file": "markdown/postprocessors.py",
+   "loc": 131,
+   "sloc": 58,
+   "lloc": 65,
+   "comments": 16,
+   "multi": 17,
+   "blank": 35,
+   "comment_density": 25.2,
+   "funcs": 9,
+   "cc_sum": 16,
+   "cc_max": 5,
+   "cc_avg": 1.78,
+   "cog_sum": 13,
+   "cog_max": 10,
+   "mi": 76.0,
+   "mi_rank": "A",
+   "cov_stmt": 96.0,
+   "cov_branch": 100.0,
+   "missing": 2,
+   "missing_branches": 0,
+   "dup_lines": 0,
+   "churn_3y": 3,
+   "fix_3y": 1,
+   "churn_all": 41,
+   "pylint": {
+    "warning": 2,
+    "refactor": 3,
+    "convention": 3
+   }
+  },
+  {
+   "file": "markdown/preprocessors.py",
+   "loc": 91,
+   "sloc": 30,
+   "lloc": 36,
+   "comments": 15,
+   "multi": 22,
+   "blank": 24,
+   "comment_density": 40.7,
+   "funcs": 4,
+   "cc_sum": 4,
+   "cc_max": 1,
+   "cc_avg": 1,
+   "cog_sum": 0,
+   "cog_max": 0,
+   "mi": 82.4,
+   "mi_rank": "A",
+   "cov_stmt": 100.0,
+   "cov_branch": 100.0,
+   "missing": 0,
+   "missing_branches": 0,
+   "dup_lines": 0,
+   "churn_3y": 1,
+   "fix_3y": 1,
+   "churn_all": 52,
+   "pylint": {
+    "warning": 2,
+    "refactor": 3,
+    "convention": 1
+   }
+  },
+  {
+   "file": "markdown/serializers.py",
+   "loc": 214,
+   "sloc": 124,
+   "lloc": 128,
+   "comments": 58,
+   "multi": 7,
+   "blank": 28,
+   "comment_density": 30.4,
+   "funcs": 8,
+   "cc_sum": 47,
+   "cc_max": 24,
+   "cc_avg": 5.88,
+   "cog_sum": 90,
+   "cog_max": 75,
+   "mi": 59.2,
+   "mi_rank": "A",
+   "cov_stmt": 99.1,
+   "cov_branch": 97.0,
+   "missing": 1,
+   "missing_branches": 2,
+   "dup_lines": 24,
+   "churn_3y": 2,
+   "fix_3y": 0,
+   "churn_all": 21,
+   "pylint": {
+    "convention": 3,
+    "warning": 2,
+    "refactor": 2
+   }
+  },
+  {
+   "file": "markdown/test_tools.py",
+   "loc": 224,
+   "sloc": 93,
+   "lloc": 94,
+   "comments": 20,
+   "multi": 58,
+   "blank": 49,
+   "comment_density": 34.8,
+   "funcs": 9,
+   "cc_sum": 21,
+   "cc_max": 7,
+   "cc_avg": 2.33,
+   "cog_sum": 30,
+   "cog_max": 28,
+   "mi": 68.4,
+   "mi_rank": "A",
+   "cov_stmt": 91.5,
+   "cov_branch": 94.4,
+   "missing": 7,
+   "missing_branches": 1,
+   "dup_lines": 0,
+   "churn_3y": 0,
+   "fix_3y": 0,
+   "churn_all": 13,
+   "pylint": {
+    "convention": 10,
+    "warning": 6,
+    "refactor": 1
+   }
+  },
+  {
+   "file": "markdown/treeprocessors.py",
+   "loc": 483,
+   "sloc": 282,
+   "lloc": 284,
+   "comments": 38,
+   "multi": 76,
+   "blank": 85,
+   "comment_density": 23.6,
+   "funcs": 19,
+   "cc_sum": 101,
+   "cc_max": 17,
+   "cc_avg": 5.32,
+   "cog_sum": 196,
+   "cog_max": 73,
+   "mi": 40.1,
+   "mi_rank": "A",
+   "cov_stmt": 97.8,
+   "cov_branch": 93.7,
+   "missing": 5,
+   "missing_branches": 8,
+   "dup_lines": 0,
+   "churn_3y": 6,
+   "fix_3y": 4,
+   "churn_all": 54,
+   "pylint": {
+    "convention": 40,
+    "warning": 14,
+    "refactor": 11
+   }
+  },
+  {
+   "file": "markdown/util.py",
+   "loc": 410,
+   "sloc": 179,
+   "lloc": 197,
+   "comments": 41,
+   "multi": 103,
+   "blank": 85,
+   "comment_density": 35.1,
+   "funcs": 26,
+   "cc_sum": 51,
+   "cc_max": 9,
+   "cc_avg": 1.96,
+   "cog_sum": 27,
+   "cog_max": 9,
+   "mi": 52.2,
+   "mi_rank": "A",
+   "cov_stmt": 96.0,
+   "cov_branch": 97.4,
+   "missing": 6,
+   "missing_branches": 1,
+   "dup_lines": 0,
+   "churn_3y": 5,
+   "fix_3y": 1,
+   "churn_all": 66,
+   "pylint": {
+    "convention": 11,
+    "refactor": 5,
+    "warning": 2
+   }
+  }
+ ]
+}

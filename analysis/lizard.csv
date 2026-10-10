@@ -1,0 +1,397 @@
+﻿11,1,47,2,13,"__init__@42-54@markdown\extensions\abbr.py","markdown\extensions\abbr.py","__init__","__init__( self , ** kwargs )",42,54
+4,2,30,1,5,"reset@56-60@markdown\extensions\abbr.py","markdown\extensions\abbr.py","reset","reset( self )",56,60
+2,1,13,1,3,"reset_glossary@62-64@markdown\extensions\abbr.py","markdown\extensions\abbr.py","reset_glossary","reset_glossary( self )",62,64
+3,2,31,2,4,"load_glossary@66-69@markdown\extensions\abbr.py","markdown\extensions\abbr.py","load_glossary","load_glossary( self , dictionary : dict [ str , str ] )",66,69
+7,2,93,2,17,"extendMarkdown@71-87@markdown\extensions\abbr.py","markdown\extensions\abbr.py","extendMarkdown","extendMarkdown( self , md )",71,87
+4,2,55,3,4,"__init__@93-96@markdown\extensions\abbr.py","markdown\extensions\abbr.py","__init__","__init__( self , md : Markdown | None = None , abbrs : dict | None = None )",93,96
+5,1,51,4,6,"create_element@98-103@markdown\extensions\abbr.py","markdown\extensions\abbr.py","create_element","create_element( self , title : str , text : str , tail : str )",98,103
+20,10,260,3,21,"iter_element@105-125@markdown\extensions\abbr.py","markdown\extensions\abbr.py","iter_element","iter_element( self , el : etree . Element , parent : etree . Element | None = None )",105,125
+7,3,82,2,11,"run@127-137@markdown\extensions\abbr.py","markdown\extensions\abbr.py","run","run( self , root : etree . Element )",127,137
+3,1,28,3,3,"__init__@145-147@markdown\extensions\abbr.py","markdown\extensions\abbr.py","__init__","__init__( self , parser : BlockParser , abbrs : dict )",145,147
+2,1,19,3,2,"test@149-150@markdown\extensions\abbr.py","markdown\extensions\abbr.py","test","test( self , parent : etree . Element , block : str )",149,150
+18,8,184,3,26,"run@152-177@markdown\extensions\abbr.py","markdown\extensions\abbr.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",152,177
+3,1,26,3,3,"__init__@187-189@markdown\extensions\abbr.py","markdown\extensions\abbr.py","__init__","__init__( self , pattern : str , title : str )",187,189
+5,1,76,3,5,"handleMatch@191-195@markdown\extensions\abbr.py","markdown\extensions\abbr.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",191,195
+2,1,12,1,2,"makeExtension@198-199@markdown\extensions\abbr.py","markdown\extensions\abbr.py","makeExtension","makeExtension( ** kwargs )",198,199
+3,1,33,2,13,"extendMarkdown@43-55@markdown\extensions\admonition.py","markdown\extensions\admonition.py","extendMarkdown","extendMarkdown( self , md )",43,55
+4,1,36,2,7,"__init__@65-71@markdown\extensions\admonition.py","markdown\extensions\admonition.py","__init__","__init__( self , parser : blockparser . BlockParser )",65,71
+34,13,273,3,57,"parse_content@73-129@markdown\extensions\admonition.py","markdown\extensions\admonition.py","parse_content","parse_content( self , parent : etree . Element , block : str )",73,129
+5,2,46,3,6,"test@131-136@markdown\extensions\admonition.py","markdown\extensions\admonition.py","test","test( self , parent : etree . Element , block : str )",131,136
+28,8,241,3,37,"run@138-174@markdown\extensions\admonition.py","markdown\extensions\admonition.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",138,174
+8,3,90,2,13,"get_class_and_title@176-188@markdown\extensions\admonition.py","markdown\extensions\admonition.py","get_class_and_title","get_class_and_title( self , match : re . Match [ str ] )",176,188
+2,1,12,1,2,"makeExtension@191-192@markdown\extensions\admonition.py","markdown\extensions\admonition.py","makeExtension","makeExtension( ** kwargs )",191,192
+3,1,28,2,3,"_handle_double_quote@38-40@markdown\extensions\attr_list.py","markdown\extensions\attr_list.py","_handle_double_quote","_handle_double_quote( s , t )",38,40
+3,1,28,2,3,"_handle_single_quote@43-45@markdown\extensions\attr_list.py","markdown\extensions\attr_list.py","_handle_single_quote","_handle_single_quote( s , t )",43,45
+2,1,16,2,2,"_handle_key_value@48-49@markdown\extensions\attr_list.py","markdown\extensions\attr_list.py","_handle_key_value","_handle_key_value( s , t )",48,49
+6,3,43,2,6,"_handle_word@52-57@markdown\extensions\attr_list.py","markdown\extensions\attr_list.py","_handle_word","_handle_word( s , t )",52,57
+5,2,59,1,11,"get_attrs_and_remainder@69-79@markdown\extensions\attr_list.py","markdown\extensions\attr_list.py","get_attrs_and_remainder","get_attrs_and_remainder( attrs_string : str )",69,79
+2,1,26,1,3,"get_attrs@82-84@markdown\extensions\attr_list.py","markdown\extensions\attr_list.py","get_attrs","get_attrs( str : str )",82,84
+2,1,27,1,2,"isheader@87-88@markdown\extensions\attr_list.py","markdown\extensions\attr_list.py","isheader","isheader( elem : Element )",87,88
+47,32,541,2,59,"run@103-161@markdown\extensions\attr_list.py","markdown\extensions\attr_list.py","run","run( self , doc : Element )",103,161
+14,6,104,4,24,"assign_attrs@163-186@markdown\extensions\attr_list.py","markdown\extensions\attr_list.py","assign_attrs","assign_attrs( self , elem : Element , attrs_string : str , * , strict : bool = False )",163,186
+2,1,23,2,6,"sanitize_name@188-193@markdown\extensions\attr_list.py","markdown\extensions\attr_list.py","sanitize_name","sanitize_name( self , name : str )",188,193
+3,1,29,2,12,"extendMarkdown@198-209@markdown\extensions\attr_list.py","markdown\extensions\attr_list.py","extendMarkdown","extendMarkdown( self , md )",198,209
+2,1,12,1,2,"makeExtension@212-213@markdown\extensions\attr_list.py","markdown\extensions\attr_list.py","makeExtension","makeExtension( ** kwargs )",212,213
+7,3,42,1,13,"parse_hl_lines@42-54@markdown\extensions\codehilite.py","markdown\extensions\codehilite.py","parse_hl_lines","parse_hl_lines( expr : str )",42,54
+15,4,152,3,19,"__init__@115-133@markdown\extensions\codehilite.py","markdown\extensions\codehilite.py","__init__","__init__( self , src : str , ** options )",115,133
+44,14,323,2,58,"hilite@135-192@markdown\extensions\codehilite.py","markdown\extensions\codehilite.py","hilite","hilite( self , shebang : bool = True )",135,192
+18,6,158,1,54,"_parseHeader@194-247@markdown\extensions\codehilite.py","markdown\extensions\codehilite.py","_parseHeader","_parseHeader( self )",194,247
+5,1,44,2,8,"code_unescape@258-265@markdown\extensions\codehilite.py","markdown\extensions\codehilite.py","code_unescape","code_unescape( self , text : str )",258,265
+18,5,131,2,22,"run@267-288@markdown\extensions\codehilite.py","markdown\extensions\codehilite.py","run","run( self , root : etree . Element )",267,288
+37,5,143,2,42,"__init__@294-335@markdown\extensions\codehilite.py","markdown\extensions\codehilite.py","__init__","__init__( self , ** kwargs )",294,335
+5,1,41,2,15,"extendMarkdown@337-351@markdown\extensions\codehilite.py","markdown\extensions\codehilite.py","extendMarkdown","extendMarkdown( self , md )",337,351
+2,1,12,1,2,"makeExtension@354-355@markdown\extensions\codehilite.py","markdown\extensions\codehilite.py","makeExtension","makeExtension( ** kwargs )",354,355
+2,1,29,3,2,"test@36-37@markdown\extensions\def_list.py","markdown\extensions\def_list.py","test","test( self , parent : etree . Element , block : str )",36,37
+41,17,343,3,52,"run@39-90@markdown\extensions\def_list.py","markdown\extensions\def_list.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",39,90
+3,1,40,3,5,"create_item@102-106@markdown\extensions\def_list.py","markdown\extensions\def_list.py","create_item","create_item( self , parent : etree . Element , block : str )",102,106
+3,1,46,2,13,"extendMarkdown@112-124@markdown\extensions\def_list.py","markdown\extensions\def_list.py","extendMarkdown","extendMarkdown( self , md )",112,124
+2,1,12,1,2,"makeExtension@127-128@markdown\extensions\def_list.py","markdown\extensions\def_list.py","makeExtension","makeExtension( ** kwargs )",127,128
+2,1,14,2,3,"__init__@56-58@markdown\extensions\extra.py","markdown\extensions\extra.py","__init__","__init__( self , ** kwargs )",56,58
+2,1,18,2,3,"extendMarkdown@60-62@markdown\extensions\extra.py","markdown\extensions\extra.py","extendMarkdown","extendMarkdown( self , md )",60,62
+2,1,12,1,2,"makeExtension@65-66@markdown\extensions\extra.py","markdown\extensions\extra.py","makeExtension","makeExtension( ** kwargs )",65,66
+5,1,31,2,6,"__init__@39-44@markdown\extensions\fenced_code.py","markdown\extensions\fenced_code.py","__init__","__init__( self , ** kwargs )",39,44
+3,1,35,2,13,"extendMarkdown@46-58@markdown\extensions\fenced_code.py","markdown\extensions\fenced_code.py","extendMarkdown","extendMarkdown( self , md )",46,58
+12,1,67,3,13,"__init__@77-89@markdown\extensions\fenced_code.py","markdown\extensions\fenced_code.py","__init__","__init__( self , md : Markdown , config : dict [ str , Any ] )",77,89
+63,24,509,2,81,"run@91-171@markdown\extensions\fenced_code.py","markdown\extensions\fenced_code.py","run","run( self , lines : list [ str ] )",91,171
+16,6,124,2,17,"handle_attrs@173-189@markdown\extensions\fenced_code.py","markdown\extensions\fenced_code.py","handle_attrs","handle_attrs( self , attrs : Iterable [ tuple [ str , str ] ] )",173,189
+6,1,54,2,7,"_escape@191-197@markdown\extensions\fenced_code.py","markdown\extensions\fenced_code.py","_escape","_escape( self , txt : str )",191,197
+2,1,12,1,2,"makeExtension@200-201@markdown\extensions\fenced_code.py","markdown\extensions\fenced_code.py","makeExtension","makeExtension( ** kwargs )",200,201
+34,1,137,2,42,"__init__@42-83@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","__init__","__init__( self , ** kwargs )",42,83
+12,2,133,2,42,"extendMarkdown@85-126@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","extendMarkdown","extendMarkdown( self , md )",85,126
+6,1,51,1,7,"reset@128-134@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","reset","reset( self )",128,134
+17,5,147,3,20,"unique_ref@136-155@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","unique_ref","unique_ref( self , reference : str , found : bool = False )",136,155
+12,7,84,1,12,"findFootnotesPlaceholder.finder@161-172@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","findFootnotesPlaceholder.finder","findFootnotesPlaceholder.finder( element )",161,172
+6,1,37,2,19,"findFootnotesPlaceholder@157-175@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","findFootnotesPlaceholder","findFootnotesPlaceholder( self , root : etree . Element )",157,175
+2,1,24,3,3,"setFootnote@177-179@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","setFootnote","setFootnote( self , id : str , text : str )",177,179
+3,2,28,2,4,"addFootnoteRef@181-184@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","addFootnoteRef","addFootnoteRef( self , id : str )",181,184
+2,1,15,1,3,"get_separator@186-188@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","get_separator","get_separator( self )",186,188
+5,2,51,2,6,"makeFootnoteId@190-195@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","makeFootnoteId","makeFootnoteId( self , id : str )",190,195
+5,2,71,3,6,"makeFootnoteRefId@197-202@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","makeFootnoteRefId","makeFootnoteRefId( self , id : str , found : bool = False )",197,202
+32,6,262,2,40,"makeFootnotesDiv@204-243@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","makeFootnotesDiv","makeFootnotesDiv( self , root : etree . Element )",204,243
+3,1,24,2,3,"__init__@251-253@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","__init__","__init__( self , footnotes : FootnoteExtension )",251,253
+2,1,19,3,2,"test@255-256@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","test","test( self , parent : etree . Element , block : str )",255,256
+22,4,260,3,36,"run@258-293@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",258,293
+16,4,121,2,28,"detectTabbed@295-322@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","detectTabbed","detectTabbed( self , blocks : list [ str ] )",295,322
+6,3,57,2,10,"detab@324-333@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","detab","detab( self , block : str )",324,333
+3,1,26,3,3,"__init__@339-341@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","__init__","__init__( self , pattern : str , footnotes : FootnoteExtension )",339,341
+17,3,215,3,21,"handleMatch@343-363@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",343,363
+2,1,14,2,2,"__init__@369-370@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","__init__","__init__( self , footnotes : FootnoteExtension )",369,370
+14,5,146,3,19,"add_duplicates@372-390@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","add_duplicates","add_duplicates( self , li : etree . Element , duplicates : int )",372,390
+4,1,72,2,5,"get_num_duplicates@392-396@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","get_num_duplicates","get_num_duplicates( self , li : etree . Element )",392,396
+5,3,43,2,8,"handle_duplicates@398-405@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","handle_duplicates","handle_duplicates( self , parent : etree . Element )",398,405
+7,4,60,2,10,"run@407-416@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","run","run( self , root : etree . Element )",407,416
+2,1,14,2,2,"__init__@422-423@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","__init__","__init__( self , footnotes : FootnoteExtension )",422,423
+15,4,102,2,15,"run@425-439@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","run","run( self , root : etree . Element )",425,439
+2,1,14,2,2,"__init__@445-446@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","__init__","__init__( self , footnotes : FootnoteExtension )",445,446
+8,5,73,2,8,"run@448-455@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","run","run( self , root : etree . Element )",448,455
+7,2,66,1,7,"reorder_footnotes.order_by_id@462-468@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","reorder_footnotes.order_by_id","reorder_footnotes.order_by_id( li )",462,468
+11,2,105,2,21,"reorder_footnotes@457-477@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","reorder_footnotes","reorder_footnotes( self , parent : etree . Element )",457,477
+2,1,14,2,2,"__init__@482-483@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","__init__","__init__( self , footnotes : FootnoteExtension )",482,483
+5,1,37,2,5,"run@485-489@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","run","run( self , text : str )",485,489
+2,1,13,1,3,"makeExtension@492-494@markdown\extensions\footnotes.py","markdown\extensions\footnotes.py","makeExtension","makeExtension( ** kwargs )",492,494
+9,7,106,2,10,"run@46-55@markdown\extensions\legacy_attrs.py","markdown\extensions\legacy_attrs.py","run","run( self , doc : etree . Element )",46,55
+2,1,37,1,2,"handleAttributes.attributeCallback@59-60@markdown\extensions\legacy_attrs.py","markdown\extensions\legacy_attrs.py","handleAttributes.attributeCallback","handleAttributes.attributeCallback( match : re . Match [ str ] )",59,60
+3,1,29,3,5,"handleAttributes@57-61@markdown\extensions\legacy_attrs.py","markdown\extensions\legacy_attrs.py","handleAttributes","handleAttributes( self , el : etree . Element , txt : str )",57,61
+2,1,23,2,10,"extendMarkdown@65-74@markdown\extensions\legacy_attrs.py","markdown\extensions\legacy_attrs.py","extendMarkdown","extendMarkdown( self , md )",65,74
+2,1,12,1,2,"makeExtension@77-78@markdown\extensions\legacy_attrs.py","markdown\extensions\legacy_attrs.py","makeExtension","makeExtension( ** kwargs )",77,78
+2,1,24,2,10,"extendMarkdown@45-54@markdown\extensions\legacy_em.py","markdown\extensions\legacy_em.py","extendMarkdown","extendMarkdown( self , md )",45,54
+2,1,13,1,3,"makeExtension@57-59@markdown\extensions\legacy_em.py","markdown\extensions\legacy_em.py","makeExtension","makeExtension( ** kwargs )",57,59
+6,1,89,4,9,"__init__@43-51@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","__init__","__init__( self , md : Markdown , * args , ** kwargs )",43,51
+2,1,19,1,4,"block_level_tags@54-57@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","block_level_tags","block_level_tags( self )",54,57
+2,1,31,1,2,"block_tags@60-61@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","block_tags","block_tags( self )",60,61
+2,1,18,1,2,"span_and_blocks_tags@64-65@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","span_and_blocks_tags","span_and_blocks_tags( self )",64,65
+6,1,64,1,7,"reset@67-73@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","reset","reset( self )",67,73
+4,2,29,1,7,"close@75-81@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","close","close( self )",75,81
+4,1,30,1,5,"get_element@83-87@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","get_element","get_element( self )",83,87
+17,15,150,3,20,"get_state@89-108@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","get_state","get_state( self , tag , attrs : Mapping [ str , str ] )",89,108
+40,23,347,3,49,"handle_starttag@110-158@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","handle_starttag","handle_starttag( self , tag , attrs )",110,158
+60,25,509,2,87,"handle_endtag@160-246@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","handle_endtag","handle_endtag( self , tag )",160,246
+12,5,108,3,12,"handle_startendtag@248-259@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","handle_startendtag","handle_startendtag( self , tag , attrs )",248,259
+8,5,58,2,8,"handle_data@261-268@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","handle_data","handle_data( self , data )",261,268
+10,7,97,3,10,"handle_empty_tag@270-279@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","handle_empty_tag","handle_empty_tag( self , data , is_block )",270,279
+5,4,48,2,9,"parse_pi@281-289@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","parse_pi","parse_pi( self , i : int )",281,289
+11,7,111,2,17,"parse_html_declaration@291-307@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","parse_html_declaration","parse_html_declaration( self , i : int )",291,307
+6,1,58,2,6,"run@313-318@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","run","run( self , lines : list [ str ] )",313,318
+2,1,19,3,3,"test@324-326@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","test","test( self , parent : etree . Element , block : str )",324,326
+46,14,348,2,72,"parse_element_content@328-399@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","parse_element_content","parse_element_content( self , element : etree . Element )",328,399
+16,4,148,3,21,"run@401-421@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",401,421
+5,2,42,2,6,"stash_to_string@425-430@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","stash_to_string","stash_to_string( self , text : str | etree . Element )",425,430
+6,1,57,2,19,"extendMarkdown@436-454@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","extendMarkdown","extendMarkdown( self , md )",436,454
+2,1,12,1,2,"makeExtension@457-458@markdown\extensions\md_in_html.py","markdown\extensions\md_in_html.py","makeExtension","makeExtension( ** kwargs )",457,458
+4,1,34,2,12,"extendMarkdown@42-53@markdown\extensions\meta.py","markdown\extensions\meta.py","extendMarkdown","extendMarkdown( self , md )",42,53
+2,1,15,1,2,"reset@55-56@markdown\extensions\meta.py","markdown\extensions\meta.py","reset","reset( self )",55,56
+26,10,193,2,28,"run@62-89@markdown\extensions\meta.py","markdown\extensions\meta.py","run","run( self , lines : list [ str ] )",62,89
+2,1,12,1,2,"makeExtension@92-93@markdown\extensions\meta.py","markdown\extensions\meta.py","makeExtension","makeExtension( ** kwargs )",92,93
+3,1,28,2,11,"extendMarkdown@35-45@markdown\extensions\nl2br.py","markdown\extensions\nl2br.py","extendMarkdown","extendMarkdown( self , md )",35,45
+2,1,12,1,2,"makeExtension@48-49@markdown\extensions\nl2br.py","markdown\extensions\nl2br.py","makeExtension","makeExtension( ** kwargs )",48,49
+4,1,38,2,4,"__init__@41-44@markdown\extensions\sane_lists.py","markdown\extensions\sane_lists.py","__init__","__init__( self , parser : blockparser . BlockParser )",41,44
+4,1,38,2,4,"__init__@53-56@markdown\extensions\sane_lists.py","markdown\extensions\sane_lists.py","__init__","__init__( self , parser : blockparser . BlockParser )",53,56
+3,1,46,2,12,"extendMarkdown@62-73@markdown\extensions\sane_lists.py","markdown\extensions\sane_lists.py","extendMarkdown","extendMarkdown( self , md )",62,73
+2,1,12,1,2,"makeExtension@76-77@markdown\extensions\sane_lists.py","markdown\extensions\sane_lists.py","makeExtension","makeExtension( ** kwargs )",76,77
+4,1,45,4,5,"__init__@165-169@markdown\extensions\smarty.py","markdown\extensions\smarty.py","__init__","__init__( self , pattern : str , replace : Sequence [ int | str | etree . Element ] , md : Markdown )",165,169
+8,3,83,3,8,"handleMatch@171-178@markdown\extensions\smarty.py","markdown\extensions\smarty.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",171,178
+11,1,98,2,12,"__init__@183-194@markdown\extensions\smarty.py","markdown\extensions\smarty.py","__init__","__init__( self , ** kwargs )",183,194
+12,2,85,5,12,"_addPatterns@196-207@markdown\extensions\smarty.py","markdown\extensions\smarty.py","_addPatterns","_addPatterns( self , md : Markdown , patterns : Sequence [ tuple [ str , Sequence [ int | str | etree . Element ] ] ] , serie : str , priority : int , )",196,207
+9,1,73,2,9,"educateDashes@209-217@markdown\extensions\smarty.py","markdown\extensions\smarty.py","educateDashes","educateDashes( self , md : Markdown )",209,217
+5,1,42,2,5,"educateEllipses@219-223@markdown\extensions\smarty.py","markdown\extensions\smarty.py","educateEllipses","educateEllipses( self , md : Markdown )",219,223
+9,1,73,2,9,"educateAngledQuotes@225-233@markdown\extensions\smarty.py","markdown\extensions\smarty.py","educateAngledQuotes","educateAngledQuotes( self , md : Markdown )",225,233
+23,1,204,2,23,"educateQuotes@235-257@markdown\extensions\smarty.py","markdown\extensions\smarty.py","educateQuotes","educateQuotes( self , md : Markdown )",235,257
+16,5,131,2,33,"extendMarkdown@259-291@markdown\extensions\smarty.py","markdown\extensions\smarty.py","extendMarkdown","extendMarkdown( self , md )",259,291
+2,1,12,1,2,"makeExtension@294-295@markdown\extensions\smarty.py","markdown\extensions\smarty.py","makeExtension","makeExtension( ** kwargs )",294,295
+5,1,52,3,6,"__init__@44-49@markdown\extensions\tables.py","markdown\extensions\tables.py","__init__","__init__( self , parser : blockparser . BlockParser , config : dict [ str , Any ] )",44,49
+26,14,219,3,35,"test@51-85@markdown\extensions\tables.py","markdown\extensions\tables.py","test","test( self , parent : etree . Element , block : str )",51,85
+24,9,223,3,30,"run@87-116@markdown\extensions\tables.py","markdown\extensions\tables.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",87,116
+6,2,53,3,7,"_build_empty_row@118-124@markdown\extensions\tables.py","markdown\extensions\tables.py","_build_empty_row","_build_empty_row( self , parent : etree . Element , align : Sequence [ str | None ] )",118,124
+17,6,133,4,20,"_build_row@126-145@markdown\extensions\tables.py","markdown\extensions\tables.py","_build_row","_build_row( self , row : str , parent : etree . Element , align : Sequence [ str | None ] )",126,145
+6,3,54,2,7,"_split_row@147-153@markdown\extensions\tables.py","markdown\extensions\tables.py","_split_row","_split_row( self , row : str )",147,153
+44,14,337,2,71,"_split@155-225@markdown\extensions\tables.py","markdown\extensions\tables.py","_split","_split( self , row : str )",155,225
+5,1,32,2,7,"__init__@231-237@markdown\extensions\tables.py","markdown\extensions\tables.py","__init__","__init__( self , ** kwargs )",231,237
+5,2,52,2,13,"extendMarkdown@239-251@markdown\extensions\tables.py","markdown\extensions\tables.py","extendMarkdown","extendMarkdown( self , md )",239,251
+2,1,12,1,2,"makeExtension@254-255@markdown\extensions\tables.py","markdown\extensions\tables.py","makeExtension","makeExtension( ** kwargs )",254,255
+6,2,87,3,8,"slugify@38-45@markdown\extensions\toc.py","markdown\extensions\toc.py","slugify","slugify( value : str , separator : str , unicode : bool = False )",38,45
+2,1,25,2,3,"slugify_unicode@48-50@markdown\extensions\toc.py","markdown\extensions\toc.py","slugify_unicode","slugify_unicode( value : str , separator : str )",48,50
+9,4,79,2,10,"unique@56-65@markdown\extensions\toc.py","markdown\extensions\toc.py","unique","unique( id : str , ids : MutableSet [ str ] )",56,65
+8,3,63,1,10,"get_name@69-78@markdown\extensions\toc.py","markdown\extensions\toc.py","get_name","get_name( el : etree . Element )",69,78
+9,3,80,1,11,"stashedHTML2text._html_sub@84-94@markdown\extensions\toc.py","markdown\extensions\toc.py","stashedHTML2text._html_sub","stashedHTML2text._html_sub( m : re . Match [ str ] )",84,94
+3,1,31,3,15,"stashedHTML2text@82-96@markdown\extensions\toc.py","markdown\extensions\toc.py","stashedHTML2text","stashedHTML2text( text : str , md : Markdown , strip_entities : bool = True )",82,96
+3,1,22,1,4,"unescape@99-102@markdown\extensions\toc.py","markdown\extensions\toc.py","unescape","unescape( text : str )",99,102
+7,5,116,1,12,"strip_tags@105-116@markdown\extensions\toc.py","markdown\extensions\toc.py","strip_tags","strip_tags( text : str )",105,116
+8,4,57,1,10,"escape_cdata@119-128@markdown\extensions\toc.py","markdown\extensions\toc.py","escape_cdata","escape_cdata( text : str )",119,128
+4,2,35,2,5,"run_postprocessors@131-135@markdown\extensions\toc.py","markdown\extensions\toc.py","run_postprocessors","run_postprocessors( text : str , md : Markdown )",131,135
+6,1,64,2,11,"render_inner_html@138-148@markdown\extensions\toc.py","markdown\extensions\toc.py","render_inner_html","render_inner_html( el : etree . Element , md : Markdown )",138,148
+16,11,127,1,21,"remove_fnrefs@151-171@markdown\extensions\toc.py","markdown\extensions\toc.py","remove_fnrefs","remove_fnrefs( root : etree . Element )",151,171
+33,9,193,1,63,"nest_toc_tokens@174-236@markdown\extensions\toc.py","markdown\extensions\toc.py","nest_toc_tokens","nest_toc_tokens( toc_list )",174,236
+23,5,253,3,24,"__init__@242-265@markdown\extensions\toc.py","markdown\extensions\toc.py","__init__","__init__( self , md : Markdown , config : dict [ str , Any ] )",242,265
+5,4,67,2,10,"iterparent@267-276@markdown\extensions\toc.py","markdown\extensions\toc.py","iterparent","iterparent( self , node : etree . Element )",267,276
+10,8,105,3,20,"replace_marker@278-297@markdown\extensions\toc.py","markdown\extensions\toc.py","replace_marker","replace_marker( self , root : etree . Element , elem : etree . Element )",278,297
+5,2,45,2,6,"set_level@299-304@markdown\extensions\toc.py","markdown\extensions\toc.py","set_level","set_level( self , elem : etree . Element )",299,304
+11,3,89,3,11,"add_anchor@306-316@markdown\extensions\toc.py","markdown\extensions\toc.py","add_anchor","add_anchor( self , c : etree . Element , elem_id : str )",306,316
+15,4,112,3,15,"add_permalink@318-332@markdown\extensions\toc.py","markdown\extensions\toc.py","add_permalink","add_permalink( self , c : etree . Element , elem_id : str )",318,332
+10,3,98,2,11,"build_toc_div.build_etree_ul@346-356@markdown\extensions\toc.py","markdown\extensions\toc.py","build_toc_div.build_etree_ul","build_toc_div.build_etree_ul( toc_list : list , parent : etree . Element )",346,356
+13,4,101,2,30,"build_toc_div@334-363@markdown\extensions\toc.py","markdown\extensions\toc.py","build_toc_div","build_toc_div( self , toc_list : list )",334,363
+39,14,368,2,51,"run@365-415@markdown\extensions\toc.py","markdown\extensions\toc.py","run","run( self , doc : etree . Element )",365,415
+49,1,140,2,51,"__init__@423-473@markdown\extensions\toc.py","markdown\extensions\toc.py","__init__","__init__( self , ** kwargs )",423,473
+6,1,50,2,14,"extendMarkdown@475-488@markdown\extensions\toc.py","markdown\extensions\toc.py","extendMarkdown","extendMarkdown( self , md )",475,488
+3,1,22,1,3,"reset@490-492@markdown\extensions\toc.py","markdown\extensions\toc.py","reset","reset( self )",490,492
+2,1,12,1,2,"makeExtension@495-496@markdown\extensions\toc.py","markdown\extensions\toc.py","makeExtension","makeExtension( ** kwargs )",495,496
+3,1,42,3,4,"build_url@31-34@markdown\extensions\wikilinks.py","markdown\extensions\wikilinks.py","build_url","build_url( label : str , base : str , end : str )",31,34
+8,1,56,2,9,"__init__@40-48@markdown\extensions\wikilinks.py","markdown\extensions\wikilinks.py","__init__","__init__( self , ** kwargs )",40,48
+6,1,46,2,16,"extendMarkdown@50-65@markdown\extensions\wikilinks.py","markdown\extensions\wikilinks.py","extendMarkdown","extendMarkdown( self , md )",50,65
+3,1,31,3,3,"__init__@71-73@markdown\extensions\wikilinks.py","markdown\extensions\wikilinks.py","__init__","__init__( self , pattern : str , config : dict [ str , Any ] )",71,73
+13,3,134,3,13,"handleMatch@75-87@markdown\extensions\wikilinks.py","markdown\extensions\wikilinks.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",75,87
+12,5,121,1,13,"_getMeta@89-101@markdown\extensions\wikilinks.py","markdown\extensions\wikilinks.py","_getMeta","_getMeta( self )",89,101
+2,1,12,1,2,"makeExtension@104-105@markdown\extensions\wikilinks.py","markdown\extensions\wikilinks.py","makeExtension","makeExtension( ** kwargs )",104,105
+2,1,15,2,3,"__init__@56-58@markdown\extensions\__init__.py","markdown\extensions\__init__.py","__init__","__init__( self , ** kwargs )",56,58
+5,2,39,3,15,"getConfig@60-74@markdown\extensions\__init__.py","markdown\extensions\__init__.py","getConfig","getConfig( self , key : str , default : Any = '' )",60,74
+2,2,34,1,8,"getConfigs@76-83@markdown\extensions\__init__.py","markdown\extensions\__init__.py","getConfigs","getConfigs( self )",76,83
+2,2,42,1,8,"getConfigInfo@85-92@markdown\extensions\__init__.py","markdown\extensions\__init__.py","getConfigInfo","getConfigInfo( self )",85,92
+6,3,72,3,20,"setConfig@94-113@markdown\extensions\__init__.py","markdown\extensions\__init__.py","setConfig","setConfig( self , key : str , value : Any )",94,113
+5,3,57,2,16,"setConfigs@115-130@markdown\extensions\__init__.py","markdown\extensions\__init__.py","setConfigs","setConfigs( self , items : Mapping [ str , Any ] | Iterable [ tuple [ str , Any ] ] )",115,130
+5,1,32,2,14,"extendMarkdown@132-145@markdown\extensions\__init__.py","markdown\extensions\__init__.py","extendMarkdown","extendMarkdown( self , md : Markdown )",132,145
+2,1,16,2,3,"set@59-61@markdown\blockparser.py","markdown\blockparser.py","set","set( self , state : Any )",59,61
+2,1,13,1,3,"reset@63-65@markdown\blockparser.py","markdown\blockparser.py","reset","reset( self )",63,65
+5,2,30,2,6,"isstate@67-72@markdown\blockparser.py","markdown\blockparser.py","isstate","isstate( self , state : Any )",67,72
+4,1,38,2,16,"__init__@83-98@markdown\blockparser.py","markdown\blockparser.py","__init__","__init__( self , md : Markdown )",83,98
+4,1,55,2,19,"parseDocument@100-118@markdown\blockparser.py","markdown\blockparser.py","parseDocument","parseDocument( self , lines : Iterable [ str ] )",100,118
+2,1,31,3,17,"parseChunk@120-136@markdown\blockparser.py","markdown\blockparser.py","parseChunk","parseChunk( self , parent : etree . Element , text : str )",120,136
+6,5,58,3,23,"parseBlocks@138-160@markdown\blockparser.py","markdown\blockparser.py","parseBlocks","parseBlocks( self , parent : etree . Element , blocks : list [ str ] )",138,160
+14,1,188,2,15,"build_block_parser@42-56@markdown\blockprocessors.py","markdown\blockprocessors.py","build_block_parser","build_block_parser( md : Markdown , ** kwargs : Any )",42,56
+3,1,23,2,3,"__init__@74-76@markdown\blockprocessors.py","markdown\blockprocessors.py","__init__","__init__( self , parser : BlockParser )",74,76
+5,2,34,2,6,"lastChild@78-83@markdown\blockprocessors.py","markdown\blockprocessors.py","lastChild","lastChild( self , parent : etree . Element )",78,83
+13,5,110,3,14,"detab@85-98@markdown\blockprocessors.py","markdown\blockprocessors.py","detab","detab( self , text : str , length : int | None = None )",85,98
+6,3,78,3,7,"looseDetab@100-106@markdown\blockprocessors.py","markdown\blockprocessors.py","looseDetab","looseDetab( self , text : str , level : int = 1 )",100,106
+2,1,19,3,17,"test@108-124@markdown\blockprocessors.py","markdown\blockprocessors.py","test","test( self , parent : etree . Element , block : str )",108,124
+2,1,24,3,25,"run@126-150@markdown\blockprocessors.py","markdown\blockprocessors.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",126,150
+3,1,32,2,3,"__init__@170-172@markdown\blockprocessors.py","markdown\blockprocessors.py","__init__","__init__( self , * args )",170,172
+6,6,82,3,6,"test@174-179@markdown\blockprocessors.py","markdown\blockprocessors.py","test","test( self , parent : etree . Element , block : str )",174,179
+22,8,238,3,35,"run@181-215@markdown\blockprocessors.py","markdown\blockprocessors.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",181,215
+3,1,40,3,4,"create_item@217-220@markdown\blockprocessors.py","markdown\blockprocessors.py","create_item","create_item( self , parent : etree . Element , block : str )",217,220
+20,8,139,3,27,"get_level@222-248@markdown\blockprocessors.py","markdown\blockprocessors.py","get_level","get_level( self , parent : etree . Element , block : str )",222,248
+2,1,28,3,2,"test@254-255@markdown\blockprocessors.py","markdown\blockprocessors.py","test","test( self , parent : etree . Element , block : str )",254,255
+18,6,175,3,25,"run@257-281@markdown\blockprocessors.py","markdown\blockprocessors.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",257,281
+2,2,36,3,2,"test@289-290@markdown\blockprocessors.py","markdown\blockprocessors.py","test","test( self , parent : etree . Element , block : str )",289,290
+17,5,160,3,23,"run@292-314@markdown\blockprocessors.py","markdown\blockprocessors.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",292,314
+8,3,47,2,9,"clean@316-324@markdown\blockprocessors.py","markdown\blockprocessors.py","clean","clean( self , line : str )",316,324
+7,1,80,2,10,"__init__@345-354@markdown\blockprocessors.py","markdown\blockprocessors.py","__init__","__init__( self , parser : BlockParser )",345,354
+2,1,29,3,2,"test@356-357@markdown\blockprocessors.py","markdown\blockprocessors.py","test","test( self , parent : etree . Element , block : str )",356,357
+34,11,334,3,58,"run@359-416@markdown\blockprocessors.py","markdown\blockprocessors.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",359,416
+17,7,165,2,25,"get_items@418-442@markdown\blockprocessors.py","markdown\blockprocessors.py","get_items","get_items( self , block : str )",418,442
+3,1,36,2,4,"__init__@451-454@markdown\blockprocessors.py","markdown\blockprocessors.py","__init__","__init__( self , parser : BlockParser )",451,454
+2,1,29,3,2,"test@463-464@markdown\blockprocessors.py","markdown\blockprocessors.py","test","test( self , parent : etree . Element , block : str )",463,464
+16,5,153,3,25,"run@466-490@markdown\blockprocessors.py","markdown\blockprocessors.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",466,490
+2,1,29,3,2,"test@499-500@markdown\blockprocessors.py","markdown\blockprocessors.py","test","test( self , parent : etree . Element , block : str )",499,500
+10,3,101,3,12,"run@502-513@markdown\blockprocessors.py","markdown\blockprocessors.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",502,513
+6,2,39,3,7,"test@525-531@markdown\blockprocessors.py","markdown\blockprocessors.py","test","test( self , parent : etree . Element , block : str )",525,531
+10,3,99,3,15,"run@533-547@markdown\blockprocessors.py","markdown\blockprocessors.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",533,547
+2,2,27,3,2,"test@553-554@markdown\blockprocessors.py","markdown\blockprocessors.py","test","test( self , parent : etree . Element , block : str )",553,554
+14,7,116,3,19,"run@556-574@markdown\blockprocessors.py","markdown\blockprocessors.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",556,574
+2,1,19,3,2,"test@584-585@markdown\blockprocessors.py","markdown\blockprocessors.py","test","test( self , parent : etree . Element , block : str )",584,585
+15,5,190,3,18,"run@587-604@markdown\blockprocessors.py","markdown\blockprocessors.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",587,604
+2,1,19,3,2,"test@610-611@markdown\blockprocessors.py","markdown\blockprocessors.py","test","test( self , parent : etree . Element , block : str )",610,611
+18,6,142,3,30,"run@613-642@markdown\blockprocessors.py","markdown\blockprocessors.py","run","run( self , parent : etree . Element , blocks : list [ str ] )",613,642
+16,1,185,2,42,"__init__@88-129@markdown\core.py","markdown\core.py","__init__","__init__( self , ** kwargs )",88,129
+7,1,50,1,27,"build_parser@131-157@markdown\core.py","markdown\core.py","build_parser","build_parser( self )",131,157
+22,5,132,3,35,"registerExtensions@159-193@markdown\core.py","markdown\core.py","registerExtensions","registerExtensions( self , extensions : Sequence [ Extension | str ] , configs : Mapping [ str , dict [ str , Any ] ] )",159,193
+27,8,199,3,52,"build_extension@195-246@markdown\core.py","markdown\core.py","build_extension","build_extension( self , ext_name : str , configs : Mapping [ str , Any ] )",195,246
+3,1,22,2,14,"registerExtension@248-261@markdown\core.py","markdown\core.py","registerExtension","registerExtension( self , extension : Extension )",248,261
+7,3,44,1,15,"reset@263-277@markdown\core.py","markdown\core.py","reset","reset( self )",263,277
+13,2,102,2,20,"set_output_format@279-298@markdown\core.py","markdown\core.py","set_output_format","set_output_format( self , format : str )",279,298
+4,2,37,2,12,"is_block_level@302-313@markdown\core.py","markdown\core.py","is_block_level","is_block_level( self , tag : Any )",302,313
+32,10,231,2,78,"convert@315-392@markdown\core.py","markdown\core.py","convert","convert( self , source : str )",315,392
+33,6,209,4,72,"convertFile@394-465@markdown\core.py","markdown\core.py","convertFile","convertFile( self , input : str | BinaryIO | None = None , output : str | BinaryIO | None = None , encoding : str | None = None , )",394,465
+3,1,29,2,26,"markdown@477-502@markdown\core.py","markdown\core.py","markdown","markdown( text : str , ** kwargs : Any )",477,502
+5,1,47,1,27,"markdownFromFile@505-531@markdown\core.py","markdown\core.py","markdownFromFile","markdownFromFile( ** kwargs : Any )",505,531
+9,5,95,2,9,"parse_endtag@107-115@markdown\htmlparser.py","markdown\htmlparser.py","parse_endtag","parse_endtag( self , i )",107,115
+5,2,53,2,7,"parse_starttag@117-123@markdown\htmlparser.py","markdown\htmlparser.py","parse_starttag","parse_starttag( self , i : int )",117,123
+7,2,61,4,12,"__init__@139-150@markdown\htmlparser.py","markdown\htmlparser.py","__init__","__init__( self , md : Markdown , * args , ** kwargs )",139,150
+9,1,74,1,11,"reset@152-162@markdown\htmlparser.py","markdown\htmlparser.py","reset","reset( self )",152,162
+10,5,92,1,14,"close@164-177@markdown\htmlparser.py","markdown\htmlparser.py","close","close( self )",164,177
+8,3,84,1,11,"line_offset@180-190@markdown\htmlparser.py","markdown\htmlparser.py","line_offset","line_offset( self )",180,190
+6,3,49,1,12,"at_line_start@192-203@markdown\htmlparser.py","markdown\htmlparser.py","at_line_start","at_line_start( self )",192,203
+7,2,60,2,14,"get_endtag_text@205-218@markdown\htmlparser.py","markdown\htmlparser.py","get_endtag_text","get_endtag_text( self , tag : str )",205,218
+16,8,135,3,21,"handle_starttag@220-240@markdown\htmlparser.py","markdown\htmlparser.py","handle_starttag","handle_starttag( self , tag : str , attrs : Sequence [ tuple [ str , str ] ] )",220,240
+20,7,163,2,27,"handle_endtag@242-268@markdown\htmlparser.py","markdown\htmlparser.py","handle_endtag","handle_endtag( self , tag : str )",242,268
+3,3,34,2,4,"open_inline_tag@270-273@markdown\htmlparser.py","markdown\htmlparser.py","open_inline_tag","open_inline_tag( self , tag : str )",270,273
+5,4,34,2,6,"close_inline_tag@275-280@markdown\htmlparser.py","markdown\htmlparser.py","close_inline_tag","close_inline_tag( self , tag : str )",275,280
+5,3,83,2,6,"inline_close_follows@282-287@markdown\htmlparser.py","markdown\htmlparser.py","inline_close_follows","inline_close_follows( self , text : str )",282,287
+9,5,60,2,10,"handle_data@289-298@markdown\htmlparser.py","markdown\htmlparser.py","handle_data","handle_data( self , data : str )",289,298
+15,9,149,3,22,"handle_empty_tag@300-321@markdown\htmlparser.py","markdown\htmlparser.py","handle_empty_tag","handle_empty_tag( self , data : str , is_block : bool )",300,321
+2,1,32,3,2,"handle_startendtag@323-324@markdown\htmlparser.py","markdown\htmlparser.py","handle_startendtag","handle_startendtag( self , tag : str , attrs )",323,324
+2,1,24,2,2,"handle_charref@326-327@markdown\htmlparser.py","markdown\htmlparser.py","handle_charref","handle_charref( self , name : str )",326,327
+2,1,24,2,2,"handle_entityref@329-330@markdown\htmlparser.py","markdown\htmlparser.py","handle_entityref","handle_entityref( self , name : str )",329,330
+4,2,46,2,6,"handle_comment@332-337@markdown\htmlparser.py","markdown\htmlparser.py","handle_comment","handle_comment( self , data : str )",332,337
+2,1,24,2,2,"handle_decl@339-340@markdown\htmlparser.py","markdown\htmlparser.py","handle_decl","handle_decl( self , data : str )",339,340
+2,1,24,2,2,"handle_pi@342-343@markdown\htmlparser.py","markdown\htmlparser.py","handle_pi","handle_pi( self , data : str )",342,343
+3,2,38,2,3,"unknown_decl@345-347@markdown\htmlparser.py","markdown\htmlparser.py","unknown_decl","unknown_decl( self , data : str )",345,347
+5,3,41,2,7,"parse_pi@349-355@markdown\htmlparser.py","markdown\htmlparser.py","parse_pi","parse_pi( self , i : int )",349,355
+11,3,82,3,11,"parse_comment@359-369@markdown\htmlparser.py","markdown\htmlparser.py","parse_comment","parse_comment( self , i , report = True )",359,369
+11,6,104,2,15,"parse_html_declaration@371-385@markdown\htmlparser.py","markdown\htmlparser.py","parse_html_declaration","parse_html_declaration( self , i : int )",371,385
+6,2,57,3,8,"parse_bogus_comment@387-394@markdown\htmlparser.py","markdown\htmlparser.py","parse_bogus_comment","parse_bogus_comment( self , i : int , report : int = 0 )",387,394
+2,1,12,1,3,"get_starttag_text@402-404@markdown\htmlparser.py","markdown\htmlparser.py","get_starttag_text","get_starttag_text( self )",402,404
+48,13,393,2,55,"parse_starttag@406-460@markdown\htmlparser.py","markdown\htmlparser.py","parse_starttag","parse_starttag( self , i : int )",406,460
+25,1,263,2,43,"build_inlinepatterns@53-95@markdown\inlinepatterns.py","markdown\inlinepatterns.py","build_inlinepatterns","build_inlinepatterns( md : Markdown , ** kwargs : Any )",53,95
+6,5,57,1,7,"dequote@181-187@markdown\inlinepatterns.py","markdown\inlinepatterns.py","dequote","dequote( string : str )",181,187
+5,1,49,3,16,"__init__@230-245@markdown\inlinepatterns.py","markdown\inlinepatterns.py","__init__","__init__( self , pattern : str , md : Markdown | None = None )",230,245
+2,1,14,1,3,"getCompiledRegExp@247-249@markdown\inlinepatterns.py","markdown\inlinepatterns.py","getCompiledRegExp","getCompiledRegExp( self )",247,249
+2,1,22,2,12,"handleMatch@251-262@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] )",251,262
+2,1,14,1,3,"type@264-266@markdown\inlinepatterns.py","markdown\inlinepatterns.py","type","type( self )",264,266
+8,3,49,1,9,"unescape.get_stash@275-283@markdown\inlinepatterns.py","markdown\inlinepatterns.py","unescape.get_stash","unescape.get_stash( m )",275,283
+7,2,44,2,17,"unescape@268-284@markdown\inlinepatterns.py","markdown\inlinepatterns.py","unescape","unescape( self , text : str )",268,284
+5,1,51,3,16,"__init__@296-311@markdown\inlinepatterns.py","markdown\inlinepatterns.py","__init__","__init__( self , pattern : str , md : Markdown | None = None )",296,311
+2,1,39,3,20,"handleMatch@313-332@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",313,332
+2,1,24,2,3,"handleMatch@337-339@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] )",337,339
+2,1,49,3,3,"handleMatch@344-346@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",344,346
+6,2,97,3,14,"handleMatch@352-365@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",352,365
+3,1,28,3,12,"__init__@374-385@markdown\inlinepatterns.py","markdown\inlinepatterns.py","__init__","__init__( self , pattern : str , tag : str )",374,385
+4,1,41,2,8,"handleMatch@387-394@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] )",387,394
+3,1,28,3,12,"__init__@403-414@markdown\inlinepatterns.py","markdown\inlinepatterns.py","__init__","__init__( self , pattern : str , tag : str )",403,414
+4,1,66,3,8,"handleMatch@416-423@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",416,423
+2,1,28,2,3,"handleMatch@428-430@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] )",428,430
+2,1,53,3,3,"handleMatch@435-437@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",435,437
+4,1,44,2,5,"__init__@443-447@markdown\inlinepatterns.py","markdown\inlinepatterns.py","__init__","__init__( self , pattern : str )",443,447
+27,11,138,3,45,"find_code_spans@449-493@markdown\inlinepatterns.py","markdown\inlinepatterns.py","find_code_spans","find_code_spans( self , start : int , text : str )",449,493
+11,3,160,3,20,"handleMatch@495-514@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",495,514
+8,2,83,2,13,"handleMatch@523-535@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] )",523,535
+8,2,108,3,13,"handleMatch@544-556@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",544,556
+4,1,74,3,5,"handleMatch@561-565@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",561,565
+8,3,67,1,9,"unescape.get_stash@574-582@markdown\inlinepatterns.py","markdown\inlinepatterns.py","unescape.get_stash","unescape.get_stash( m : re . Match [ str ] )",574,582
+7,2,44,2,18,"unescape@567-584@markdown\inlinepatterns.py","markdown\inlinepatterns.py","unescape","unescape( self , text : str )",567,584
+2,1,27,1,2,"backslash_unescape._unescape@593-594@markdown\inlinepatterns.py","markdown\inlinepatterns.py","backslash_unescape._unescape","backslash_unescape._unescape( m : re . Match [ str ] )",593,594
+7,2,42,2,11,"backslash_unescape@586-596@markdown\inlinepatterns.py","markdown\inlinepatterns.py","backslash_unescape","backslash_unescape( self , text : str )",586,596
+5,1,57,4,6,"build_single@611-616@markdown\inlinepatterns.py","markdown\inlinepatterns.py","build_single","build_single( self , m : re . Match [ str ] , tag : str , idx : int )",611,616
+11,2,113,4,13,"build_double@618-630@markdown\inlinepatterns.py","markdown\inlinepatterns.py","build_double","build_double( self , m : re . Match [ str ] , tags : str , idx : int )",618,630
+10,1,101,4,12,"build_double2@632-643@markdown\inlinepatterns.py","markdown\inlinepatterns.py","build_double2","build_double2( self , m : re . Match [ str ] , tags : str , idx : int )",632,643
+35,11,209,5,60,"parse_sub_patterns@645-704@markdown\inlinepatterns.py","markdown\inlinepatterns.py","parse_sub_patterns","parse_sub_patterns( self , data : str , parent : etree . Element , last : etree . Element | None , idx : int )",645,704
+7,3,76,5,9,"build_element@706-714@markdown\inlinepatterns.py","markdown\inlinepatterns.py","build_element","build_element( self , m : re . Match [ str ] , builder : str , tags : str , index : int )",706,714
+12,3,118,3,15,"handleMatch@716-730@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",716,730
+13,4,137,3,20,"handleMatch@751-770@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",751,770
+77,33,512,3,115,"getLink@772-886@markdown\inlinepatterns.py","markdown\inlinepatterns.py","getLink","getLink( self , data : str , index : int )",772,886
+14,5,93,3,18,"getText@888-905@markdown\inlinepatterns.py","markdown\inlinepatterns.py","getText","getText( self , data : str , index : int )",888,905
+13,4,145,3,19,"handleMatch@911-929@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",911,929
+12,4,156,3,21,"handleMatch@938-958@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",938,958
+10,3,92,4,15,"evalId@960-974@markdown\inlinepatterns.py","markdown\inlinepatterns.py","evalId","evalId( self , data : str , index : int , text : str )",960,974
+7,2,56,4,10,"makeTag@976-985@markdown\inlinepatterns.py","markdown\inlinepatterns.py","makeTag","makeTag( self , href : str , title : str , text : str )",976,985
+2,1,37,4,4,"evalId@990-993@markdown\inlinepatterns.py","markdown\inlinepatterns.py","evalId","evalId( self , data : str , index : int , text : str )",990,993
+7,2,64,4,8,"makeTag@998-1005@markdown\inlinepatterns.py","markdown\inlinepatterns.py","makeTag","makeTag( self , href : str , title : str , text : str )",998,1005
+2,1,37,4,4,"evalId@1010-1013@markdown\inlinepatterns.py","markdown\inlinepatterns.py","evalId","evalId( self , data : str , index : int , text : str )",1010,1013
+5,1,87,3,6,"handleMatch@1018-1023@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",1018,1023
+6,2,46,1,7,"handleMatch.codepoint2name@1037-1043@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch.codepoint2name","handleMatch.codepoint2name( code : int )",1037,1043
+13,4,153,3,23,"handleMatch@1030-1052@markdown\inlinepatterns.py","markdown\inlinepatterns.py","handleMatch","handleMatch( self , m : re . Match [ str ] , data : str )",1030,1052
+5,1,54,2,6,"build_postprocessors@39-44@markdown\postprocessors.py","markdown\postprocessors.py","build_postprocessors","build_postprocessors( md : Markdown , ** kwargs : Any )",39,44
+2,1,13,2,8,"run@58-65@markdown\postprocessors.py","markdown\postprocessors.py","run","run( self , text : str )",58,65
+12,5,114,1,12,"run.substitute_match@75-86@markdown\postprocessors.py","markdown\postprocessors.py","run.substitute_match","run.substitute_match( m : re . Match [ str ] )",75,86
+8,2,56,2,21,"run@73-93@markdown\postprocessors.py","markdown\postprocessors.py","run","run( self , text : str )",73,93
+7,3,64,2,9,"isblocklevel@95-103@markdown\postprocessors.py","markdown\postprocessors.py","isblocklevel","isblocklevel( self , html : str )",95,103
+2,1,17,2,3,"stash_to_string@105-107@markdown\postprocessors.py","markdown\postprocessors.py","stash_to_string","stash_to_string( self , text : str )",105,107
+3,1,25,2,3,"run@113-115@markdown\postprocessors.py","markdown\postprocessors.py","run","run( self , text : str )",113,115
+2,1,29,2,2,"unescape@127-128@markdown\postprocessors.py","markdown\postprocessors.py","unescape","unescape( self , m : re . Match [ str ] )",127,128
+2,1,24,2,2,"run@130-131@markdown\postprocessors.py","markdown\postprocessors.py","run","run( self , text : str )",130,131
+5,1,55,2,6,"build_preprocessors@37-42@markdown\preprocessors.py","markdown\preprocessors.py","build_preprocessors","build_preprocessors( md : Markdown , ** kwargs : Any )",37,42
+2,1,19,2,8,"run@56-63@markdown\preprocessors.py","markdown\preprocessors.py","run","run( self , lines : list [ str ] )",56,63
+7,1,97,2,7,"run@69-75@markdown\preprocessors.py","markdown\preprocessors.py","run","run( self , lines : list [ str ] )",69,75
+6,1,58,2,6,"run@86-91@markdown\preprocessors.py","markdown\preprocessors.py","run","run( self , lines : list [ str ] )",86,91
+4,1,26,1,4,"_raise_serialization_error@59-62@markdown\serializers.py","markdown\serializers.py","_raise_serialization_error","_raise_serialization_error( text : str )",59,62
+11,5,67,1,16,"_escape_cdata@65-80@markdown\serializers.py","markdown\serializers.py","_escape_cdata","_escape_cdata( text )",65,80
+15,7,99,1,17,"_escape_attrib@83-99@markdown\serializers.py","markdown\serializers.py","_escape_attrib","_escape_attrib( text : str )",83,99
+13,6,84,1,15,"_escape_attrib_html@102-116@markdown\serializers.py","markdown\serializers.py","_escape_attrib_html","_escape_attrib_html( text : str )",102,116
+63,24,416,3,74,"_serialize_html@119-192@markdown\serializers.py","markdown\serializers.py","_serialize_html","_serialize_html( write : Callable [ [ str ] , None ] , elem : Element , format : Literal [ 'html' , 'xhtml' ] )",119,192
+6,1,54,2,6,"_write_html@195-200@markdown\serializers.py","markdown\serializers.py","_write_html","_write_html( root : Element , format : Literal [ 'html' , 'xhtml' ] = 'html' )",195,200
+2,1,26,1,3,"to_html_string@207-209@markdown\serializers.py","markdown\serializers.py","to_html_string","to_html_string( element : Element )",207,209
+2,1,26,1,3,"to_xhtml_string@212-214@markdown\serializers.py","markdown\serializers.py","to_xhtml_string","to_xhtml_string( element : Element )",212,214
+9,3,85,5,19,"assertMarkdownRenders@61-79@markdown\test_tools.py","markdown\test_tools.py","assertMarkdownRenders","assertMarkdownRenders( self , source , expected , expected_attrs = None , ** kwargs )",61,79
+2,1,19,2,8,"dedent@81-88@markdown\test_tools.py","markdown\test_tools.py","dedent","dedent( self , text )",81,88
+3,1,27,2,3,"__init__@108-110@markdown\test_tools.py","markdown\test_tools.py","__init__","__init__( self , limit )",108,110
+2,1,13,1,2,"__enter__@112-113@markdown\test_tools.py","markdown\test_tools.py","__enter__","__enter__( self )",112,113
+2,1,19,4,2,"__exit__@115-116@markdown\test_tools.py","markdown\test_tools.py","__exit__","__exit__( self , type , value , tb )",115,116
+14,1,62,1,15,"_normalize_whitespace@129-143@markdown\test_tools.py","markdown\test_tools.py","_normalize_whitespace","_normalize_whitespace( text )",129,143
+15,5,104,1,17,"__new__.__new__.generate_test.test@150-166@markdown\test_tools.py","markdown\test_tools.py","__new__.__new__.generate_test.test","__new__.__new__.generate_test.test( self )",150,166
+3,1,15,4,19,"__new__.generate_test@149-167@markdown\test_tools.py","markdown\test_tools.py","__new__.generate_test","__new__.generate_test( infile , outfile , normalize , kwargs )",149,167
+25,7,244,4,47,"__new__@147-193@markdown\test_tools.py","markdown\test_tools.py","__new__","__new__( cls , name , bases , dct )",147,193
+6,1,68,2,7,"build_treeprocessors@39-45@markdown\treeprocessors.py","markdown\treeprocessors.py","build_treeprocessors","build_treeprocessors( md : Markdown , ** kwargs : Any )",39,45
+4,2,30,1,5,"isString@48-52@markdown\treeprocessors.py","markdown\treeprocessors.py","isString","isString( s : object )",48,52
+2,1,19,2,8,"run@65-72@markdown\treeprocessors.py","markdown\treeprocessors.py","run","run( self , root : etree . Element )",65,72
+9,1,73,2,9,"__init__@80-88@markdown\treeprocessors.py","markdown\treeprocessors.py","__init__","__init__( self , md : Markdown )",80,88
+4,1,38,2,5,"__makePlaceholder@90-94@markdown\treeprocessors.py","markdown\treeprocessors.py","__makePlaceholder","__makePlaceholder( self , type : str )",90,94
+6,2,59,3,17,"__findPlaceholder@96-112@markdown\treeprocessors.py","markdown\treeprocessors.py","__findPlaceholder","__findPlaceholder( self , data : str , index : int )",96,112
+4,1,40,3,5,"__stashNode@114-118@markdown\treeprocessors.py","markdown\treeprocessors.py","__stashNode","__stashNode( self , node : etree . Element | str , type : str )",114,118
+11,4,77,3,22,"__handleInline@120-141@markdown\treeprocessors.py","markdown\treeprocessors.py","__handleInline","__handleInline( self , data : str , patternIndex : int = 0 )",120,141
+15,5,111,4,28,"__processElementText@143-170@markdown\treeprocessors.py","markdown\treeprocessors.py","__processElementText","__processElementText( self , node : etree . Element , subnode : etree . Element , isText : bool = True )",143,170
+17,7,95,1,17,"__processPlaceholders.linkText@190-206@markdown\treeprocessors.py","markdown\treeprocessors.py","__processPlaceholders.linkText","__processPlaceholders.linkText( text : str | None )",190,206
+45,12,270,4,80,"__processPlaceholders@172-251@markdown\treeprocessors.py","markdown\treeprocessors.py","__processPlaceholders","__processPlaceholders( self , data : str | None , parent : etree . Element , isText : bool = True )",172,251
+55,17,400,5,84,"__applyPattern@253-336@markdown\treeprocessors.py","markdown\treeprocessors.py","__applyPattern","__applyPattern( self , pattern : inlinepatterns . Pattern , data : str , patternIndex : int , startIndex : int = 0 )",253,336
+8,3,72,3,9,"__build_ancestors@338-346@markdown\treeprocessors.py","markdown\treeprocessors.py","__build_ancestors","__build_ancestors( self , parent : etree . Element | None , parents : list [ str ] )",338,346
+47,16,393,3,72,"run@348-419@markdown\treeprocessors.py","markdown\treeprocessors.py","run","run( self , tree : etree . Element , ancestors : list [ str ] | None = None )",348,419
+11,11,125,2,13,"_prettifyETree@425-437@markdown\treeprocessors.py","markdown\treeprocessors.py","_prettifyETree","_prettifyETree( self , elem : etree . Element )",425,437
+14,9,130,2,20,"run@439-458@markdown\treeprocessors.py","markdown\treeprocessors.py","run","run( self , root : etree . Element )",439,458
+2,1,29,2,2,"_unescape@466-467@markdown\treeprocessors.py","markdown\treeprocessors.py","_unescape","_unescape( self , m : re . Match [ str ] )",466,467
+2,1,24,2,2,"unescape@469-470@markdown\treeprocessors.py","markdown\treeprocessors.py","unescape","unescape( self , text : str )",469,470
+8,6,88,2,12,"run@472-483@markdown\treeprocessors.py","markdown\treeprocessors.py","run","run( self , root : etree . Element )",472,483
+3,1,18,0,5,"get_installed_extensions@104-108@markdown\util.py","markdown\util.py","get_installed_extensions","get_installed_extensions( )",104,108
+7,1,38,2,7,"deprecated.deprecated.wrapper.deprecated_func@125-131@markdown\util.py","markdown\util.py","deprecated.deprecated.wrapper.deprecated_func","deprecated.deprecated.wrapper.deprecated_func( * args , ** kwargs )",125,131
+4,1,14,1,10,"deprecated.wrapper@123-132@markdown\util.py","markdown\util.py","deprecated.wrapper","deprecated.wrapper( func )",123,132
+3,1,18,2,23,"deprecated@111-133@markdown\util.py","markdown\util.py","deprecated","deprecated( message : str , stacklevel : int = 2 )",111,133
+13,9,116,3,17,"parseBoolValue@136-152@markdown\util.py","markdown\util.py","parseBoolValue","parseBoolValue( value : str | None , fail_on_errors : bool = True , preserve_none : bool = False )",136,152
+8,4,57,1,9,"code_escape@155-163@markdown\util.py","markdown\util.py","code_escape","code_escape( text : str )",155,163
+6,3,39,1,9,"_get_stack_depth@166-174@markdown\util.py","markdown\util.py","_get_stack_depth","_get_stack_depth( size : int = 2 )",166,174
+2,1,19,0,3,"nearing_recursion_limit@177-179@markdown\util.py","markdown\util.py","nearing_recursion_limit","nearing_recursion_limit( )",177,179
+2,1,18,2,2,"__init__@201-202@markdown\util.py","markdown\util.py","__init__","__init__( self , md : Markdown | None = None )",201,202
+5,1,42,1,6,"__init__@219-224@markdown\util.py","markdown\util.py","__init__","__init__( self )",219,224
+5,1,41,2,17,"store@226-242@markdown\util.py","markdown\util.py","store","store( self , html : str | etree . Element )",226,242
+3,1,19,1,4,"reset@244-247@markdown\util.py","markdown\util.py","reset","reset( self )",244,247
+2,1,15,2,2,"get_placeholder@249-250@markdown\util.py","markdown\util.py","get_placeholder","get_placeholder( self , key : int )",249,250
+7,1,70,5,8,"store_tag@252-259@markdown\util.py","markdown\util.py","store_tag","store_tag( self , tag : str , attrs : dict [ str , str ] , left_index : int , right_index : int )",252,259
+4,1,34,1,4,"__init__@310-313@markdown\util.py","markdown\util.py","__init__","__init__( self )",310,313
+4,2,41,2,6,"__contains__@315-320@markdown\util.py","markdown\util.py","__contains__","__contains__( self , item : str | _T )",315,320
+3,2,35,1,3,"__iter__@322-324@markdown\util.py","markdown\util.py","__iter__","__iter__( self )",322,324
+2,1,14,2,2,"__getitem__@327-328@markdown\util.py","markdown\util.py","__getitem__","__getitem__( self , key : str | int )",327,328
+2,1,15,2,2,"__getitem__@331-332@markdown\util.py","markdown\util.py","__getitem__","__getitem__( self , key : slice )",331,332
+10,4,101,2,10,"__getitem__@334-343@markdown\util.py","markdown\util.py","__getitem__","__getitem__( self , key : str | int | slice )",334,343
+2,1,14,1,2,"__len__@345-346@markdown\util.py","markdown\util.py","__len__","__len__( self )",345,346
+2,1,21,1,2,"__repr__@348-349@markdown\util.py","markdown\util.py","__repr__","__repr__( self )",348,349
+7,4,58,2,10,"get_index_for_name@351-360@markdown\util.py","markdown\util.py","get_index_for_name","get_index_for_name( self , name : str )",351,360
+6,2,57,4,25,"register@362-386@markdown\util.py","markdown\util.py","register","register( self , item : _T , name : str , priority : float )",362,386
+8,3,49,3,13,"deregister@388-400@markdown\util.py","markdown\util.py","deregister","deregister( self , name : str , strict : bool = True )",388,400
+4,2,38,1,9,"_sort@402-410@markdown\util.py","markdown\util.py","_sort","_sort( self )",402,410
+73,5,437,2,83,"parse_options@45-127@markdown\__main__.py","markdown\__main__.py","parse_options","parse_options( args = None , values = None )",45,127
+13,3,79,0,19,"run@130-148@markdown\__main__.py","markdown\__main__.py","run","run( )",130,148
+12,4,120,1,15,"_get_version@34-48@markdown\__meta__.py","markdown\__meta__.py","_get_version","_get_version( version_info )",34,48

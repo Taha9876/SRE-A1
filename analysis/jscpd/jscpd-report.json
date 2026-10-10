@@ -1,0 +1,1021 @@
+{
+  "duplicates": [
+    {
+      "firstFile": {
+        "end": 296,
+        "endLoc": {
+          "column": 38,
+          "line": 296,
+          "position": 12807
+        },
+        "name": "blockprocessors.py",
+        "start": 290,
+        "startLoc": {
+          "column": 80,
+          "line": 290,
+          "position": 12613
+        }
+      },
+      "format": "python",
+      "fragment": "        return bool(self.RE.search(block)) and not util.nearing_recursion_limit()\n\n    def run(self, parent: etree.Element, blocks: list[str]) -> None:\n        block = blocks.pop(0)\n        m = self.RE.search(block)\n        if m:\n            before = block[:m.start()]  # Lines before blockquote",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 7,
+      "secondFile": {
+        "end": 470,
+        "endLoc": {
+          "column": 38,
+          "line": 470,
+          "position": 20405
+        },
+        "name": "blockprocessors.py",
+        "start": 464,
+        "startLoc": {
+          "column": 41,
+          "line": 464,
+          "position": 20211
+        }
+      },
+      "tokens": 55
+    },
+    {
+      "firstFile": {
+        "end": 359,
+        "endLoc": {
+          "column": 68,
+          "line": 359,
+          "position": 15583
+        },
+        "name": "blockprocessors.py",
+        "start": 354,
+        "startLoc": {
+          "column": 78,
+          "line": 354,
+          "position": 15401
+        }
+      },
+      "format": "python",
+      "fragment": "                                    (self.tab_length, self.tab_length * 2 - 1))\n\n    def test(self, parent: etree.Element, block: str) -> bool:\n        return bool(self.RE.match(block))\n\n    def run(self, parent: etree.Element, blocks: list[str]) -> None:",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 6,
+      "secondFile": {
+        "end": 502,
+        "endLoc": {
+          "column": 68,
+          "line": 502,
+          "position": 22042
+        },
+        "name": "blockprocessors.py",
+        "start": 497,
+        "startLoc": {
+          "column": 62,
+          "line": 497,
+          "position": 21860
+        }
+      },
+      "tokens": 54
+    },
+    {
+      "firstFile": {
+        "end": 466,
+        "endLoc": {
+          "column": 62,
+          "line": 466,
+          "position": 20278
+        },
+        "name": "blockprocessors.py",
+        "start": 461,
+        "startLoc": {
+          "column": 85,
+          "line": 461,
+          "position": 20101
+        }
+      },
+      "format": "python",
+      "fragment": "    RE = re.compile(r'(?:^|\\n)(?P<level>#{1,6})(?P<header>(?:\\\\.|[^\\\\])*?)#*(?:\\n|$)')\n\n    def test(self, parent: etree.Element, block: str) -> bool:\n        return bool(self.RE.search(block))\n\n    def run(self, parent: etree.Element, blocks: list[str]) -> None:",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 6,
+      "secondFile": {
+        "end": 39,
+        "endLoc": {
+          "column": 62,
+          "line": 39,
+          "position": 1183
+        },
+        "name": "extensions\\def_list.py",
+        "start": 34,
+        "startLoc": {
+          "column": 47,
+          "line": 34,
+          "position": 1006
+        }
+      },
+      "tokens": 52
+    },
+    {
+      "firstFile": {
+        "end": 604,
+        "endLoc": {
+          "column": 20,
+          "line": 604,
+          "position": 26121
+        },
+        "name": "blockprocessors.py",
+        "start": 595,
+        "startLoc": {
+          "column": 12,
+          "line": 595,
+          "position": 25644
+        }
+      },
+      "format": "python",
+      "fragment": "            if block[m.end():].strip():\n                # Add any content after match back to blocks as separate block\n                blocks.insert(0, block[m.end():].lstrip('\\n'))\n            if block[:m.start()].strip():\n                # Add any content before match back to blocks as separate block\n                blocks.insert(0, block[:m.start()].rstrip('\\n'))\n            return True\n        # No match. Restore block.\n        blocks.insert(0, block)\n        return False",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 10,
+      "secondFile": {
+        "end": 177,
+        "endLoc": {
+          "column": 20,
+          "line": 177,
+          "position": 7277
+        },
+        "name": "extensions\\abbr.py",
+        "start": 168,
+        "startLoc": {
+          "column": 16,
+          "line": 168,
+          "position": 6776
+        }
+      },
+      "tokens": 87
+    },
+    {
+      "firstFile": {
+        "end": 604,
+        "endLoc": {
+          "column": 20,
+          "line": 604,
+          "position": 26121
+        },
+        "name": "blockprocessors.py",
+        "start": 597,
+        "startLoc": {
+          "column": 60,
+          "line": 597,
+          "position": 25813
+        }
+      },
+      "format": "python",
+      "fragment": "                blocks.insert(0, block[m.end():].lstrip('\\n'))\n            if block[:m.start()].strip():\n                # Add any content before match back to blocks as separate block\n                blocks.insert(0, block[:m.start()].rstrip('\\n'))\n            return True\n        # No match. Restore block.\n        blocks.insert(0, block)\n        return False",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 8,
+      "secondFile": {
+        "end": 293,
+        "endLoc": {
+          "column": 20,
+          "line": 293,
+          "position": 13029
+        },
+        "name": "extensions\\footnotes.py",
+        "start": 285,
+        "startLoc": {
+          "column": 59,
+          "line": 285,
+          "position": 12719
+        }
+      },
+      "tokens": 52
+    },
+    {
+      "firstFile": {
+        "end": 98,
+        "endLoc": {
+          "column": 17,
+          "line": 98,
+          "position": 4881
+        },
+        "name": "core.py",
+        "start": 92,
+        "startLoc": {
+          "column": 16,
+          "line": 92,
+          "position": 4492
+        }
+      },
+      "format": "python",
+      "fragment": "        Keyword Arguments:\n            extensions (list[Extension | str]): A list of extensions.\n\n                If an item is an instance of a subclass of [`markdown.extensions.Extension`][],\n                the instance will be used as-is. If an item is of type `str`, it is passed\n                to [`build_extension`][markdown.Markdown.build_extension] with its corresponding\n                `extension_configs` and the returned instance  of [`markdown.extensions.Extension`][]",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 7,
+      "secondFile": {
+        "end": 172,
+        "endLoc": {
+          "column": 98,
+          "line": 172,
+          "position": 8414
+        },
+        "name": "core.py",
+        "start": 167,
+        "startLoc": {
+          "column": 8,
+          "line": 167,
+          "position": 8042
+        }
+      },
+      "tokens": 78
+    },
+    {
+      "firstFile": {
+        "end": 344,
+        "endLoc": {
+          "column": 11,
+          "line": 344,
+          "position": 16083
+        },
+        "name": "core.py",
+        "start": 336,
+        "startLoc": {
+          "column": 45,
+          "line": 336,
+          "position": 15719
+        }
+      },
+      "format": "python",
+      "fragment": "        5. The output is returned as a string.\n\n        !!! warning\n            The Python-Markdown library does ***not*** sanitize its HTML output.\n            If you are processing Markdown input from an untrusted source, it is your\n            responsibility to ensure that it is properly sanitized. For more\n            information see [Sanitizing HTML Output](../../sanitization.md).\n\n        \"\"\"",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 9,
+      "secondFile": {
+        "end": 500,
+        "endLoc": {
+          "column": 7,
+          "line": 500,
+          "position": 22132
+        },
+        "name": "core.py",
+        "start": 492,
+        "startLoc": {
+          "column": 47,
+          "line": 492,
+          "position": 21792
+        }
+      },
+      "tokens": 69
+    },
+    {
+      "firstFile": {
+        "end": 76,
+        "endLoc": {
+          "column": 77,
+          "line": 76,
+          "position": 2591
+        },
+        "name": "extensions\\abbr.py",
+        "start": 71,
+        "startLoc": {
+          "column": 4,
+          "line": 71,
+          "position": 2266
+        }
+      },
+      "format": "python",
+      "fragment": "    def extendMarkdown(self, md):\n        \"\"\"\n        Register the processors.\n\n        | Class Instance                                                      | Registry                                                         | Name   | Priority |\n        | ------------------------------------------------------------------- | ---------------------------------------------------------------- | ------ | :------: |",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 6,
+      "secondFile": {
+        "end": 117,
+        "endLoc": {
+          "column": 77,
+          "line": 117,
+          "position": 4104
+        },
+        "name": "extensions\\def_list.py",
+        "start": 112,
+        "startLoc": {
+          "column": 4,
+          "line": 112,
+          "position": 3771
+        }
+      },
+      "tokens": 92
+    },
+    {
+      "firstFile": {
+        "end": 49,
+        "endLoc": {
+          "column": 12,
+          "line": 49,
+          "position": 1673
+        },
+        "name": "extensions\\admonition.py",
+        "start": 41,
+        "startLoc": {
+          "column": 51,
+          "line": 41,
+          "position": 1220
+        }
+      },
+      "format": "python",
+      "fragment": "    \"\"\" Admonition extension for Python-Markdown. \"\"\"\n\n    def extendMarkdown(self, md):\n        \"\"\"\n        Register the processor.\n\n        | Class Instance                                                              | Registry                                                         | Name   | Priority |\n        | --------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------ | :------: |\n        | [`AdmonitionProcessor`][markdown.extensions.admonition.AdmonitionProcessor] | [`blockprocessors`][markdown.blockprocessors.build_block_parser] | `admonition` | `105` |",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 9,
+      "secondFile": {
+        "end": 204,
+        "endLoc": {
+          "column": 12,
+          "line": 204,
+          "position": 8248
+        },
+        "name": "extensions\\attr_list.py",
+        "start": 197,
+        "startLoc": {
+          "column": 54,
+          "line": 197,
+          "position": 7797
+        }
+      },
+      "tokens": 186
+    },
+    {
+      "firstFile": {
+        "end": 49,
+        "endLoc": {
+          "column": 12,
+          "line": 49,
+          "position": 1673
+        },
+        "name": "extensions\\admonition.py",
+        "start": 43,
+        "startLoc": {
+          "column": 4,
+          "line": 43,
+          "position": 1230
+        }
+      },
+      "format": "python",
+      "fragment": "    def extendMarkdown(self, md):\n        \"\"\"\n        Register the processor.\n\n        | Class Instance                                                              | Registry                                                         | Name   | Priority |\n        | --------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------ | :------: |\n        | [`AdmonitionProcessor`][markdown.extensions.admonition.AdmonitionProcessor] | [`blockprocessors`][markdown.blockprocessors.build_block_parser] | `admonition` | `105` |",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 7,
+      "secondFile": {
+        "end": 343,
+        "endLoc": {
+          "column": 12,
+          "line": 343,
+          "position": 13920
+        },
+        "name": "extensions\\codehilite.py",
+        "start": 337,
+        "startLoc": {
+          "column": 4,
+          "line": 337,
+          "position": 13477
+        }
+      },
+      "tokens": 185
+    },
+    {
+      "firstFile": {
+        "end": 49,
+        "endLoc": {
+          "column": 12,
+          "line": 49,
+          "position": 1673
+        },
+        "name": "extensions\\admonition.py",
+        "start": 43,
+        "startLoc": {
+          "column": 4,
+          "line": 43,
+          "position": 1230
+        }
+      },
+      "format": "python",
+      "fragment": "    def extendMarkdown(self, md):\n        \"\"\"\n        Register the processor.\n\n        | Class Instance                                                              | Registry                                                         | Name   | Priority |\n        | --------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------ | :------: |\n        | [`AdmonitionProcessor`][markdown.extensions.admonition.AdmonitionProcessor] | [`blockprocessors`][markdown.blockprocessors.build_block_parser] | `admonition` | `105` |",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 7,
+      "secondFile": {
+        "end": 52,
+        "endLoc": {
+          "column": 12,
+          "line": 52,
+          "position": 1886
+        },
+        "name": "extensions\\fenced_code.py",
+        "start": 46,
+        "startLoc": {
+          "column": 4,
+          "line": 46,
+          "position": 1443
+        }
+      },
+      "tokens": 185
+    },
+    {
+      "firstFile": {
+        "end": 90,
+        "endLoc": {
+          "column": 12,
+          "line": 90,
+          "position": 3281
+        },
+        "name": "extensions\\footnotes.py",
+        "start": 83,
+        "startLoc": {
+          "column": 19,
+          "line": 83,
+          "position": 2837
+        }
+      },
+      "format": "python",
+      "fragment": "        self.reset()\n\n    def extendMarkdown(self, md):\n        \"\"\" Register the processors.\n\n        | Class Instance                                                              | Registry                                                         | Name   | Priority |\n        | --------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------ | :------: |\n        | [`FootnoteBlockProcessor`][markdown.extensions.footnotes.FootnoteBlockProcessor] | [`blockprocessors`][markdown.blockprocessors.build_block_parser] | `footnote` | `17` |",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 8,
+      "secondFile": {
+        "end": 264,
+        "endLoc": {
+          "column": 12,
+          "line": 264,
+          "position": 10949
+        },
+        "name": "extensions\\smarty.py",
+        "start": 257,
+        "startLoc": {
+          "column": 52,
+          "line": 257,
+          "position": 10505
+        }
+      },
+      "tokens": 182
+    },
+    {
+      "firstFile": {
+        "end": 90,
+        "endLoc": {
+          "column": 12,
+          "line": 90,
+          "position": 3281
+        },
+        "name": "extensions\\footnotes.py",
+        "start": 85,
+        "startLoc": {
+          "column": 4,
+          "line": 85,
+          "position": 2846
+        }
+      },
+      "format": "python",
+      "fragment": "    def extendMarkdown(self, md):\n        \"\"\" Register the processors.\n\n        | Class Instance                                                              | Registry                                                         | Name   | Priority |\n        | --------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------ | :------: |\n        | [`FootnoteBlockProcessor`][markdown.extensions.footnotes.FootnoteBlockProcessor] | [`blockprocessors`][markdown.blockprocessors.build_block_parser] | `footnote` | `17` |",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 6,
+      "secondFile": {
+        "end": 441,
+        "endLoc": {
+          "column": 12,
+          "line": 441,
+          "position": 20284
+        },
+        "name": "extensions\\md_in_html.py",
+        "start": 436,
+        "startLoc": {
+          "column": 4,
+          "line": 436,
+          "position": 19849
+        }
+      },
+      "tokens": 181
+    },
+    {
+      "firstFile": {
+        "end": 70,
+        "endLoc": {
+          "column": 12,
+          "line": 70,
+          "position": 3009
+        },
+        "name": "extensions\\legacy_attrs.py",
+        "start": 65,
+        "startLoc": {
+          "column": 4,
+          "line": 65,
+          "position": 2603
+        }
+      },
+      "format": "python",
+      "fragment": "    def extendMarkdown(self, md):\n        \"\"\" Register the processor.\n\n        | Class Instance                                                | Registry                                                         | Name   | Priority |\n        | ------------------------------------------------------------- | ---------------------------------------------------------------- | ------ | :------: |\n        | [`LegacyAttrs`][markdown.extensions.legacy_attrs.LegacyAttrs] | [`treeprocessors`][markdown.treeprocessors.build_treeprocessors] | `legacyattrs` | `15` |",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 6,
+      "secondFile": {
+        "end": 50,
+        "endLoc": {
+          "column": 12,
+          "line": 50,
+          "position": 1839
+        },
+        "name": "extensions\\legacy_em.py",
+        "start": 45,
+        "startLoc": {
+          "column": 4,
+          "line": 45,
+          "position": 1433
+        }
+      },
+      "tokens": 167
+    },
+    {
+      "firstFile": {
+        "end": 70,
+        "endLoc": {
+          "column": 12,
+          "line": 70,
+          "position": 3009
+        },
+        "name": "extensions\\legacy_attrs.py",
+        "start": 65,
+        "startLoc": {
+          "column": 4,
+          "line": 65,
+          "position": 2603
+        }
+      },
+      "format": "python",
+      "fragment": "    def extendMarkdown(self, md):\n        \"\"\" Register the processor.\n\n        | Class Instance                                                | Registry                                                         | Name   | Priority |\n        | ------------------------------------------------------------- | ---------------------------------------------------------------- | ------ | :------: |\n        | [`LegacyAttrs`][markdown.extensions.legacy_attrs.LegacyAttrs] | [`treeprocessors`][markdown.treeprocessors.build_treeprocessors] | `legacyattrs` | `15` |",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 6,
+      "secondFile": {
+        "end": 244,
+        "endLoc": {
+          "column": 12,
+          "line": 244,
+          "position": 8987
+        },
+        "name": "extensions\\tables.py",
+        "start": 239,
+        "startLoc": {
+          "column": 4,
+          "line": 239,
+          "position": 8581
+        }
+      },
+      "tokens": 167
+    },
+    {
+      "firstFile": {
+        "end": 36,
+        "endLoc": {
+          "column": 32,
+          "line": 36,
+          "position": 1082
+        },
+        "name": "extensions\\legacy_em.py",
+        "start": 30,
+        "startLoc": {
+          "column": 51,
+          "line": 30,
+          "position": 747
+        }
+      },
+      "format": "python",
+      "fragment": "class LegacyUnderscoreProcessor(UnderscoreProcessor):\n    \"\"\"Emphasis processor for handling strong and em matches inside underscores.\"\"\"\n\n    PATTERNS = [\n        EmStrongItem(re.compile(EM_STRONG2_RE, re.DOTALL | re.UNICODE), 'double', 'strong,em'),\n        EmStrongItem(re.compile(STRONG_EM2_RE, re.DOTALL | re.UNICODE), 'double', 'em,strong'),\n        EmStrongItem(re.compile(STRONG_EM_RE, re.DOTALL | re.UNICODE), 'double2', 'strong,em'),",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 7,
+      "secondFile": {
+        "end": 739,
+        "endLoc": {
+          "column": 32,
+          "line": 739,
+          "position": 28953
+        },
+        "name": "inlinepatterns.py",
+        "start": 733,
+        "startLoc": {
+          "column": 43,
+          "line": 733,
+          "position": 28618
+        }
+      },
+      "tokens": 58
+    },
+    {
+      "firstFile": {
+        "end": 42,
+        "endLoc": {
+          "column": 5,
+          "line": 42,
+          "position": 1340
+        },
+        "name": "extensions\\legacy_em.py",
+        "start": 36,
+        "startLoc": {
+          "column": 44,
+          "line": 36,
+          "position": 1094
+        }
+      },
+      "format": "python",
+      "fragment": "        EmStrongItem(re.compile(STRONG_EM_RE, re.DOTALL | re.UNICODE), 'double2', 'strong,em'),\n        EmStrongItem(re.compile(STRONG_RE, re.DOTALL | re.UNICODE), 'single', 'strong'),\n        EmStrongItem(re.compile(EMPHASIS_RE, re.DOTALL | re.UNICODE), 'single', 'em')\n    ]\n\n\nclass LegacyEmExtension(Extension):",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 7,
+      "secondFile": {
+        "end": 609,
+        "endLoc": {
+          "column": 6,
+          "line": 609,
+          "position": 23917
+        },
+        "name": "inlinepatterns.py",
+        "start": 605,
+        "startLoc": {
+          "column": 45,
+          "line": 605,
+          "position": 23674
+        }
+      },
+      "tokens": 59
+    },
+    {
+      "firstFile": {
+        "end": 49,
+        "endLoc": {
+          "column": 71,
+          "line": 49,
+          "position": 1736
+        },
+        "name": "extensions\\legacy_em.py",
+        "start": 43,
+        "startLoc": {
+          "column": 51,
+          "line": 43,
+          "position": 1423
+        }
+      },
+      "format": "python",
+      "fragment": "    \"\"\" Add legacy_em extension to Markdown class.\"\"\"\n\n    def extendMarkdown(self, md):\n        \"\"\" Register the processor.\n\n        | Class Instance                                                | Registry                                                         | Name   | Priority |\n        | ------------------------------------------------------------- | ---------------------------------------------------------------- | ------ | :------: |",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 7,
+      "secondFile": {
+        "end": 46,
+        "endLoc": {
+          "column": 71,
+          "line": 46,
+          "position": 1438
+        },
+        "name": "extensions\\meta.py",
+        "start": 40,
+        "startLoc": {
+          "column": 50,
+          "line": 40,
+          "position": 1126
+        }
+      },
+      "tokens": 83
+    },
+    {
+      "firstFile": {
+        "end": 49,
+        "endLoc": {
+          "column": 71,
+          "line": 49,
+          "position": 1736
+        },
+        "name": "extensions\\legacy_em.py",
+        "start": 43,
+        "startLoc": {
+          "column": 51,
+          "line": 43,
+          "position": 1423
+        }
+      },
+      "format": "python",
+      "fragment": "    \"\"\" Add legacy_em extension to Markdown class.\"\"\"\n\n    def extendMarkdown(self, md):\n        \"\"\" Register the processor.\n\n        | Class Instance                                                | Registry                                                         | Name   | Priority |\n        | ------------------------------------------------------------- | ---------------------------------------------------------------- | ------ | :------: |",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 7,
+      "secondFile": {
+        "end": 39,
+        "endLoc": {
+          "column": 71,
+          "line": 39,
+          "position": 1204
+        },
+        "name": "extensions\\nl2br.py",
+        "start": 33,
+        "startLoc": {
+          "column": 57,
+          "line": 33,
+          "position": 892
+        }
+      },
+      "tokens": 83
+    },
+    {
+      "firstFile": {
+        "end": 119,
+        "endLoc": {
+          "column": 47,
+          "line": 119,
+          "position": 4943
+        },
+        "name": "extensions\\md_in_html.py",
+        "start": 112,
+        "startLoc": {
+          "column": 75,
+          "line": 112,
+          "position": 4574
+        }
+      },
+      "format": "python",
+      "fragment": "        if tag in self.empty_tags and (self.at_line_start() or self.intail):\n            attrs = {key: value if value is not None else key for key, value in attrs}\n            if \"markdown\" in attrs:\n                attrs.pop('markdown')\n                element = etree.Element(tag, attrs)\n                data = etree.tostring(element, encoding='unicode', method='html')\n            else:\n                data = self.get_starttag_text()",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 8,
+      "secondFile": {
+        "end": 256,
+        "endLoc": {
+          "column": 47,
+          "line": 256,
+          "position": 11902
+        },
+        "name": "extensions\\md_in_html.py",
+        "start": 249,
+        "startLoc": {
+          "column": 33,
+          "line": 249,
+          "position": 11533
+        }
+      },
+      "tokens": 67
+    },
+    {
+      "firstFile": {
+        "end": 300,
+        "endLoc": {
+          "column": 29,
+          "line": 300,
+          "position": 13916
+        },
+        "name": "extensions\\md_in_html.py",
+        "start": 292,
+        "startLoc": {
+          "column": 62,
+          "line": 292,
+          "position": 13451
+        }
+      },
+      "format": "python",
+      "fragment": "        if self.at_line_start() or self.intail or self.mdstack:\n            if self.rawdata[i:i+3] == '<![' and not self.rawdata[i:i+9] == '<![CDATA[':\n                # We have encountered the bug in #1534 (Python bug `gh-77057`).\n                # Provide an override until we drop support for Python < 3.13.\n                result = self.parse_bogus_comment(i)\n                if result == -1:\n                    self.handle_data(self.rawdata[i:i + 1])\n                    return i + 1\n                return result",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 9,
+      "secondFile": {
+        "end": 380,
+        "endLoc": {
+          "column": 29,
+          "line": 380,
+          "position": 16217
+        },
+        "name": "htmlparser.py",
+        "start": 372,
+        "startLoc": {
+          "column": 46,
+          "line": 372,
+          "position": 15752
+        }
+      },
+      "tokens": 69
+    },
+    {
+      "firstFile": {
+        "end": 440,
+        "endLoc": {
+          "column": 83,
+          "line": 440,
+          "position": 20179
+        },
+        "name": "extensions\\md_in_html.py",
+        "start": 434,
+        "startLoc": {
+          "column": 55,
+          "line": 434,
+          "position": 19839
+        }
+      },
+      "format": "python",
+      "fragment": "    \"\"\"Add Markdown parsing in HTML to Markdown class.\"\"\"\n\n    def extendMarkdown(self, md):\n        \"\"\" Register the processors.\n\n        | Class Instance                                                              | Registry                                                         | Name   | Priority |\n        | --------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------ | :------: |",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 7,
+      "secondFile": {
+        "end": 66,
+        "endLoc": {
+          "column": 83,
+          "line": 66,
+          "position": 2203
+        },
+        "name": "extensions\\sane_lists.py",
+        "start": 60,
+        "startLoc": {
+          "column": 37,
+          "line": 60,
+          "position": 1865
+        }
+      },
+      "tokens": 95
+    },
+    {
+      "firstFile": {
+        "end": 243,
+        "endLoc": {
+          "column": 71,
+          "line": 243,
+          "position": 8884
+        },
+        "name": "extensions\\tables.py",
+        "start": 233,
+        "startLoc": {
+          "column": 90,
+          "line": 233,
+          "position": 8474
+        }
+      },
+      "format": "python",
+      "fragment": "            'use_align_attribute': [False, 'True to use align attribute instead of style.'],\n        }\n        \"\"\" Default configuration options. \"\"\"\n\n        super().__init__(**kwargs)\n\n    def extendMarkdown(self, md):\n        \"\"\" Register the processor.\n\n        | Class Instance                                                | Registry                                                         | Name   | Priority |\n        | ------------------------------------------------------------- | ---------------------------------------------------------------- | ------ | :------: |",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 11,
+      "secondFile": {
+        "end": 479,
+        "endLoc": {
+          "column": 71,
+          "line": 479,
+          "position": 18722
+        },
+        "name": "extensions\\toc.py",
+        "start": 469,
+        "startLoc": {
+          "column": 12,
+          "line": 469,
+          "position": 18311
+        }
+      },
+      "tokens": 98
+    },
+    {
+      "firstFile": {
+        "end": 243,
+        "endLoc": {
+          "column": 71,
+          "line": 243,
+          "position": 8884
+        },
+        "name": "extensions\\tables.py",
+        "start": 233,
+        "startLoc": {
+          "column": 90,
+          "line": 233,
+          "position": 8474
+        }
+      },
+      "format": "python",
+      "fragment": "            'use_align_attribute': [False, 'True to use align attribute instead of style.'],\n        }\n        \"\"\" Default configuration options. \"\"\"\n\n        super().__init__(**kwargs)\n\n    def extendMarkdown(self, md):\n        \"\"\" Register the processor.\n\n        | Class Instance                                                | Registry                                                         | Name   | Priority |\n        | ------------------------------------------------------------- | ---------------------------------------------------------------- | ------ | :------: |",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 11,
+      "secondFile": {
+        "end": 54,
+        "endLoc": {
+          "column": 71,
+          "line": 54,
+          "position": 1851
+        },
+        "name": "extensions\\wikilinks.py",
+        "start": 45,
+        "startLoc": {
+          "column": 71,
+          "line": 45,
+          "position": 1429
+        }
+      },
+      "tokens": 98
+    },
+    {
+      "firstFile": {
+        "end": 242,
+        "endLoc": {
+          "column": 38,
+          "line": 242,
+          "position": 10309
+        },
+        "name": "inlinepatterns.py",
+        "start": 232,
+        "startLoc": {
+          "column": 46,
+          "line": 232,
+          "position": 9984
+        }
+      },
+      "format": "python",
+      "fragment": "        Create an instant of an inline pattern.\n\n        Arguments:\n            pattern: A regular expression that matches a pattern.\n            md: An optional pointer to the instance of `markdown.Markdown` and is available as\n                `self.md` on the class instance.\n\n\n        \"\"\"\n        self.pattern = pattern\n        self.compiled_re = re.compile(r\"^(.*?)%s(.*)$\" % pattern,",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 11,
+      "secondFile": {
+        "end": 307,
+        "endLoc": {
+          "column": 38,
+          "line": 307,
+          "position": 12424
+        },
+        "name": "inlinepatterns.py",
+        "start": 298,
+        "startLoc": {
+          "column": 48,
+          "line": 298,
+          "position": 12101
+        }
+      },
+      "tokens": 56
+    },
+    {
+      "firstFile": {
+        "end": 94,
+        "endLoc": {
+          "column": 47,
+          "line": 94,
+          "position": 3800
+        },
+        "name": "serializers.py",
+        "start": 83,
+        "startLoc": {
+          "column": 18,
+          "line": 83,
+          "position": 3396
+        }
+      },
+      "format": "python",
+      "fragment": "def _escape_attrib(text: str) -> str:\n    # escape attribute value\n    try:\n        if \"&\" in text:\n            # Only replace & when not part of an entity\n            text = RE_AMP.sub('&amp;', text)\n        if \"<\" in text:\n            text = text.replace(\"<\", \"&lt;\")\n        if \">\" in text:\n            text = text.replace(\">\", \"&gt;\")\n        if \"\\\"\" in text:\n            text = text.replace(\"\\\"\", \"&quot;\")",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 12,
+      "secondFile": {
+        "end": 113,
+        "endLoc": {
+          "column": 47,
+          "line": 113,
+          "position": 4431
+        },
+        "name": "serializers.py",
+        "start": 102,
+        "startLoc": {
+          "column": 23,
+          "line": 102,
+          "position": 4027
+        }
+      },
+      "tokens": 73
+    }
+  ],
+  "statistics": {
+    "detectionDate": "2026-10-09T06:45:07.211Z",
+    "formats": {
+      "python": {
+        "clones": 26,
+        "duplicatedLines": 205,
+        "duplicatedTokens": 2631,
+        "lines": 8609,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 2.381228946451388,
+        "percentageTokens": 4.8719515582467645,
+        "sources": 33,
+        "tokens": 54003
+      }
+    },
+    "total": {
+      "clones": 26,
+      "duplicatedLines": 205,
+      "duplicatedTokens": 2631,
+      "lines": 8609,
+      "newClones": 0,
+      "newDuplicatedLines": 0,
+      "percentage": 2.381228946451388,
+      "percentageTokens": 4.8719515582467645,
+      "sources": 33,
+      "tokens": 54003
+    }
+  }
+}

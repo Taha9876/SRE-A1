@@ -1,0 +1,586 @@
+{
+ "items": [
+  {
+   "key": "R1",
+   "category": "Over-complex functions (cognitive complexity > 15)",
+   "debt_type": "Code debt",
+   "tool": "complexipy",
+   "count": 26,
+   "unit": "functions",
+   "formula": "5 min + 1 min per point above 15",
+   "minutes": 703,
+   "note": ""
+  },
+  {
+   "key": "R2",
+   "category": "Duplicated blocks",
+   "debt_type": "Design debt",
+   "tool": "jscpd",
+   "count": 26,
+   "unit": "clone pairs",
+   "formula": "20 min per clone pair (extract shared helper, redirect both call sites)",
+   "minutes": 520,
+   "note": ""
+  },
+  {
+   "key": "R3",
+   "category": "Uncovered statements",
+   "debt_type": "Test debt",
+   "tool": "coverage.py",
+   "count": 69,
+   "unit": "lines",
+   "formula": "2 min per uncovered line",
+   "minutes": 138,
+   "note": ""
+  },
+  {
+   "key": "R4",
+   "category": "Uncovered branches",
+   "debt_type": "Test debt",
+   "tool": "coverage.py",
+   "count": 85,
+   "unit": "branches",
+   "formula": "5 min per uncovered branch",
+   "minutes": 425,
+   "note": ""
+  },
+  {
+   "key": "R5",
+   "category": "Version-pinned tests (Pygments == 2.7.1) that skip in a default environment",
+   "debt_type": "Test debt",
+   "tool": "unittest run",
+   "count": 1,
+   "unit": "test design issue",
+   "formula": "fixed estimate: 4 h to make 111 skipped tests version-tolerant",
+   "minutes": 240,
+   "note": ""
+  },
+  {
+   "key": "R6",
+   "category": "Missing docstrings (module / class / function)",
+   "debt_type": "Documentation debt",
+   "tool": "pylint C0114-C0116",
+   "count": 62,
+   "unit": "definitions",
+   "formula": "5 min each",
+   "minutes": 310,
+   "note": ""
+  },
+  {
+   "key": "R7",
+   "category": "Non-PEP 8 names in the public API (camelCase methods / attributes)",
+   "debt_type": "Code debt",
+   "tool": "pylint C0103",
+   "count": 85,
+   "unit": "names",
+   "formula": "15 min each (snake_case alias + deprecation shim)",
+   "minutes": 1275,
+   "note": ""
+  },
+  {
+   "key": "R8",
+   "category": "Non-PEP 8 local / argument / constant names",
+   "debt_type": "Code debt",
+   "tool": "pylint C0103",
+   "count": 67,
+   "unit": "names",
+   "formula": "2 min each",
+   "minutes": 134,
+   "note": ""
+  },
+  {
+   "key": "R9",
+   "category": "Other pylint warnings / refactor / convention findings",
+   "debt_type": "Code debt",
+   "tool": "pylint",
+   "count": 281,
+   "unit": "findings",
+   "formula": "1-20 min each, by rule (listed in `analysis/remediation.py`)",
+   "minutes": 988,
+   "note": ""
+  },
+  {
+   "key": "R10",
+   "category": "Lines over the project limit of 119 columns, in 17 modules that a `flake8: noqa` comment exempts",
+   "debt_type": "Code debt",
+   "tool": "line scan + flake8 config",
+   "count": 62,
+   "unit": "lines",
+   "formula": "1 min each",
+   "minutes": 62,
+   "note": ""
+  },
+  {
+   "key": "R11",
+   "category": "Security findings (assert in production code; xml.etree imports to review)",
+   "debt_type": "Security debt",
+   "tool": "bandit",
+   "count": 25,
+   "unit": "findings",
+   "formula": "5 asserts x 10 min + 20 import reviews x 2 min",
+   "minutes": 90,
+   "note": ""
+  },
+  {
+   "key": "R12",
+   "category": "Oversized module `inlinepatterns.py` (1,052 lines, 44 functions, MI 25.9): split by concern",
+   "debt_type": "Design debt",
+   "tool": "radon MI / raw",
+   "count": 1,
+   "unit": "module",
+   "formula": "fixed estimate: 8 h incl. re-export shim and test run",
+   "minutes": 480,
+   "note": ""
+  },
+  {
+   "key": "R13",
+   "category": "Deprecated or dead code still shipped (10 items)",
+   "debt_type": "Design debt",
+   "tool": "grep `deprecated`, pylint, TODOs",
+   "count": 10,
+   "unit": "items",
+   "formula": "15 min each (remove + changelog entry)",
+   "minutes": 150,
+   "note": ""
+  },
+  {
+   "key": "R14",
+   "category": "Stale Python-version workarounds (gh-77057 override duplicated in 2 files; HTML parser TODO)",
+   "debt_type": "Infrastructure / dependency debt",
+   "tool": "grep",
+   "count": 3,
+   "unit": "workarounds",
+   "formula": "30 min each once the minimum Python allows",
+   "minutes": 90,
+   "note": ""
+  }
+ ],
+ "total_minutes": 5605,
+ "total_hours": 93.4,
+ "total_days": 11.7,
+ "sloc": 4451,
+ "loc": 8609,
+ "dev_cost_minutes": 133530,
+ "dev_cost_hours": 2225.5,
+ "tdr_pct": 4.2,
+ "tdr_pct_physical_loc": 2.17,
+ "over_threshold": [
+  {
+   "cog": 102,
+   "file": "markdown/extensions/attr_list.py",
+   "function": "AttrListTreeprocessor.run",
+   "minutes": 92
+  },
+  {
+   "cog": 94,
+   "file": "markdown/extensions/md_in_html.py",
+   "function": "HTMLExtractorExtra.handle_endtag",
+   "minutes": 84
+  },
+  {
+   "cog": 75,
+   "file": "markdown/serializers.py",
+   "function": "_serialize_html",
+   "minutes": 65
+  },
+  {
+   "cog": 73,
+   "file": "markdown/treeprocessors.py",
+   "function": "InlineProcessor.__processPlaceholders",
+   "minutes": 63
+  },
+  {
+   "cog": 65,
+   "file": "markdown/extensions/fenced_code.py",
+   "function": "FencedBlockPreprocessor.run",
+   "minutes": 55
+  },
+  {
+   "cog": 58,
+   "file": "markdown/inlinepatterns.py",
+   "function": "LinkInlineProcessor.getLink",
+   "minutes": 48
+  },
+  {
+   "cog": 41,
+   "file": "markdown/extensions/md_in_html.py",
+   "function": "HTMLExtractorExtra.handle_starttag",
+   "minutes": 31
+  },
+  {
+   "cog": 37,
+   "file": "markdown/extensions/md_in_html.py",
+   "function": "MarkdownInHtmlProcessor.parse_element_content",
+   "minutes": 27
+  },
+  {
+   "cog": 36,
+   "file": "markdown/treeprocessors.py",
+   "function": "InlineProcessor.__applyPattern",
+   "minutes": 26
+  },
+  {
+   "cog": 35,
+   "file": "markdown/treeprocessors.py",
+   "function": "InlineProcessor.run",
+   "minutes": 25
+  },
+  {
+   "cog": 34,
+   "file": "markdown/inlinepatterns.py",
+   "function": "AsteriskProcessor.parse_sub_patterns",
+   "minutes": 24
+  },
+  {
+   "cog": 28,
+   "file": "markdown/test_tools.py",
+   "function": "LegacyTestMeta.__new__",
+   "minutes": 18
+  },
+  {
+   "cog": 28,
+   "file": "markdown/extensions/codehilite.py",
+   "function": "CodeHilite.hilite",
+   "minutes": 18
+  },
+  {
+   "cog": 26,
+   "file": "markdown/extensions/tables.py",
+   "function": "TableProcessor.test",
+   "minutes": 16
+  },
+  {
+   "cog": 25,
+   "file": "markdown/extensions/toc.py",
+   "function": "TocTreeprocessor.run",
+   "minutes": 15
+  },
+  {
+   "cog": 24,
+   "file": "markdown/extensions/toc.py",
+   "function": "nest_toc_tokens",
+   "minutes": 14
+  },
+  {
+   "cog": 20,
+   "file": "markdown/extensions/tables.py",
+   "function": "TableProcessor._split",
+   "minutes": 10
+  },
+  {
+   "cog": 19,
+   "file": "markdown/htmlparser.py",
+   "function": "HTMLExtractor.parse_starttag",
+   "minutes": 9
+  },
+  {
+   "cog": 19,
+   "file": "markdown/extensions/footnotes.py",
+   "function": "FootnoteExtension.findFootnotesPlaceholder",
+   "minutes": 9
+  },
+  {
+   "cog": 19,
+   "file": "markdown/extensions/def_list.py",
+   "function": "DefListProcessor.run",
+   "minutes": 9
+  },
+  {
+   "cog": 19,
+   "file": "markdown/extensions/admonition.py",
+   "function": "AdmonitionProcessor.parse_content",
+   "minutes": 9
+  },
+  {
+   "cog": 18,
+   "file": "markdown/extensions/abbr.py",
+   "function": "AbbrTreeprocessor.iter_element",
+   "minutes": 8
+  },
+  {
+   "cog": 18,
+   "file": "markdown/blockprocessors.py",
+   "function": "ParagraphProcessor.run",
+   "minutes": 8
+  },
+  {
+   "cog": 17,
+   "file": "markdown/htmlparser.py",
+   "function": "HTMLExtractor.handle_endtag",
+   "minutes": 7
+  },
+  {
+   "cog": 17,
+   "file": "markdown/extensions/meta.py",
+   "function": "MetaPreprocessor.run",
+   "minutes": 7
+  },
+  {
+   "cog": 16,
+   "file": "markdown/blockprocessors.py",
+   "function": "OListProcessor.run",
+   "minutes": 6
+  }
+ ],
+ "pylint_other": [
+  [
+   "attribute-defined-outside-init",
+   36,
+   5,
+   180
+  ],
+  [
+   "consider-using-f-string",
+   82,
+   2,
+   164
+  ],
+  [
+   "redefined-builtin",
+   29,
+   5,
+   145
+  ],
+  [
+   "super-init-not-called",
+   8,
+   10,
+   80
+  ],
+  [
+   "fixme",
+   3,
+   20,
+   60
+  ],
+  [
+   "inconsistent-return-statements",
+   5,
+   10,
+   50
+  ],
+  [
+   "no-else-return",
+   24,
+   2,
+   48
+  ],
+  [
+   "wrong-import-order",
+   46,
+   1,
+   46
+  ],
+  [
+   "arguments-differ",
+   2,
+   20,
+   40
+  ],
+  [
+   "arguments-renamed",
+   4,
+   10,
+   40
+  ],
+  [
+   "consider-using-with",
+   2,
+   10,
+   20
+  ],
+  [
+   "consider-using-enumerate",
+   2,
+   5,
+   10
+  ],
+  [
+   "unnecessary-pass",
+   10,
+   1,
+   10
+  ],
+  [
+   "deprecated-method",
+   2,
+   5,
+   10
+  ],
+  [
+   "import-outside-toplevel",
+   2,
+   5,
+   10
+  ],
+  [
+   "protected-access",
+   1,
+   10,
+   10
+  ],
+  [
+   "use-implicit-booleaness-not-len",
+   4,
+   2,
+   8
+  ],
+  [
+   "logging-not-lazy",
+   3,
+   2,
+   6
+  ],
+  [
+   "consider-iterating-dictionary",
+   3,
+   2,
+   6
+  ],
+  [
+   "unused-variable",
+   1,
+   5,
+   5
+  ],
+  [
+   "unused-private-member",
+   1,
+   5,
+   5
+  ],
+  [
+   "redefined-argument-from-local",
+   1,
+   5,
+   5
+  ],
+  [
+   "consider-using-in",
+   1,
+   5,
+   5
+  ],
+  [
+   "expression-not-assigned",
+   1,
+   5,
+   5
+  ],
+  [
+   "consider-using-min-builtin",
+   1,
+   5,
+   5
+  ],
+  [
+   "consider-using-dict-items",
+   1,
+   5,
+   5
+  ],
+  [
+   "no-else-break",
+   2,
+   2,
+   4
+  ],
+  [
+   "pointless-string-statement",
+   1,
+   2,
+   2
+  ],
+  [
+   "bad-mcs-classmethod-argument",
+   1,
+   2,
+   2
+  ],
+  [
+   "superfluous-parens",
+   2,
+   1,
+   2
+  ]
+ ],
+ "pylint_excluded": {
+  "line-too-long": [
+   196,
+   "pylint default is 100 columns; the project standard is 119 (costed separately as R10)"
+  ],
+  "invalid-name": [
+   152,
+   "costed as R7 / R8"
+  ],
+  "missing-function-docstring": [
+   50,
+   "costed as R6"
+  ],
+  "missing-class-docstring": [
+   9,
+   "costed as R6"
+  ],
+  "missing-module-docstring": [
+   3,
+   "costed as R6"
+  ],
+  "too-many-branches": [
+   12,
+   "same functions as R1"
+  ],
+  "too-many-nested-blocks": [
+   9,
+   "same functions as R1"
+  ],
+  "too-many-statements": [
+   3,
+   "same functions as R1"
+  ],
+  "too-many-locals": [
+   6,
+   "same functions as R1"
+  ],
+  "duplicate-code": [
+   6,
+   "costed as R2 (jscpd)"
+  ],
+  "too-few-public-methods": [
+   14,
+   "accepted: one-method plug-in classes are the framework's extension pattern"
+  ],
+  "unused-argument": [
+   12,
+   "accepted: signature is fixed by the base-class contract"
+  ],
+  "too-many-instance-attributes": [
+   6,
+   "costed with the module split in R12"
+  ],
+  "too-many-public-methods": [
+   1,
+   "costed with the module split in R12"
+  ],
+  "too-many-lines": [
+   1,
+   "costed with the module split in R12"
+  ]
+ },
+ "invalid_name_kinds": {
+  "Method": 44,
+  "Attribute": 16,
+  "Variable": 41,
+  "Function": 24,
+  "Class": 1,
+  "Argument": 5,
+  "Constant": 21
+ },
+ "by_type": {
+  "Code debt": 3162,
+  "Design debt": 1150,
+  "Test debt": 803,
+  "Documentation debt": 310,
+  "Security debt": 90,
+  "Infrastructure / dependency debt": 90
+ }
+}

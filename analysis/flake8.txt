@@ -1,0 +1,7 @@
+﻿markdown\postprocessors.py:90:40: E201 whitespace after '{'
+markdown\postprocessors.py:90:57: E202 whitespace before '}'
+markdown\postprocessors.py:90:65: E201 whitespace after '{'
+markdown\postprocessors.py:90:82: E202 whitespace before '}'
+2     E201 whitespace after '{'
+2     E202 whitespace before '}'
+4
